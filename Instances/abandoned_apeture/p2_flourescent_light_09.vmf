@@ -1,0 +1,149 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7538"
+	"mapversion" "3"
+	"formatversion" "100"
+	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "984302"
+	"mapversion" "3"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+}
+entity
+{
+	"id" "984303"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "85"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "200 210 215 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"angles" "-90 180 0"
+	"pitch" "-90"
+	"origin" "0 32 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 8000]"
+	}
+}
+entity
+{
+	"id" "984308"
+	"classname" "light_spot"
+	"_castentityshadow" "1"
+	"_cone" "85"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "200 210 215 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"angles" "-90 180 0"
+	"pitch" "-90"
+	"origin" "0 -32 -24"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 7500]"
+	}
+}
+entity
+{
+	"id" "984313"
+	"classname" "light"
+	"_castentityshadow" "1"
+	"_light" "200 210 215 25"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_shadoworiginoffset" "0 0 0"
+	"origin" "0 0 -16"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6000 7000]"
+	}
+}
+entity
+{
+	"id" "984318"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "12"
+	"HDRColorScale" "1.0"
+	"model" "sprites/glow01.vmt"
+	"renderamt" "175"
+	"rendercolor" "192 222 219"
+	"renderfx" "14"
+	"rendermode" "9"
+	"scale" "1.7"
+	"spawnflags" "1"
+	"origin" "0 0 -12"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 9000]"
+	}
+}
+entity
+{
+	"id" "984321"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"disableX360" "0"
+	"fademaxdist" "1300"
+	"fademindist" "1200"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/props_office/office_light002.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "0 0.0100098 0"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[13500 -7268]"
+	}
+}
