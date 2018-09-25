@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "1"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "9"
+	"mapversion" "20"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 	solid
 	{
 		"id" "6"
@@ -8643,22 +8643,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-16268 11500]"
-	}
-}
-entity
-{
-	"id" "195"
-	"classname" "env_soundscape"
-	"radius" "200"
-	"soundscape" "Automatic"
-	"StartDisabled" "0"
-	"origin" "1040 -2384 232"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[-16268 12000]"
 	}
 }
 entity
@@ -23683,7 +23667,6 @@ entity
 	"id" "1219"
 	"classname" "env_cubemap"
 	"cubemapsize" "0"
-	"sides" ""
 	"origin" "720 -2528 265"
 	editor
 	{
@@ -23728,7 +23711,6 @@ entity
 	"id" "1228"
 	"classname" "env_cubemap"
 	"cubemapsize" "0"
-	"sides" ""
 	"origin" "362 -2522 234"
 	editor
 	{
