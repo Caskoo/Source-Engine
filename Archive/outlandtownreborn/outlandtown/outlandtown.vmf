@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "116"
+	"mapversion" "118"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "20"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.23 from ep2_outland_10"
 	"detailmaterial" "detail/detailsprites"
@@ -5855,83 +5855,80 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	hidden
+	solid
 	{
-		solid
+		"id" "2039"
+		side
 		{
-			"id" "2039"
-			side
-			{
-				"id" "2040"
-				"plane" "(4288 -16256 256) (4288 -16256 -1152) (4288 -16192 -1152)"
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 -56] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2041"
-				"plane" "(5184 -16192 256) (5184 -16192 -1152) (5184 -16256 -1152)"
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[0 0 -1 -56] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2042"
-				"plane" "(5184 -16256 256) (5184 -16256 -1152) (4288 -16256 -1152)"
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[-1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2043"
-				"plane" "(4288 -16192 256) (4288 -16192 -1152) (5184 -16192 -1152)"
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[1 0 0 0] 0.25"
-				"vaxis" "[0 0 -1 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2044"
-				"plane" "(4288 -16192 -1152) (4288 -16256 -1152) (5184 -16256 -1152)"
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[0 -1 0 0] 0.25"
-				"vaxis" "[-1 0 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			side
-			{
-				"id" "2045"
-				"plane" "(4288 -16256 256) (4288 -16192 256) (5184 -16192 256)"
-				"material" "TOOLS/TOOLSNODRAW"
-				"uaxis" "[0 1 0 0] 0.25"
-				"vaxis" "[-1 0 0 0] 0.25"
-				"rotation" "0"
-				"lightmapscale" "16"
-				"smoothing_groups" "0"
-			}
-			editor
-			{
-				"color" "0 234 147"
-				"visgroupshown" "1"
-				"visgroupautoshown" "1"
-			}
+			"id" "2040"
+			"plane" "(4288 -16256 256) (4288 -16256 -1152) (4288 -16192 -1152)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -56] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2041"
+			"plane" "(5184 -16192 256) (5184 -16192 -1152) (5184 -16256 -1152)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 -56] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2042"
+			"plane" "(5184 -16256 256) (5184 -16256 -1152) (4288 -16256 -1152)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2043"
+			"plane" "(4288 -16192 256) (4288 -16192 -1152) (5184 -16192 -1152)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2044"
+			"plane" "(4288 -16192 -1152) (4288 -16256 -1152) (5184 -16256 -1152)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2045"
+			"plane" "(4288 -16256 256) (4288 -16192 256) (5184 -16192 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 234 147"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
 		}
 	}
 	hidden
@@ -58740,6 +58737,7 @@ entity
 	"fademindist" "1400"
 	"fadescale" "1"
 	"forcetoenablemotion" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
@@ -58776,6 +58774,7 @@ entity
 	"fademindist" "1400"
 	"fadescale" "1"
 	"forcetoenablemotion" "0"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
@@ -58810,6 +58809,7 @@ entity
 	"fademaxdist" "1600"
 	"fademindist" "1400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
@@ -58846,6 +58846,7 @@ entity
 	"fademaxdist" "1600"
 	"fademindist" "1400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
@@ -58879,6 +58880,7 @@ entity
 	"fademaxdist" "2400"
 	"fademindist" "2200"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_vehicles/car002b_physics.mdl"
 	"modelscale" "1.0"
@@ -58904,6 +58906,7 @@ entity
 	"fademaxdist" "2200"
 	"fademindist" "2000"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_vehicles/car002a_physics.mdl"
 	"modelscale" "1.0"
@@ -58928,6 +58931,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_c17/oildrum001_explosive.mdl"
 	"modelscale" "1.0"
@@ -58952,6 +58956,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_c17/oildrum001_explosive.mdl"
 	"modelscale" "1.0"
@@ -58976,6 +58981,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_explosive/explosive_butane_can02.mdl"
 	"modelscale" "1.0"
@@ -59001,6 +59007,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_c17/oildrum001_explosive.mdl"
 	"modelscale" "1.0"
@@ -60483,6 +60490,7 @@ entity
 	"fademaxdist" "2400"
 	"fademindist" "2200"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_vehicles/car003b_physics.mdl"
 	"modelscale" "1.0"
@@ -60526,6 +60534,7 @@ entity
 	"ExplodeRadius" "0"
 	"explosion" "0"
 	"gibdir" "0 0 0"
+	"gmod_allowphysgun" "1"
 	"health" "10"
 	"material" "0"
 	"minhealthdmg" "0"
@@ -63614,6 +63623,7 @@ entity
 	"fademindist" "2400"
 	"fadescale" "1"
 	"forcetoenablemotion" "0"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"maxdxlevel" "0"
@@ -63652,6 +63662,7 @@ entity
 	"ExplodeRadius" "0"
 	"explosion" "0"
 	"gibdir" "0 0 0"
+	"gmod_allowphysgun" "1"
 	"health" "10"
 	"material" "0"
 	"minhealthdmg" "0"
@@ -65888,6 +65899,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_explosive/explosive_butane_can02.mdl"
 	"modelscale" "1.0"
@@ -65913,6 +65925,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_foliage/tree_slice01.mdl"
 	"modelscale" "1.0"
@@ -66271,6 +66284,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_explosive/explosive_butane_can02.mdl"
 	"modelscale" "1.0"
@@ -66302,6 +66316,7 @@ entity
 	"fademindist" "1600"
 	"fadescale" "1"
 	"forcetoenablemotion" "0"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"massScale" "0"
 	"minhealthdmg" "0"
@@ -66335,6 +66350,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_explosive/explosive_butane_can02.mdl"
 	"modelscale" "1.0"
@@ -66360,6 +66376,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_foliage/tree_slice01.mdl"
 	"modelscale" "1.0"
@@ -66386,6 +66403,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_foliage/rock_forest01.mdl"
 	"modelscale" "1.0"
@@ -66412,6 +66430,7 @@ entity
 	"fademaxdist" "2600"
 	"fademindist" "2400"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"inertiaScale" "1.0"
 	"model" "models/props_foliage/rock_forest02.mdl"
 	"modelscale" "1.0"
