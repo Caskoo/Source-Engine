@@ -1,0 +1,138 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7538"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_static"
+	"angles" "0 344 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "1400"
+	"fademindist" "1200"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_halloween/candle_cluster.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "1.93701 -8 -18.0756"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[10000 9500]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "info_particle_system"
+	"angles" "-90 119 0"
+	"effect_name" "candle_light1"
+	"start_active" "1"
+	"targetname" "particle_fire"
+	"origin" "8 9.45007 12.1624"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 5000]"
+	}
+}
+entity
+{
+	"id" "71"
+	"classname" "light"
+	"_light" "253 201 166 100"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "8"
+	"_quadratic_attn" "2"
+	"spawnflags" "0"
+	"style" "0"
+	"origin" "-1.60083 -0.25 7.97942"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 5500]"
+	}
+}
+entity
+{
+	"id" "76"
+	"classname" "info_particle_system"
+	"angles" "-90 119 0"
+	"effect_name" "candle_light1"
+	"start_active" "1"
+	"targetname" "particle_fire"
+	"origin" "-3.1709 8.97009 -12.1446"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 6000]"
+	}
+}
+entity
+{
+	"id" "141"
+	"classname" "info_particle_system"
+	"angles" "-90 14 0"
+	"effect_name" "candle_light1"
+	"start_active" "1"
+	"targetname" "particle_fire"
+	"origin" "5.75635 -0.939941 -4.83759"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 4500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}
