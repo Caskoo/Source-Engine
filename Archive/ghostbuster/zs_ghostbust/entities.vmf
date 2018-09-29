@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "1"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "6"
+	"mapversion" "3"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "night"
 }
 entity
 {
@@ -34,6 +34,7 @@ entity
 	"endcamera" "1"
 	"endslowmo" "1"
 	"losemusic" "default"
+	"targetname" "winlose"
 	"winmusic" "default"
 	"origin" "957.467 840.733 9"
 	editor
@@ -83,7 +84,7 @@ entity
 	"_ambient" "255 255 255 20"
 	"_ambientHDR" "-1 -1 -1 1"
 	"_AmbientScaleHDR" "1"
-	"_light" "255 255 255 200"
+	"_light" "70 119 200 200"
 	"_lightHDR" "-1 -1 -1 1"
 	"_lightscaleHDR" "1"
 	"angles" "0 0 0"
@@ -192,6 +193,31 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "32"
+	"classname" "logic_gamerules"
+	"disablefreshdead" "1"
+	"globalsigilname" "Sigil"
+	"humansigildamagemul" "1"
+	"mapreplays" "2"
+	"nailhpmul" "1"
+	"nestdistancemul" "1"
+	"nestverticalskewmul" "1"
+	"nosigils" "1"
+	"sigilcount" "3"
+	"startzombiepercent" "0.14"
+	"targetname" "gamerules"
+	"zombiesigildamagemul" "1"
+	"origin" "868.82 927.638 8.99998"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
