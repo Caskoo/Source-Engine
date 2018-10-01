@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "5"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "5"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -68,6 +68,7 @@ entity
 	"maxammopickups" "5"
 	"maxflashlightpickups" "5"
 	"maxweaponpickups" "5"
+	"weaponrequiredforammo" "1"
 	"origin" "933.402 868.632 9"
 	editor
 	{
@@ -109,6 +110,7 @@ entity
 	"overlaysize" "-1"
 	"rendercolor" "100 80 80"
 	"size" "16"
+	"use_angles" "1"
 	"origin" "896.611 937.797 9"
 	editor
 	{
@@ -123,6 +125,7 @@ entity
 	"id" "16"
 	"classname" "logic_startingloadout"
 	"startingloadout" "weapon_zs_gluon:1,item_pulse_ammo:3,"
+	"targetname" "starting_items"
 	"origin" "906.504 861.712 9"
 	editor
 	{
@@ -207,8 +210,8 @@ entity
 	"nestdistancemul" "1"
 	"nestverticalskewmul" "1"
 	"nosigils" "1"
-	"sigilcount" "3"
-	"startzombiepercent" "0.14"
+	"sigilcount" "0"
+	"startzombiepercent" "0.26"
 	"targetname" "gamerules"
 	"zombiesigildamagemul" "1"
 	"origin" "868.82 927.638 8.99998"
@@ -241,6 +244,8 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"solid" "6"
 	"origin" "661.237 942.372 8"
 	editor

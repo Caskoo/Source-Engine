@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "69"
+	"mapversion" "70"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -711,52 +711,10 @@ world
 	}
 	group
 	{
-		"id" "1328"
-		editor
-		{
-			"color" "233 242 0"
-			"groupid" "1384"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
 		"id" "1776"
 		editor
 		{
 			"color" "231 252 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "1746"
-		editor
-		{
-			"color" "231 252 0"
-			"groupid" "1776"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "1692"
-		editor
-		{
-			"color" "126 227 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "1806"
-		editor
-		{
-			"color" "134 135 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1141,6 +1099,8 @@ entity
 	"angles" "3 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props_vehicles/truck001a.mdl"
 	"skin" "0"
 	"solid" "6"
@@ -1159,7 +1119,7 @@ entity
 	"classname" "info_overlay"
 	"angles" "0 0 0"
 	"BasisNormal" "-0 0 1"
-	"BasisOrigin" "-80.0003 576.001 0"
+	"BasisOrigin" "-80 576 0"
 	"BasisU" "1 0 0"
 	"BasisV" "0 1 -0"
 	"EndU" "1"
