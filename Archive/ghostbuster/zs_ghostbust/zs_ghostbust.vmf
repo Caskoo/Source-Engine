@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "70"
+	"mapversion" "74"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -695,26 +695,6 @@ world
 		editor
 		{
 			"color" "252 181 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "1384"
-		editor
-		{
-			"color" "233 242 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "1776"
-		editor
-		{
-			"color" "231 252 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -5336,6 +5316,74 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "1878"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "env_rain_001"
+	"start_active" "1"
+	"targetname" "particle_rain_q1"
+	"origin" "816.061 616.009 16.0089"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -13268]"
+	}
+}
+entity
+{
+	"id" "2009"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "env_rain_guttersplash"
+	"start_active" "1"
+	"targetname" "particle_rain_q2"
+	"origin" "815.885 503.495 289.949"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 4000]"
+	}
+}
+entity
+{
+	"id" "2074"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "env_rain_gutterdrip"
+	"start_active" "1"
+	"targetname" "particle_rain_q2"
+	"origin" "816 504.523 488"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -5768]"
+	}
+}
+entity
+{
+	"id" "2400"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"effect_name" "env_rain_ripples"
+	"start_active" "1"
+	"targetname" "particle_waterdrops_1"
+	"origin" "320 576.009 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 2000]"
 	}
 }
 cameras
