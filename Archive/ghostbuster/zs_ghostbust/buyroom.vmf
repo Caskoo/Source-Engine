@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "3"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "3"
+	"mapversion" "1"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -35,7 +35,7 @@ entity
 	connections
 	{
 		"OnConditionPassed" "lp_bust,takefromactivator,30,0,-1"
-		"OnConditionFailed" "pzm_a,message,Not enough points.,0,-1"
+		"OnConditionFailed" "pzm_a,message,Insufficient Spirit Points.,0,-1"
 		"OnConditionPassed" "pzm_a,message,Executioner Axe purchased.,0,-1"
 		"OnConditionPassed" "pw_eaxe,givetoactivator,,0.01,-1"
 	}
@@ -73,6 +73,7 @@ entity
 	"id" "10"
 	"classname" "func_button"
 	"disablereceiveshadows" "0"
+	"gmod_allowphysgun" "1"
 	"health" "0"
 	"lip" "0"
 	"locked_sentence" "0"
@@ -190,6 +191,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
@@ -222,6 +224,7 @@ entity
 	"id" "17"
 	"classname" "func_button"
 	"disablereceiveshadows" "0"
+	"gmod_allowphysgun" "1"
 	"health" "0"
 	"lip" "0"
 	"locked_sentence" "0"
