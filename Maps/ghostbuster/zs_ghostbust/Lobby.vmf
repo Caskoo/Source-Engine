@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "3"
+	"mapversion" "1"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -15708,6 +15708,82 @@ world
 	}
 	solid
 	{
+		"id" "5185"
+		side
+		{
+			"id" "5622"
+			"plane" "(2824 192 512) (2824 192 8) (2840 192 8)"
+			"material" "WOOD/WOOD_BRIDGE002"
+			"uaxis" "[1 0 0 -34.1992] 0.25"
+			"vaxis" "[0 0 -1 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5621"
+			"plane" "(2840 192 512) (2840 192 8) (2840 176 8)"
+			"material" "WOOD/WOOD_FLOOR002"
+			"uaxis" "[0 0 -1 312] 0.25"
+			"vaxis" "[0 -1 0 -208] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5620"
+			"plane" "(2824 176 8) (2824 192 8) (2824 192 512)"
+			"material" "WOOD/WOOD_BRIDGE002"
+			"uaxis" "[0 1 0 192] 0.25"
+			"vaxis" "[0 0 -1 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5619"
+			"plane" "(2840 192 8) (2824 192 8) (2824 176 8)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -34.1992] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5618"
+			"plane" "(2824 176 512) (2824 192 512) (2840 192 512)"
+			"material" "WOOD/WOOD_BRIDGE002"
+			"uaxis" "[-1 0 0 34.1992] 0.25"
+			"vaxis" "[0 1 0 192] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5617"
+			"plane" "(2840 176 512) (2840 176 8) (2824 176 8)"
+			"material" "WOOD/WOOD_FLOOR002"
+			"uaxis" "[0 0 -1 312] 0.25"
+			"vaxis" "[-1 0 0 210.199] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 165 170"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
 		"id" "2359"
 		side
 		{
@@ -19090,82 +19166,6 @@ world
 		{
 			"color" "148 177 0"
 			"groupid" "4100"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
-		"id" "5185"
-		side
-		{
-			"id" "5622"
-			"plane" "(2824 192 512) (2824 192 8) (2840 192 8)"
-			"material" "WOOD/WOOD_BRIDGE002"
-			"uaxis" "[1 0 0 -34.1992] 0.25"
-			"vaxis" "[0 0 -1 192] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5621"
-			"plane" "(2840 192 512) (2840 192 8) (2840 176 8)"
-			"material" "WOOD/WOOD_FLOOR002"
-			"uaxis" "[0 0 -1 312] 0.25"
-			"vaxis" "[0 -1 0 -208] 0.25"
-			"rotation" "0"
-			"lightmapscale" "32"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5620"
-			"plane" "(2824 176 8) (2824 192 8) (2824 192 512)"
-			"material" "WOOD/WOOD_BRIDGE002"
-			"uaxis" "[0 1 0 192] 0.25"
-			"vaxis" "[0 0 -1 192] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5619"
-			"plane" "(2840 192 8) (2824 192 8) (2824 176 8)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -34.1992] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5618"
-			"plane" "(2824 176 512) (2824 192 512) (2840 192 512)"
-			"material" "WOOD/WOOD_BRIDGE002"
-			"uaxis" "[-1 0 0 34.1992] 0.25"
-			"vaxis" "[0 1 0 192] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5617"
-			"plane" "(2840 176 512) (2840 176 8) (2824 176 8)"
-			"material" "WOOD/WOOD_FLOOR002"
-			"uaxis" "[0 0 -1 312] 0.25"
-			"vaxis" "[-1 0 0 210.199] 0.25"
-			"rotation" "0"
-			"lightmapscale" "32"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 165 170"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
