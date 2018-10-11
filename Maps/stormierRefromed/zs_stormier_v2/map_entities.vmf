@@ -2,12 +2,9 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "2"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
-}
-visgroups
-{
 }
 viewsettings
 {
@@ -20,166 +17,12 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "1"
+	"mapversion" "14"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
-}
-entity
-{
-	"id" "6"
-	"classname" "env_sun"
-	"angles" "0 203 0"
-	"HDRColorScale" "1.0"
-	"material" "sprites/light_glow02_add_noz"
-	"overlaycolor" "0 0 0"
-	"overlaymaterial" "sprites/light_glow02_add_noz"
-	"overlaysize" "-1"
-	"pitch" "-45"
-	"rendercolor" "128 255 255"
-	"size" "10"
-	"use_angles" "1"
-	"origin" "168 -680 392"
-	editor
-	{
-		"color" "255 0 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 11500]"
-	}
-}
-entity
-{
-	"id" "8"
-	"classname" "env_wind"
-	"angles" "-40 255 0"
-	"gustdirchange" "20"
-	"gustduration" "5"
-	"maxgust" "250"
-	"maxgustdelay" "80"
-	"maxwind" "50"
-	"mingust" "100"
-	"mingustdelay" "25"
-	"minwind" "20"
-	"targetname" "wind"
-	"origin" "200 -664 392"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 2500]"
-	}
-}
-entity
-{
-	"id" "10"
-	"classname" "env_fog_controller"
-	"angles" "0 0 0"
-	"farz" "1800"
-	"fogblend" "1"
-	"fogcolor" "0 0 23 50"
-	"fogcolor2" "0 0 23 50"
-	"fogdir" "1 0 0"
-	"fogenable" "1"
-	"fogend" "1500"
-	"fogmaxdensity" "1"
-	"fogstart" "15"
-	"spawnflags" "0"
-	"origin" "216 -664 392"
-	editor
-	{
-		"color" "255 255 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 3000]"
-	}
-}
-entity
-{
-	"id" "12"
-	"classname" "shadow_control"
-	"angles" "80 132 0"
-	"color" "0 0 64"
-	"disableallshadows" "0"
-	"distance" "8"
-	"origin" "232 -664 392"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 4000]"
-	}
-}
-entity
-{
-	"id" "14"
-	"classname" "logic_auto"
-	"spawnflags" "1"
-	connections
-	{
-		"OnMapSpawn" "lightning_train,StartForward,,0,-1"
-		"OnMapSpawn" "lightning_strike_unguided_logic,PickRandom,,0,-1"
-		"OnMapSpawn" "ambient_sound,PlaySound,,0,-1"
-	}
-	"origin" "264 -664 392"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 3500]"
-	}
-}
-entity
-{
-	"id" "16"
-	"classname" "logic_case"
-	"Case01" "1"
-	"Case02" "2"
-	"Case03" "3"
-	"targetname" "lightning_strike_unguided_logic"
-	connections
-	{
-		"OnCase01" "lightning_strike_unguided,Press,,10,-1"
-		"OnCase01" "lightning_strike_unguided_logic,PickRandom,,10,-1"
-		"OnCase02" "lightning_strike_unguided,Press,,20,-1"
-		"OnCase02" "lightning_strike_unguided_logic,PickRandom,,20,-1"
-		"OnCase03" "lightning_strike_unguided_logic,PickRandom,,30,-1"
-		"OnCase03" "lightning_strike_unguided,Press,,30,-1"
-	}
-	"origin" "280 -664 392"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8000 5000]"
-	}
-}
-entity
-{
-	"id" "19"
-	"classname" "light_environment"
-	"_ambient" "85 106 0 50"
-	"_ambientHDR" "-1 -1 -1 1"
-	"_AmbientScaleHDR" "1"
-	"_light" "85 106 0 110"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"angles" "0 45 0"
-	"pitch" "-45"
-	"origin" "212 -680 362"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[5000 2500]"
-	}
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_l4d_c4m4_hdr"
 }
 cameras
 {
