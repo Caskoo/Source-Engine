@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "292"
+	"mapversion" "295"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "20"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.24 from zs_stormier_v1"
 	"detailmaterial" "detail/detailsprites"
@@ -10431,7 +10431,7 @@ world
 		side
 		{
 			"id" "6073"
-			"plane" "(16 96 -83) (16 -236 -83) (-40 -236 -83)"
+			"plane" "(16 -236 -83) (-36 -236 -83) (-36 96 -83)"
 			"material" "DE_TRAIN/BLENDGRASSDIRT001A"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -10441,7 +10441,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-40 -236 -83]"
+				"startposition" "[-36 -236 -83]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -10525,7 +10525,7 @@ world
 		side
 		{
 			"id" "6074"
-			"plane" "(16 -236 -84) (16 96 -84) (-40 96 -84)"
+			"plane" "(16 96 -84) (-36 96 -84) (-36 -236 -84)"
 			"material" "NATURE/BLENDGRASSGRAVEL001B"
 			"uaxis" "[-1 0 0 133] 0.25"
 			"vaxis" "[0 -1 0 -288] 0.25"
@@ -10536,7 +10536,7 @@ world
 		side
 		{
 			"id" "6075"
-			"plane" "(16 -236 -83) (16 -236 -84) (-40 -236 -84)"
+			"plane" "(16 -236 -84) (-36 -236 -84) (-36 -236 -83)"
 			"material" "NATURE/BLENDGRASSGRAVEL001B"
 			"uaxis" "[-1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
@@ -10547,9 +10547,9 @@ world
 		side
 		{
 			"id" "6076"
-			"plane" "(-40 -236 -83) (-40 -236 -84) (-40 96 -84)"
+			"plane" "(-36 -236 -84) (-36 96 -84) (-36 96 -83)"
 			"material" "NATURE/BLENDGRASSGRAVEL001B"
-			"uaxis" "[0.0721 0.9974 0 0] 0.25"
+			"uaxis" "[0.066974 0.997757 0 0] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -10558,7 +10558,7 @@ world
 		side
 		{
 			"id" "6077"
-			"plane" "(-40 96 -83) (-40 96 -84) (16 96 -84)"
+			"plane" "(-36 96 -84) (16 96 -84) (16 96 -83)"
 			"material" "NATURE/BLENDGRASSGRAVEL001B"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
@@ -10569,7 +10569,7 @@ world
 		side
 		{
 			"id" "6078"
-			"plane" "(16 96 -83) (16 96 -84) (16 -236 -84)"
+			"plane" "(16 96 -84) (16 -236 -84) (16 -236 -83)"
 			"material" "NATURE/BLENDGRASSGRAVEL001B"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 20] 0.25"
@@ -32425,6 +32425,82 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
+	solid
+	{
+		"id" "392383"
+		side
+		{
+			"id" "17777"
+			"plane" "(-36 96 -80) (-36 -236 -80) (-40 -236 -80)"
+			"material" "WOOD/MILWALL021"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 1 0 -64] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17776"
+			"plane" "(-36 -236 -88) (-36 96 -88) (-40 96 -88)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17775"
+			"plane" "(-40 96 -80) (-40 -236 -80) (-40 -236 -88)"
+			"material" "WOOD/MILWALL021"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[0 1 0 -64] 0.25"
+			"rotation" "90"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17774"
+			"plane" "(-36 -236 -80) (-36 96 -80) (-36 96 -88)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17773"
+			"plane" "(-36 96 -80) (-40 96 -80) (-40 96 -88)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17772"
+			"plane" "(-40 -236 -80) (-36 -236 -80) (-36 -236 -88)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 122 143"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
 	group
 	{
 		"id" "368889"
@@ -47039,13 +47115,29 @@ entity
 entity
 {
 	"id" "89681"
-	"classname" "infodecal"
+	"classname" "info_overlay"
 	"angles" "0 0 0"
-	"texture" "decals/leaves_ground01"
-	"origin" "-96.8741 -60 -80"
+	"BasisNormal" "-99999.9 -99999.9 -99999.9"
+	"BasisOrigin" "-148 -136 -80"
+	"BasisU" "-0.57735 -0.57735 -0.57735"
+	"BasisV" "-0.57735 -0.57735 -0.57735"
+	"EndU" "1.0"
+	"EndV" "1.0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"material" "decals/leaves_ground02"
+	"RenderOrder" "0"
+	"sides" "15274"
+	"StartU" "0.0"
+	"StartV" "0.0"
+	"uv0" "-55 -55 0"
+	"uv1" "-0 -0 0"
+	"uv2" "55 55 0"
+	"uv3" "-0 -0 0"
+	"origin" "-148 -136 -80"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "80 150 225"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[4000 12500]"
@@ -75205,6 +75297,62 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3500 -11768]"
+	}
+}
+entity
+{
+	"id" "392474"
+	"classname" "info_sigilnode"
+	"angles" "0 0 0"
+	"origin" "273.017 -17.3377 -70.7188"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "392476"
+	"classname" "info_sigilnode"
+	"angles" "0 0 0"
+	"origin" "372 -212 -70.7188"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "392478"
+	"classname" "info_sigilnode"
+	"angles" "0 0 0"
+	"origin" "579.317 -410.879 -70.7188"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "392480"
+	"classname" "info_sigilnode"
+	"angles" "0 0 0"
+	"origin" "139.377 462.639 -70.7188"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
 	}
 }
 cameras

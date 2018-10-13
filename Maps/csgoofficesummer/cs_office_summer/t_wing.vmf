@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "16"
+	"mapversion" "18"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "5"
+	"mapversion" "12"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -37810,6 +37810,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props/cs_office/Shelves_metal.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -37851,6 +37852,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props/cs_office/Shelves_metal.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -38548,6 +38550,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_foliage/mall_pot_large01.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -39257,6 +39260,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_interiors/table_end.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -41226,6 +41230,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props/cs_office/Vending_machine.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -41362,6 +41367,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props_interiors/water_cooler.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -41612,6 +41618,7 @@ entity
 	"massScale" "0"
 	"minhealthdmg" "0"
 	"model" "models/props/cs_office/microwave.mdl"
+	"modelscale" "1.0"
 	"nodamageforces" "0"
 	"PerformanceMode" "0"
 	"physdamagescale" "0.1"
@@ -42787,6 +42794,62 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[12000 2500]"
+	}
+}
+entity
+{
+	"id" "2970"
+	"classname" "info_sigilnode"
+	"angles" "0 0 0"
+	"origin" "2050.76 -5.81173 -158.719"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2972"
+	"classname" "info_sigilnode"
+	"angles" "0 0 0"
+	"origin" "1681.34 -222.729 -158.719"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "2974"
+	"classname" "info_sigilnode"
+	"angles" "0 0 0"
+	"origin" "1363.36 -592.714 -158.719"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "2976"
+	"classname" "info_sigilnode"
+	"angles" "0 0 0"
+	"origin" "1708.52 656.667 -158.719"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
 	}
 }
 cameras
