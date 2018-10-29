@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "1"
+	"mapversion" "6"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,50 +14,18 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "6"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
-	group
-	{
-		"id" "2"
-		editor
-		{
-			"color" "241 158 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "3"
-		editor
-		{
-			"color" "241 158 0"
-			"groupid" "2"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "4"
-		editor
-		{
-			"color" "241 158 0"
-			"groupid" "3"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -76,11 +44,10 @@ entity
 	"renderfx" "0"
 	"rendermode" "9"
 	"scale" ".75"
-	"origin" "-0.100708 -11.2798 -8.70398"
+	"origin" "0 -12 -8.70398"
 	editor
 	{
-		"color" "241 158 0"
-		"groupid" "4"
+		"color" "0 190 255"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 500]"
@@ -102,11 +69,10 @@ entity
 	"model" "models/props_c17/light_cagelight02_on.mdl"
 	"skin" "0"
 	"solid" "0"
-	"origin" "-0.100708 -15.2798 -1.70398"
+	"origin" "0 -16 -1.70398"
 	editor
 	{
-		"color" "241 158 0"
-		"groupid" "4"
+		"color" "0 144 161"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-8768 -13268]"
@@ -121,7 +87,7 @@ entity
 	"_fifty_percent_distance" "0"
 	"_hardfalloff" "0"
 	"_light" "255 226 174 8"
-	"_lightHDR" "-1 -1 -1 1"
+	"_lightHDR" "255 226 174 4"
 	"_lightscaleHDR" ".5"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
@@ -131,8 +97,7 @@ entity
 	"origin" "-0.000732422 20 -6.50403"
 	editor
 	{
-		"color" "241 158 0"
-		"groupid" "4"
+		"color" "0 134 187"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-14268 1500]"
@@ -148,7 +113,7 @@ entity
 	"_exponent" "1"
 	"_inner_cone" "2"
 	"_light" "255 226 174 500"
-	"_lightHDR" "-1 -1 -1 1"
+	"_lightHDR" "255 226 174 300"
 	"_lightscaleHDR" ".5"
 	"_linear_attn" "0"
 	"_quadratic_attn" "1"
@@ -158,11 +123,25 @@ entity
 	"origin" "-0.550781 -3.37012 9.42603"
 	editor
 	{
-		"color" "241 158 0"
-		"groupid" "4"
+		"color" "0 236 173"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "190"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decals/milsewlight"
+	"origin" "0 -16 -8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
 	}
 }
 cameras
