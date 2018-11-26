@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7538"
-	"mapversion" "696"
+	"mapversion" "718"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,13 +26,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "696"
+	"mapversion" "718"
 	"classname" "worldspawn"
 	"comment" "Decompiled by BSPSource v1.3.23 from zs_ravenstreet_v1"
 	"detailmaterial" "detail/detailsprites"
@@ -34548,44 +34548,6 @@ entity
 }
 entity
 {
-	"id" "12814"
-	"classname" "env_fire"
-	"damagescale" "50"
-	"fireattack" "1"
-	"firesize" "64"
-	"health" "30"
-	"ignitionpoint" "5"
-	"spawnflags" "29"
-	"origin" "361 129 24"
-	editor
-	{
-		"color" "0 180 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -9268]"
-	}
-}
-entity
-{
-	"id" "12822"
-	"classname" "env_fire"
-	"damagescale" "50"
-	"fireattack" "1"
-	"firesize" "64"
-	"health" "30"
-	"ignitionpoint" "5"
-	"spawnflags" "29"
-	"origin" "306.557 81.2824 24"
-	editor
-	{
-		"color" "0 180 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2500 -8768]"
-	}
-}
-entity
-{
 	"id" "12923"
 	"classname" "prop_physics_multiplayer"
 	"angles" "0 359.5 0"
@@ -34993,66 +34955,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[3000 3000]"
-	}
-}
-entity
-{
-	"id" "13235"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "ambient/fire/fire_med_loop1.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1500"
-	"spawnflags" "0"
-	"spindown" "0"
-	"spinup" "0"
-	"volstart" "0"
-	"origin" "360 127 56"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 3500]"
-	}
-}
-entity
-{
-	"id" "13327"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "ambient/fire/fire_med_loop1.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "0"
-	"radius" "1500"
-	"spawnflags" "0"
-	"spindown" "0"
-	"spinup" "0"
-	"volstart" "0"
-	"origin" "310 84 56"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3000 4000]"
 	}
 }
 entity
@@ -35684,12 +35586,12 @@ entity
 	"classname" "sky_camera"
 	"angles" "0 0 0"
 	"fogblend" "0"
-	"fogcolor" "34 58 77"
-	"fogcolor2" "51 51 51"
+	"fogcolor" "48 32 20"
+	"fogcolor2" "255 255 255"
 	"fogdir" "1 0 0"
 	"fogenable" "1"
-	"fogend" "2000.0"
-	"fogstart" "51 51 51"
+	"fogend" "4096"
+	"fogstart" "32"
 	"scale" "16"
 	"use_angles" "0"
 	"origin" "0 -2708 -30"
@@ -46169,33 +46071,6 @@ entity
 }
 entity
 {
-	"id" "24686"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "800"
-	"fademindist" "700"
-	"fadescale" "1"
-	"generatelightmaps" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_interiors/stair_railing_damage_03.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-457 939.01 119"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupid" "16"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[16000 1500]"
-	}
-}
-entity
-{
 	"id" "24690"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -46223,33 +46098,6 @@ entity
 }
 entity
 {
-	"id" "24694"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "800"
-	"fademindist" "700"
-	"fadescale" "1"
-	"generatelightmaps" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_interiors/stair_railing_damage_02.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-481 939.01 103"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupid" "16"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[16000 2500]"
-	}
-}
-entity
-{
 	"id" "24698"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -46273,33 +46121,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[16000 3000]"
-	}
-}
-entity
-{
-	"id" "24702"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "800"
-	"fademindist" "700"
-	"fadescale" "1"
-	"generatelightmaps" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_interiors/stair_railing_damage_04.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-505 939.01 87"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupid" "16"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[16000 3500]"
 	}
 }
 entity
@@ -46358,33 +46179,6 @@ entity
 }
 entity
 {
-	"id" "24714"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "800"
-	"fademindist" "700"
-	"fadescale" "1"
-	"generatelightmaps" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_interiors/stair_railing_damage_02.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-541 939.01 63"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupid" "16"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[16000 5000]"
-	}
-}
-entity
-{
 	"id" "24718"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -46439,33 +46233,6 @@ entity
 }
 entity
 {
-	"id" "24726"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "800"
-	"fademindist" "700"
-	"fadescale" "1"
-	"generatelightmaps" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_interiors/stair_railing_damage_01.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-577 939.01 39"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupid" "16"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[16000 6500]"
-	}
-}
-entity
-{
 	"id" "24730"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -46516,33 +46283,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[16000 7500]"
-	}
-}
-entity
-{
-	"id" "24738"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "1"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "800"
-	"fademindist" "700"
-	"fadescale" "1"
-	"generatelightmaps" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_interiors/stair_railing_damage_03.mdl"
-	"skin" "0"
-	"solid" "0"
-	"origin" "-613 939.01 15"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupid" "16"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[16000 8000]"
 	}
 }
 entity
@@ -46642,7 +46382,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-628 1016.01 8"
 	editor
 	{
@@ -46696,7 +46436,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-616 1016.01 16"
 	editor
 	{
@@ -46723,7 +46463,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-604 1016.01 24"
 	editor
 	{
@@ -46750,7 +46490,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-592 1016.01 32"
 	editor
 	{
@@ -46777,7 +46517,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-580 1016.01 40"
 	editor
 	{
@@ -46804,7 +46544,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-568 1016.01 48"
 	editor
 	{
@@ -46831,7 +46571,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-556 1016.01 56"
 	editor
 	{
@@ -46858,7 +46598,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-544 1016.01 64"
 	editor
 	{
@@ -46885,7 +46625,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-532 1016.01 72"
 	editor
 	{
@@ -46912,7 +46652,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-520 1016.01 80"
 	editor
 	{
@@ -46939,7 +46679,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-508 1016.01 88"
 	editor
 	{
@@ -46966,7 +46706,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-496 1016.01 96"
 	editor
 	{
@@ -46993,7 +46733,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-484 1016.01 104"
 	editor
 	{
@@ -47020,7 +46760,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-472 1016.01 112"
 	editor
 	{
@@ -47047,7 +46787,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-460 1016.01 120"
 	editor
 	{
@@ -47074,7 +46814,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-448 1016.01 128"
 	editor
 	{
@@ -47101,7 +46841,7 @@ entity
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/stair_treads_single.mdl"
 	"skin" "0"
-	"solid" "6"
+	"solid" "0"
 	"origin" "-436 1016.01 136"
 	editor
 	{
@@ -53809,7 +53549,7 @@ entity
 	"model" "models/props_interiors/railing_128.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-548 932 146"
+	"origin" "-548 932 144"
 	editor
 	{
 		"color" "255 255 0"
@@ -53835,7 +53575,7 @@ entity
 	"model" "models/props_interiors/railing_128.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-420 932 146"
+	"origin" "-420 932 144"
 	editor
 	{
 		"color" "255 255 0"
@@ -63028,13 +62768,257 @@ entity
 		"logicalpos" "[500 -13268]"
 	}
 }
+entity
+{
+	"id" "62256"
+	"classname" "env_fog_controller"
+	"angles" "0 0 0"
+	"farz" "-1"
+	"fogcolor" "48 32 20"
+	"fogcolor2" "255 255 255"
+	"fogdir" "1 0 0"
+	"fogenable" "1"
+	"fogend" "4096"
+	"fogmaxdensity" "1"
+	"fogstart" "32"
+	"origin" "-260.691 63.5041 5"
+	editor
+	{
+		"color" "255 255 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "62268"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/counter_strike_source/security_light_01.vmf"
+	"origin" "-772 1024 144.892"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "62277"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/counter_strike_source/security_light_01.vmf"
+	"origin" "876 1024 144.892"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "62315"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/left4dead2/l4d2_streetlight_lamp01.vmf"
+	"origin" "1472 208 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "62327"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/left4dead2/l4d2_streetlight_lamp01.vmf"
+	"origin" "-1520 -100 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 11000]"
+	}
+}
+entity
+{
+	"id" "63884"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "800"
+	"fademindist" "700"
+	"fadescale" "1"
+	"generatelightmaps" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_interiors/stair_railing_single.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-613 939.01 15"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "16"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 7500]"
+	}
+}
+entity
+{
+	"id" "63896"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "800"
+	"fademindist" "700"
+	"fadescale" "1"
+	"generatelightmaps" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_interiors/stair_railing_single.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-577 939.01 39"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "16"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 6000]"
+	}
+}
+entity
+{
+	"id" "63904"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "800"
+	"fademindist" "700"
+	"fadescale" "1"
+	"generatelightmaps" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_interiors/stair_railing_single.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-541 939.01 63"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "16"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 4500]"
+	}
+}
+entity
+{
+	"id" "63917"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "800"
+	"fademindist" "700"
+	"fadescale" "1"
+	"generatelightmaps" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_interiors/stair_railing_single.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-505 939.01 87"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "16"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 4000]"
+	}
+}
+entity
+{
+	"id" "63938"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "800"
+	"fademindist" "700"
+	"fadescale" "1"
+	"generatelightmaps" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_interiors/stair_railing_single.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-457 939.01 119"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "16"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 0]"
+	}
+}
+entity
+{
+	"id" "63951"
+	"classname" "prop_static"
+	"angles" "0 270 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "800"
+	"fademindist" "700"
+	"fadescale" "1"
+	"generatelightmaps" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_interiors/stair_railing_single.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-481 939.01 103"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupid" "16"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[16000 2000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[341.432 374.565 46.96]"
-		"look" "[335.942 636.853 0.702168]"
+		"position" "[-983.852 135.775 110.311]"
+		"look" "[-1246.2 89.5223 110.311]"
 	}
 	camera
 	{
