@@ -1,0 +1,317 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "7624"
+	"mapversion" "14"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "1"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "14"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	"destalphascale" "1024"
+	group
+	{
+		"id" "2"
+		editor
+		{
+			"color" "182 119 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "3"
+	"classname" "infra_button"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"dmg" "0"
+	"drawinfastreflection" "0"
+	"forceclosed" "1"
+	"health" "0"
+	"ignoredebris" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"loopmovesound" "0"
+	"movedir" "0 0 0"
+	"origin" "1.11 -3.31 34.88"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"spawnflags" "12576"
+	"spawnpos" "0"
+	"speed" "100"
+	"targetname" "sven_tape-button"
+	"unlocked_sentence" "0"
+	"wait" "-1"
+	connections
+	{
+		"OnOpen" "sven_tape-sceneStart0-1"
+		"OnClose" "sven_tape-sceneCancel0-1"
+		"OnOpen" "sven_tape-button_soundPlaySound0-1"
+		"OnOpen" "sven_tape-sequenceBeginSequence0-1"
+		"OnClose" "sven_tape-sequenceCancelSequence0-1"
+		"OnClose" "sven_tape-button_soundPlaySound0-1"
+	}
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "1"
+			"plane" "(-6.96631 -11.2227 40.376) (-6.82629 4.77203 40.376) (9.17297 4.63281 40.376)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0.00872657 0 47.9756] 0.25"
+			"vaxis" "[0.00872657 1 0 -54.8623] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-6.82574 4.77344 29.376) (-6.96582 -11.2305 29.376) (9.03485 -11.3633 29.376)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0.00872657 0 47.9756] 0.25"
+			"vaxis" "[0.00872657 1 0 -54.8623] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(9.17395 4.63281 29.3755) (9.03394 -11.3633 29.3755) (9.03406 -11.3633 40.377)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-0.00872657 -1 0 54.8623] 0.25"
+			"vaxis" "[0 0 -1 25] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-6.96619 -11.2266 29.3755) (-6.82617 4.77197 29.3755) (-6.82617 4.77344 40.3731)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-0.00872657 -1 0 54.8623] 0.25"
+			"vaxis" "[0 0 -1 25] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(9.03516 -11.366 29.3755) (-6.966 -11.227 29.3755) (-6.96484 -11.227 40.373)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0.00872657 0 47.9756] 0.25"
+			"vaxis" "[0 0 -1 25] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-6.82813 4.772 29.3755) (9.17188 4.633 29.3755) (9.17578 4.63303 40.3731)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0.00872657 0 47.9756] 0.25"
+			"vaxis" "[0 0 -1 25] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "182 119 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "182 119 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "generic_actor"
+	"angles" "0 -90 0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"hintlimiting" "0"
+	"hull_name" "TINY_HULL"
+	"ignoreunseenenemies" "0"
+	"model" "models/props_corruption/tape_recorder_001.mdl"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"shadowdepthnocache" "0"
+	"skin" "1"
+	"sleepstate" "0"
+	"spawnflags" "516"
+	"targetname" "Sven"
+	"wakeradius" "0"
+	"wakesquad" "0"
+	"origin" "1.26898 -3.24701 29.719"
+	editor
+	{
+		"color" "182 119 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "8"
+	"classname" "logic_choreographed_scene"
+	"busyactor" "0"
+	"onplayerdeath" "1"
+	"SceneFile" "scenes/reactor_snw_tape.vcd"
+	"targetname" "sven_tape-scene"
+	connections
+	{
+		"OnCompletion" "sven_tape-buttonClose0-1"
+		"OnCompletion" "sven_tape-corruptionTrigger1-1"
+	}
+	"origin" "1.104 -3.297 50"
+	editor
+	{
+		"color" "182 119 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Buttons.snd9"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"SourceEntityName" "sven"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "sven_tape-button_sound"
+	"volstart" "0"
+	"origin" "1.104 -3.297 66"
+	editor
+	{
+		"color" "182 119 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "13"
+	"classname" "scripted_sequence"
+	"angles" "0 179.5 0"
+	"disableX360" "0"
+	"m_bDisableNPCCollisions" "0"
+	"m_bIgnoreGravity" "0"
+	"m_bLoopActionSequence" "1"
+	"m_bSynchPostIdles" "0"
+	"m_flRadius" "0"
+	"m_flRepeat" "0"
+	"m_fMoveTo" "0"
+	"m_iszEntity" "sven"
+	"m_iszEntry" "play"
+	"m_iszPlay" "rotate"
+	"m_iszPostIdle" "stop"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"onplayerdeath" "0"
+	"spawnflags" "580"
+	"targetname" "sven_tape-sequence"
+	"origin" "1.104 -3.297 7.62939e-006"
+	editor
+	{
+		"color" "182 119 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "infra_corruption_target"
+	"angles" "0 0 0"
+	"needsplayernearby" "1"
+	"photographable" "0"
+	"range" "0"
+	"StartDisabled" "0"
+	"targetname" "sven_tape-corruption"
+	"origin" "1.104 -3.297 82"
+	editor
+	{
+		"color" "182 119 0"
+		"groupid" "2"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
