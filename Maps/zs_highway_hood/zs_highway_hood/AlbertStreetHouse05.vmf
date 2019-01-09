@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8105"
-	"mapversion" "17"
+	"mapversion" "19"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -26,7 +26,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "2"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -24163,6 +24163,36 @@ entity
 	{
 		"color" "0 180 0"
 		"visgroupid" "17"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4282"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/light_instances/hl2_dome_light_01.vmf"
+	"origin" "-6765.35 -4088 168"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "4298"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/light_instances/hl2_dome_light_01.vmf"
+	"origin" "-6584 -3920 168"
+	editor
+	{
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
