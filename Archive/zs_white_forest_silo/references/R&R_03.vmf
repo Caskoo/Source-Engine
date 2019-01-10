@@ -2,61 +2,25 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8105"
-	"mapversion" "4"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "2830554"
-	"mapversion" "4"
+	"mapversion" "5"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
-}
-entity
-{
-	"id" "2830555"
-	"classname" "info_particle_system"
-	"angles" "69.703 66.1663 -115.22"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "steam_jet_50"
-	"start_active" "0"
-	"targetname" "KitchenSteam1"
-	"origin" "1811 4466 279"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[9500 13000]"
-	}
-}
-entity
-{
-	"id" "2830620"
-	"classname" "ambient_generic"
-	"health" "5"
-	"message" "ambient/gas/steam_loop1.wav"
-	"pitch" "130"
-	"pitchstart" "130"
-	"radius" "1250"
-	"spawnflags" "48"
-	"targetname" "amb_kit_steam"
-	"origin" "1811 4471 270"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[9500 12500]"
-	}
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }

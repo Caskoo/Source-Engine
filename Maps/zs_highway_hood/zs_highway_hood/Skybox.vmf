@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8105"
-	"mapversion" "13"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -7879,9 +7879,9 @@ entity
 	"targetname" "relay_lightning_strike1"
 	connections
 	{
-		"OnTrigger" "fx_screen_flashStart0-1,,,0,-1"
-		"OnTrigger" "fx_screen_flashStop1-1,,,0,-1"
-		"OnTrigger" "case_lightning_strikePickRandomShuffle0-1,,,0,-1"
+		"OnTrigger" "fx_screen_flash,Start,,0,-1"
+		"OnTrigger" "fx_screen_flash,Stop,,1,-1"
+		"OnTrigger" "case_lightning_strike,PickRandomShuffle,,0,-1"
 	}
 	"origin" "-883.078 1802.74 4418"
 	editor
@@ -7923,34 +7923,34 @@ entity
 	"targetname" "case_lightning_strike"
 	connections
 	{
-		"OnCase01" "fx_storm_lightning_strike_skybox_01Start0-1,,,0,-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_01Stop1-1,,,0,-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_02Stop1-1,,,0,-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_02Start0-1,,,0,-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_03Stop1-1,,,0,-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_03Start0-1,,,0,-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_04Stop1-1,,,0,-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_04Start0-1,,,0,-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_05Stop1-1,,,0,-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_05Start0-1,,,0,-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_06Stop1-1,,,0,-1"
-		"OnCase03" "fx_storm_lightning_strike_skybox_06Start0.1-1,,,0,-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_07Stop1-1,,,0,-1"
-		"OnCase05" "fx_storm_lightning_strike_skybox_07Start0.1-1,,,0,-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_08Stop1-1,,,0,-1"
-		"OnCase04" "fx_storm_lightning_strike_skybox_08Start0.1-1,,,0,-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_09Stop1-1,,,0,-1"
-		"OnCase02" "fx_storm_lightning_strike_skybox_09Start0.1-1,,,0,-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_06Stop1-1,,,0,-1"
-		"OnCase01" "fx_storm_lightning_strike_skybox_06Start0.1-1,,,0,-1"
-		"OnCase06" "fx_storm_lightning_strike_skybox_4Start0.1-1,,,0,-1"
-		"OnCase06" "fx_storm_lightning_strike_skybox_4Stop1-1,,,0,-1"
-		"OnCase07" "fx_storm_lightning_strike_skybox_8Start0.1-1,,,0,-1"
-		"OnCase07" "fx_storm_lightning_strike_skybox_8Stop1-1,,,0,-1"
-		"OnCase08" "fx_storm_lightning_strike_skybox_5Start0.1-1,,,0,-1"
-		"OnCase08" "fx_storm_lightning_strike_skybox_5Stop1-1,,,0,-1"
-		"OnCase09" "fx_storm_lightning_strike_skybox_5Start0.1-1,,,0,-1"
-		"OnCase09" "fx_storm_lightning_strike_skybox_5Stop1-1,,,0,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_01,Start,,0.1,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_01,Stop,,1,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_02,Stop,,1,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_02,Start,,0.1,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_03,Stop,,1,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_03,Start,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_04,Stop,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_04,Start,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_05,Stop,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_05,Start,,0,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_06,Stop,,1,-1"
+		"OnCase03" "fx_storm_lightning_strike_skybox_06,Start,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_07,Stop,,0,-1"
+		"OnCase05" "fx_storm_lightning_strike_skybox_07,Start,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_08,Stop,,0,-1"
+		"OnCase04" "fx_storm_lightning_strike_skybox_08,Start,,0,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_09,Stop,,1,-1"
+		"OnCase02" "fx_storm_lightning_strike_skybox_09,Start,,0.1,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_06,Stop,,1,-1"
+		"OnCase01" "fx_storm_lightning_strike_skybox_06,Start,,0.1,-1"
+		"OnCase06" "fx_storm_lightning_strike_skybox_4,Start,,0,-1"
+		"OnCase06" "fx_storm_lightning_strike_skybox_4,Stop,,0,-1"
+		"OnCase07" "fx_storm_lightning_strike_skybox_8,Start,,0,-1"
+		"OnCase07" "fx_storm_lightning_strike_skybox_8,Stop,,0,-1"
+		"OnCase08" "fx_storm_lightning_strike_skybox_5,Start,,0,-1"
+		"OnCase08" "fx_storm_lightning_strike_skybox_5,Stop,,0,-1"
+		"OnCase09" "fx_storm_lightning_strike_skybox_5,Start,,0,-1"
+		"OnCase09" "fx_storm_lightning_strike_skybox_05,Stop,,1,-1"
 	}
 	"origin" "-867.078 1802.74 4418"
 	editor
@@ -20508,6 +20508,81 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[8500 2500]"
+	}
+}
+entity
+{
+	"id" "3570"
+	"classname" "logic_timer"
+	"LowerRandomBound" "1"
+	"spawnflags" "0"
+	"StartDisabled" "1"
+	"targetname" "timer_storm_lightning_strike"
+	"UpperRandomBound" "4"
+	"UseRandomTime" "1"
+	connections
+	{
+		"OnTimer" "relay_lightning_strike1,Trigger,,0.3,-1"
+		"OnTimer" "sound_thunder,PlaySound,,0,-1"
+		"OnTimer" "shake_lightning,StartShake,,0,-1"
+	}
+	"origin" "-862 1776 4383.58"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[12000 7500]"
+	}
+}
+entity
+{
+	"id" "3572"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Weather.thunder_close_all_4"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "10000"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "sound_thunder"
+	"volstart" "0"
+	"origin" "-872 1720 4408"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[12000 9500]"
+	}
+}
+entity
+{
+	"id" "3575"
+	"classname" "env_shake"
+	"amplitude" "2"
+	"duration" ".3"
+	"frequency" "35"
+	"radius" "500"
+	"spawnflags" "1"
+	"targetname" "shake_lightning"
+	"origin" "-888 1776 4408"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[12000 11500]"
 	}
 }
 cameras
