@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8105"
-	"mapversion" "37"
+	"mapversion" "36"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "37"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -9834,6 +9834,39 @@ entity
 }
 entity
 {
+	"id" "2233"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
+	"angles" "0 0 0"
+	"axis" "-7620 -5768 48, -7620 -5768 48"
+	"disableshadows" "1"
+	"distance" "102"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "0"
+	"health" "0"
+	"model" "models/props_downtown/door_interior_112_01.mdl"
+	"modelscale" "1.0"
+	"opendir" "0"
+	"returndelay" "-1"
+	"skin" "0"
+	"soundcloseoverride" "Doors.FullClose4"
+	"soundmoveoverride" "Doors.Move4"
+	"soundopenoverride" "Doors.FullOpen4"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "200"
+	"origin" "-7620 -5768 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 12000]"
+	}
+}
+entity
+{
 	"id" "2238"
 	"classname" "prop_physics"
 	"angles" "48.208 196.348 124.409"
@@ -9865,6 +9898,138 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[1000 12500]"
+	}
+}
+entity
+{
+	"id" "2242"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
+	"angles" "0 180 0"
+	"axis" "-7740 -5960 48, -7740 -5960 48"
+	"disableshadows" "1"
+	"distance" "102"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "0"
+	"health" "0"
+	"model" "models/props_downtown/door_interior_112_01.mdl"
+	"modelscale" "1.0"
+	"opendir" "0"
+	"returndelay" "-1"
+	"skin" "0"
+	"soundcloseoverride" "Doors.FullClose4"
+	"soundmoveoverride" "Doors.Move4"
+	"soundopenoverride" "Doors.FullOpen4"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "200"
+	"origin" "-7740 -5960 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 13000]"
+	}
+}
+entity
+{
+	"id" "2247"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
+	"angles" "0 270 0"
+	"axis" "-7604.01 -5420 48, -7604.01 -5420 48"
+	"disableshadows" "1"
+	"distance" "102"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "0"
+	"health" "0"
+	"model" "models/props_downtown/door_interior_112_01.mdl"
+	"modelscale" "1.0"
+	"opendir" "0"
+	"returndelay" "-1"
+	"skin" "0"
+	"soundcloseoverride" "Doors.FullClose4"
+	"soundmoveoverride" "Doors.Move4"
+	"soundopenoverride" "Doors.FullOpen4"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "200"
+	"origin" "-7604 -5420 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 13500]"
+	}
+}
+entity
+{
+	"id" "2252"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
+	"angles" "0 0 0"
+	"axis" "-7620 -6076 48, -7620 -6076 48"
+	"disableshadows" "1"
+	"distance" "102"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "0"
+	"health" "0"
+	"model" "models/props_downtown/door_interior_112_01.mdl"
+	"modelscale" "1.0"
+	"opendir" "0"
+	"returndelay" "-1"
+	"skin" "0"
+	"soundcloseoverride" "Doors.FullClose4"
+	"soundmoveoverride" "Doors.Move4"
+	"soundopenoverride" "Doors.FullOpen4"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "200"
+	"origin" "-7620 -6076 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 14000]"
+	}
+}
+entity
+{
+	"id" "2257"
+	"classname" "prop_door_rotating"
+	"ajarangles" "0 0 0"
+	"angles" "0 270 0"
+	"axis" "-7708.01 -6116 48, -7708.01 -6116 48"
+	"disableshadows" "1"
+	"distance" "102"
+	"dmg" "0"
+	"forceclosed" "0"
+	"hardware" "0"
+	"health" "0"
+	"model" "models/props_downtown/door_interior_112_01.mdl"
+	"modelscale" "1.0"
+	"opendir" "0"
+	"returndelay" "-1"
+	"skin" "0"
+	"soundcloseoverride" "Doors.FullClose4"
+	"soundmoveoverride" "Doors.Move4"
+	"soundopenoverride" "Doors.FullOpen4"
+	"spawnflags" "8192"
+	"spawnpos" "0"
+	"speed" "200"
+	"origin" "-7708 -6116 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -10268]"
 	}
 }
 entity
@@ -10629,6 +10794,81 @@ entity
 }
 entity
 {
+	"id" "2507"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_downtown/door_trim_56_112_02.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-7620 -5712 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 15000]"
+	}
+}
+entity
+{
+	"id" "2511"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_downtown/door_trim_56_112_02.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-7620 -6020 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 15500]"
+	}
+}
+entity
+{
+	"id" "2515"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_downtown/door_trim_56_112_02.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-7740 -5960 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 16000]"
+	}
+}
+entity
+{
 	"id" "2519"
 	"classname" "prop_static"
 	"angles" "0 180 0"
@@ -10650,6 +10890,31 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-13268 -16268]"
+	}
+}
+entity
+{
+	"id" "2523"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_downtown/door_trim_56_112_01.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-7548 -5420 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 -15768]"
 	}
 }
 entity
@@ -10929,6 +11194,106 @@ entity
 }
 entity
 {
+	"id" "2571"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_windows/window_urban_sash_32_72_full.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-7464 -5420 80"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 -9768]"
+	}
+}
+entity
+{
+	"id" "2575"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_windows/window_urban_sash_32_72_full.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-7708 -5300 80"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 -9268]"
+	}
+}
+entity
+{
+	"id" "2579"
+	"classname" "prop_static"
+	"angles" "0 90 -2.5"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_street/shutter_72x32.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "-7448 -5414 80"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 -8768]"
+	}
+}
+entity
+{
+	"id" "2583"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_downtown/door_trim_56_112_01.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-7652 -6116 48"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-13268 -8268]"
+	}
+}
+entity
+{
 	"id" "2587"
 	"classname" "prop_static"
 	"angles" "0 180 0"
@@ -11004,6 +11369,31 @@ entity
 }
 entity
 {
+	"id" "2599"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_windows/window_urban_bars_med.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-7715 -5298 105.022"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-10768 -7768]"
+	}
+}
+entity
+{
 	"id" "2603"
 	"classname" "prop_static"
 	"angles" "0 90 0"
@@ -11050,6 +11440,31 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-10768 -6768]"
+	}
+}
+entity
+{
+	"id" "2611"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "1"
+	"disableshadows" "0"
+	"disablevertexlighting" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"model" "models/props_windows/window_urban_bars_med.mdl"
+	"skin" "0"
+	"solid" "0"
+	"origin" "-7459 -5418 105.022"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-10768 -6268]"
 	}
 }
 entity
