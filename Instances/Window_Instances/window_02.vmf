@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7538"
-	"mapversion" "2"
+	"editorbuild" "8105"
+	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,39 +14,18 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "5"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
-	group
-	{
-		"id" "2"
-		editor
-		{
-			"color" "182 123 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "3"
-		editor
-		{
-			"color" "182 123 0"
-			"groupid" "2"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -76,11 +55,10 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "window_04"
-	"origin" "8 4 32.1138"
+	"origin" "8 28 32"
 	editor
 	{
-		"color" "182 123 0"
-		"groupid" "3"
+		"color" "0 122 111"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-4814.8 -9211.64]"
@@ -101,7 +79,7 @@ entity
 	"material" "0"
 	"minhealthdmg" "0"
 	"nodamageforces" "0"
-	"origin" "5.94 4 32.11"
+	"origin" "5.94 28 31.99"
 	"PerformanceMode" "0"
 	"physdamagescale" "1.0"
 	"pressuredelay" "0"
@@ -122,9 +100,9 @@ entity
 		side
 		{
 			"id" "1"
-			"plane" "(5.3501 -20 4.1138) (5.3501 28 4.1138) (5.3501 28 60.1138)"
+			"plane" "(5.3501 4 4) (5.3501 52 4) (5.3501 52 59.9997)"
 			"material" "GLASS/GLASSWINDOW017A"
-			"uaxis" "[0 -1 0 -56] 0.5"
+			"uaxis" "[0 -1 0 -8] 0.5"
 			"vaxis" "[0 0 -1 0.2276] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -133,9 +111,9 @@ entity
 		side
 		{
 			"id" "2"
-			"plane" "(5.6499 28 4.1138) (5.6499 -20 4.1138) (5.6499 -20 60.1138)"
+			"plane" "(5.6499 52 4) (5.6499 4 4) (5.6499 4 59.9997)"
 			"material" "GLASS/GLASSWINDOW017A"
-			"uaxis" "[0 -1 0 -56] 0.5"
+			"uaxis" "[0 -1 0 -8] 0.5"
 			"vaxis" "[0 0 -1 0.2276] 0.5"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -144,10 +122,10 @@ entity
 		side
 		{
 			"id" "3"
-			"plane" "(5.35156 28 4.1138) (5.35156 -20 4.1138) (5.64893 -20 4.1138)"
+			"plane" "(5.35156 52 4.00052) (5.35156 4 4.00052) (5.64917 4 4.00052)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -0.00195313] 0.25"
-			"vaxis" "[0 1 0 32.002] 0.25"
+			"vaxis" "[0 1 0 -63.998] 0.25"
 			"rotation" "0"
 			"lightmapscale" "128"
 			"smoothing_groups" "0"
@@ -155,10 +133,10 @@ entity
 		side
 		{
 			"id" "4"
-			"plane" "(5.35156 -20 60.1138) (5.35156 28 60.1138) (5.64941 28 60.1138)"
+			"plane" "(5.35156 4 60) (5.35156 52 60) (5.64917 52 60)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0.00195313] 0.25"
-			"vaxis" "[0 1 0 32.002] 0.25"
+			"vaxis" "[0 1 0 -63.998] 0.25"
 			"rotation" "0"
 			"lightmapscale" "128"
 			"smoothing_groups" "0"
@@ -166,7 +144,7 @@ entity
 		side
 		{
 			"id" "5"
-			"plane" "(5.35156 28 60.1138) (5.35156 28 4.1138) (5.64941 28 4.1138)"
+			"plane" "(5.35156 52 59.9995) (5.35156 52 4) (5.64917 52 4)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -3] 2"
 			"vaxis" "[0 0 -1 16.0569] 2"
@@ -177,7 +155,7 @@ entity
 		side
 		{
 			"id" "6"
-			"plane" "(5.64893 -20 60.1138) (5.64893 -20 4.1138) (5.35156 -20 4.1138)"
+			"plane" "(5.64917 4 59.9995) (5.64917 4 4) (5.35156 4 4)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -3] 2"
 			"vaxis" "[0 0 -1 16.0569] 2"
@@ -187,15 +165,14 @@ entity
 		}
 		editor
 		{
-			"color" "182 123 0"
+			"color" "0 116 113"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "182 123 0"
-		"groupid" "3"
+		"color" "0 116 113"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-4814.8 -8711.64]"
@@ -221,11 +198,10 @@ entity
 	"model" "models/props_wasteland/woodwall030b_window02a.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "4 4 32.1138"
+	"origin" "4 28 32"
 	editor
 	{
-		"color" "182 123 0"
-		"groupid" "3"
+		"color" "0 194 247"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[-24082.8 13556.4]"
