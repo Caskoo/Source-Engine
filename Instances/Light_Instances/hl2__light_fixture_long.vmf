@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7538"
-	"mapversion" "1"
+	"editorbuild" "8105"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,18 +14,18 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -43,10 +43,10 @@ entity
 	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/props_interiors/lightbulb03a.mdl"
+	"model" "models/props_interiors/lightbulb02a.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "0 -26 -56"
+	"origin" "0 -25 -35"
 	editor
 	{
 		"color" "255 255 0"
@@ -70,7 +70,7 @@ entity
 	"angles" "-90 270 0"
 	"pitch" "-90"
 	"spawnflags" "0"
-	"origin" "0 0 -104.43"
+	"origin" "0 0 -73"
 	editor
 	{
 		"color" "220 30 220"
@@ -92,7 +92,7 @@ entity
 	"_quadratic_attn" "1"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "0 0 -123"
+	"origin" "0 0 -100"
 	editor
 	{
 		"color" "220 30 220"
@@ -118,7 +118,7 @@ entity
 	"rendermode" "9"
 	"scale" ".75"
 	"spawnflags" "1"
-	"origin" "0 0 -107"
+	"origin" "0 0 -68"
 	editor
 	{
 		"color" "20 140 20"
