@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7538"
-	"mapversion" "1"
+	"editorbuild" "8105"
+	"mapversion" "2"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,18 +14,18 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -46,7 +46,7 @@ entity
 	"model" "models/props_wasteland/prison_cagedlight001a.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "0 0 0"
+	"origin" "-2 0 0"
 	editor
 	{
 		"color" "255 255 0"
@@ -69,7 +69,7 @@ entity
 	"rendermode" "9"
 	"scale" ".15"
 	"spawnflags" "1"
-	"origin" "-1 0 0"
+	"origin" "-3 0 0"
 	editor
 	{
 		"color" "20 140 20"
@@ -92,7 +92,7 @@ entity
 	"_quadratic_attn" "1"
 	"angles" "-42 180 0"
 	"pitch" "-42"
-	"origin" "-3 0 0"
+	"origin" "-5 0 0"
 	editor
 	{
 		"color" "220 30 220"
@@ -115,7 +115,7 @@ entity
 	"rendermode" "9"
 	"scale" "3"
 	"spawnflags" "1"
-	"origin" "-14 0 -2"
+	"origin" "-16 0 -2"
 	editor
 	{
 		"color" "20 140 20"
@@ -134,7 +134,7 @@ entity
 	"_lightscaleHDR" "1"
 	"_quadratic_attn" "1"
 	"style" "5"
-	"origin" "-18 0 -3"
+	"origin" "-20 0 -3"
 	editor
 	{
 		"color" "220 30 220"
