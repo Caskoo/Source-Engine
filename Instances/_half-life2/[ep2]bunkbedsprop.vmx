@@ -1,20 +1,28 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7788"
-	"mapversion" "209"
+	"editorbuild" "8128"
+	"mapversion" "210"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "900197"
-	"mapversion" "209"
+	"mapversion" "210"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -23,10 +31,12 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/bunkbed2.mdl"
 	"skin" "0"
 	"solid" "0"
-	"origin" "-10160 6688 1024.24"
+	"origin" "0 0 0"
 	editor
 	{
 		"color" "255 255 0"
@@ -42,10 +52,12 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/bunkbed.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-10160 6688 1024.24"
+	"origin" "0 0 0"
 	editor
 	{
 		"color" "255 255 0"
