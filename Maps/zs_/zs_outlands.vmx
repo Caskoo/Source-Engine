@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8128"
-	"mapversion" "2531"
+	"mapversion" "2536"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,13 +62,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "4"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "2531"
+	"mapversion" "2536"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -30779,9 +30779,9 @@ world
 		{
 			"id" "54380"
 			"plane" "(4888 1488 208) (4840 1488 208) (4840 1488 260)"
-			"material" "METAL/FOREST_METAL_02B"
-			"uaxis" "[1 0 0 -496] 0.25"
-			"vaxis" "[0 0 -1 128] 0.25"
+			"material" "METAL/METALHULL009B"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -161047,7 +161047,7 @@ entity
 	"model" "models/props/de_prodigy/ammo_can_03.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "4034.11 2671.6 130.966"
+	"origin" "4036 2671.6 127.64"
 	editor
 	{
 		"color" "255 255 0"
@@ -161072,7 +161072,7 @@ entity
 	"model" "models/props/de_nuke/crate_small.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "3974.11 2683.6 130.746"
+	"origin" "3976 2683.6 127.42"
 	editor
 	{
 		"color" "255 255 0"
@@ -161097,7 +161097,7 @@ entity
 	"model" "models/props/de_prodigy/ammo_can_02.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "3971.61 2689.89 196.326"
+	"origin" "3973.5 2689.89 193"
 	editor
 	{
 		"color" "255 255 0"
@@ -187811,11 +187811,11 @@ entity
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline07a"
 	"RopeMaterial" "cable/cable.vmt"
-	"Slack" "25"
+	"Slack" "100"
 	"Subdiv" "2"
 	"targetname" "rope.powerline06a"
 	"TextureScale" "1"
-	"Width" "2"
+	"Width" "1"
 	"origin" "4596 1494 586"
 	editor
 	{
@@ -187833,11 +187833,11 @@ entity
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline07b"
 	"RopeMaterial" "cable/cable.vmt"
-	"Slack" "25"
+	"Slack" "100"
 	"Subdiv" "2"
 	"targetname" "rope.powerline06b"
 	"TextureScale" "1"
-	"Width" "2"
+	"Width" "1"
 	"origin" "4672 1474 586"
 	editor
 	{
@@ -193922,13 +193922,35 @@ entity
 		"logicalpos" "[7000 12000]"
 	}
 }
+entity
+{
+	"id" "244231"
+	"classname" "env_wind"
+	"angles" "0 0 0"
+	"gustdirchange" "20"
+	"gustduration" "5"
+	"maxgust" "40"
+	"maxgustdelay" "20"
+	"maxwind" "12"
+	"mingust" "20"
+	"mingustdelay" "10"
+	"minwind" "2"
+	"origin" "2097 1288 186"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4500 6500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3579.09 1864.26 246.917]"
-		"look" "[3579.42 1859.98 245.781]"
+		"position" "[2210.17 1259.42 239.644]"
+		"look" "[2205.92 1259.57 238.329]"
 	}
 }
 cordon
