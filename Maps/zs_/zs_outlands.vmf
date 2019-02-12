@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8128"
-	"mapversion" "2557"
+	"mapversion" "2618"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -62,13 +62,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "4"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "2557"
+	"mapversion" "2618"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -8870,9 +8870,9 @@ world
 		{
 			"id" "17687"
 			"plane" "(5488 5120 128) (6400 5120 128) (6400 3232 128)"
-			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 -352] 0.25"
-			"vaxis" "[-1 0 0 504] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9845,8 +9845,8 @@ world
 			"id" "46281"
 			"plane" "(5232 3496 128) (5488 3496 128) (5488 3072 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9980,8 +9980,8 @@ world
 			"id" "46293"
 			"plane" "(5232 3072 128) (4968 3072 128) (4968 3496 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9994,7 +9994,7 @@ world
 				"subdiv" "0"
 				normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row0" "0 0 1 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
@@ -10002,7 +10002,7 @@ world
 				}
 				distances
 				{
-					"row0" "0 0 0 0 0"
+					"row0" "1.34875 1e-005 1e-005 1e-005 0"
 					"row1" "1e-005 0 0 0 1e-005"
 					"row2" "1e-005 0 0 0 1e-005"
 					"row3" "1e-005 0 0 0 1e-005"
@@ -10026,7 +10026,7 @@ world
 				}
 				alphas
 				{
-					"row0" "255 255 255 255 255"
+					"row0" "230 255 255 255 255"
 					"row1" "255 255 255 255 255"
 					"row2" "0 0 0 0 0"
 					"row3" "0 0 0 0 0"
@@ -10115,8 +10115,8 @@ world
 			"id" "46323"
 			"plane" "(5232 3072 128) (5488 3072 128) (5488 2528 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10250,8 +10250,8 @@ world
 			"id" "46335"
 			"plane" "(5232 2528 128) (4968 2528 128) (4968 3072 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10267,16 +10267,16 @@ world
 					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row3" "0 0 1 0 0 1 0 0 1 0 0 0 0 0 0"
+					"row4" "0 0 1 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 				distances
 				{
 					"row0" "0 0 0 0 0"
-					"row1" "0 0 0 0 0"
-					"row2" "0 0 0 0 0"
-					"row3" "0 0 0 0 0"
-					"row4" "0 0 0 0 0"
+					"row1" "1e-005 0 0 0 0"
+					"row2" "1e-005 0 0 0 0"
+					"row3" "13.6271 15.0004 9.56624 0 0"
+					"row4" "1.34875 1e-005 1e-005 1e-005 0"
 				}
 				offsets
 				{
@@ -10300,7 +10300,7 @@ world
 					"row1" "255 255 255 255 255"
 					"row2" "255 255 255 255 255"
 					"row3" "255 255 255 255 255"
-					"row4" "255 255 255 255 255"
+					"row4" "230 255 255 255 255"
 				}
 				triangle_tags
 				{
@@ -10385,8 +10385,8 @@ world
 			"id" "46341"
 			"plane" "(4592 2528 128) (4968 2528 128) (4968 2128 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10520,8 +10520,8 @@ world
 			"id" "46353"
 			"plane" "(4968 2528 128) (4592 2528 128) (4592 3072 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10537,16 +10537,16 @@ world
 					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row3" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row4" "0 0 0.5 0 0 1 0 0 1 0 0 1 0 0 1"
 				}
 				distances
 				{
 					"row0" "0 1e-005 1e-005 1e-005 0"
-					"row1" "0 0 0 0 0"
-					"row2" "0 0 0 0 0"
-					"row3" "0 0 0 0 0"
-					"row4" "0 0 0 0 0"
+					"row1" "1e-005 0 0 0 1e-005"
+					"row2" "1e-005 0 0 0 1e-005"
+					"row3" "1.346 10 6.70381 15.0145 13.6271"
+					"row4" "2.5 1.34875 1.34875 5 1.34875"
 				}
 				offsets
 				{
@@ -10567,10 +10567,10 @@ world
 				alphas
 				{
 					"row0" "0 255 255 255 255"
-					"row1" "255 255 255 255 255"
-					"row2" "255 255 255 255 255"
-					"row3" "255 255 255 255 255"
-					"row4" "255 255 255 255 255"
+					"row1" "255 230 255 255 255"
+					"row2" "130 180 205 255 255"
+					"row3" "255 0 130 5 255"
+					"row4" "0 105 0 130 230"
 				}
 				triangle_tags
 				{
@@ -10655,8 +10655,8 @@ world
 			"id" "46365"
 			"plane" "(4968 3072 128) (4592 3072 128) (4592 3496 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -10669,16 +10669,16 @@ world
 				"subdiv" "0"
 				normals
 				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row0" "0 0 0.5 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row1" "0 0 1 0 0 0 0 0 0 0 0 1 0 0 0"
 					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 				distances
 				{
-					"row0" "0 0 0 0 0"
-					"row1" "1e-005 0 0 0 1e-005"
+					"row0" "2.5 1.34875 1.34875 5 1.34875"
+					"row1" "0.178512 0 0 0.357025 1e-005"
 					"row2" "1e-005 0 0 0 1e-005"
 					"row3" "1e-005 0 0 0 1e-005"
 					"row4" "0 1e-005 1e-005 1e-005 0"
@@ -10701,10 +10701,10 @@ world
 				}
 				alphas
 				{
-					"row0" "255 255 255 255 255"
-					"row1" "255 255 255 255 255"
-					"row2" "255 0 0 0 0"
-					"row3" "255 0 0 0 0"
+					"row0" "0 105 0 130 230"
+					"row1" "0 80 0 105 255"
+					"row2" "0 0 0 0 0"
+					"row3" "205 0 0 0 0"
 					"row4" "103.333 0 0 0 31.875"
 				}
 				triangle_tags
@@ -12503,8 +12503,8 @@ world
 			"id" "48305"
 			"plane" "(4592 3072 128) (4216 3072 128) (4216 3496 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -480] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -12517,16 +12517,16 @@ world
 				"subdiv" "0"
 				normals
 				{
-					"row0" "0 0 0.5 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row0" "0 0 0.5 0 0 0 0 0 0 0 0 0 0 0 0.5"
+					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 1"
 					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 				}
 				distances
 				{
-					"row0" "0.417641 1e-005 1e-005 1e-005 0"
-					"row1" "1e-005 0 0 0 1e-005"
+					"row0" "0.417641 1e-005 1e-005 1e-005 2.5"
+					"row1" "1e-005 0 0 0 0.178512"
 					"row2" "1e-005 0 0 0 1e-005"
 					"row3" "1e-005 0 0 0 1e-005"
 					"row4" "0 0 0 0 0"
@@ -12549,10 +12549,10 @@ world
 				}
 				alphas
 				{
-					"row0" "255 255 255 255 255"
-					"row1" "255 255 255 255 255"
-					"row2" "255 255 255 255 255"
-					"row3" "255 255 255 255 255"
+					"row0" "255 255 255 0 0"
+					"row1" "255 255 255 0 0"
+					"row2" "255 255 255 0 0"
+					"row3" "255 255 255 0 205"
 					"row4" "127.5 255 255 255 103.333"
 				}
 				triangle_tags
@@ -12638,8 +12638,8 @@ world
 			"id" "48329"
 			"plane" "(4592 2528 128) (4216 2528 128) (4216 3072 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -480] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -12655,16 +12655,16 @@ world
 					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
 					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0.5 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 1"
+					"row4" "0 0 0.5 0 0 0 0 0 0 0 0 0 0 0 0.5"
 				}
 				distances
 				{
 					"row0" "0 1e-005 1e-005 1e-005 0"
-					"row1" "1e-005 0 0 0 0"
-					"row2" "1e-005 0 0 0 0"
-					"row3" "1e-005 0 0 0 0"
-					"row4" "0.417641 1e-005 1e-005 1e-005 0"
+					"row1" "1e-005 0 0 0 1e-005"
+					"row2" "1e-005 0 0 0 1e-005"
+					"row3" "1e-005 0 0 0 1.346"
+					"row4" "0.417641 1e-005 1e-005 1e-005 2.5"
 				}
 				offsets
 				{
@@ -12686,9 +12686,9 @@ world
 				{
 					"row0" "255 255 55 0 0"
 					"row1" "205 155 0 0 255"
-					"row2" "0 0 0 255 255"
+					"row2" "0 0 0 255 130"
 					"row3" "55 0 0 255 255"
-					"row4" "255 255 255 255 255"
+					"row4" "255 255 255 0 0"
 				}
 				triangle_tags
 				{
@@ -12773,8 +12773,8 @@ world
 			"id" "48347"
 			"plane" "(3840 3072 128) (4216 3072 128) (4216 2528 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -448] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -12908,8 +12908,8 @@ world
 			"id" "48353"
 			"plane" "(4216 3072 128) (3840 3072 128) (3840 3496 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -448] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -13043,8 +13043,8 @@ world
 			"id" "48371"
 			"plane" "(3840 2528 128) (3464 2528 128) (3464 3072 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -416] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -13178,8 +13178,8 @@ world
 			"id" "48377"
 			"plane" "(3840 3072 128) (3464 3072 128) (3464 3496 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -416] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -13313,8 +13313,8 @@ world
 			"id" "48395"
 			"plane" "(3464 3072 128) (3088 3072 128) (3088 3496 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -384] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -13448,8 +13448,8 @@ world
 			"id" "48401"
 			"plane" "(3088 3072 128) (3464 3072 128) (3464 2528 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 -384] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14739,8 +14739,8 @@ world
 			"id" "48678"
 			"plane" "(4216 2528 128) (4592 2528 128) (4592 2128 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -14874,8 +14874,8 @@ world
 			"id" "48690"
 			"plane" "(3840 2528 128) (4216 2528 128) (4216 2128 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -15144,8 +15144,8 @@ world
 			"id" "48726"
 			"plane" "(3464 2528 128) (3840 2528 128) (3840 2128 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -18788,8 +18788,8 @@ world
 			"id" "53165"
 			"plane" "(4592 1520 128) (4016 1520 128) (4016 2128 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -18923,8 +18923,8 @@ world
 			"id" "53171"
 			"plane" "(4944 1520 128) (4592 1520 128) (4592 2128 128)"
 			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -19225,8 +19225,8 @@ world
 		{
 			"id" "53180"
 			"plane" "(4944 1280 32) (4944 1520 32) (4944 1520 128)"
-			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[0 1 0 0] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -19381,9 +19381,9 @@ world
 		{
 			"id" "53208"
 			"plane" "(1248 256 128) (1248 768 128) (2272 768 128)"
-			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[1 0 0 -352] 0.25"
-			"vaxis" "[0 -1 0 504] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 56] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -19533,9 +19533,9 @@ world
 		{
 			"id" "53220"
 			"plane" "(1248 768 128) (1248 1744 128) (1760 1744 128)"
-			"material" "NATURE/BLENDGRASSGRAVEL01"
-			"uaxis" "[1 0 0 -352] 0.25"
-			"vaxis" "[0 -1 0 504] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 56] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -39275,7 +39275,7 @@ world
 		{
 			"id" "62365"
 			"plane" "(6392 2848 128) (6400 2848 128) (6400 3232 128)"
-			"material" "WOOD/WOODWALL_MINE001A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -39297,7 +39297,7 @@ world
 		{
 			"id" "62367"
 			"plane" "(6400 3232 128) (6400 2848 128) (6400 2848 328)"
-			"material" "WOOD/WOODWALL_MINE001A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -63246,83 +63246,6 @@ world
 	}
 	solid
 	{
-		"id" "2"
-		side
-		{
-			"id" "1"
-			"plane" "(1248 256 1504) (1248 5120 1504) (6400 5120 1504)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2"
-			"plane" "(1248 5120 1472) (1248 5120 1504) (1248 256 1504)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 0 1 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3"
-			"plane" "(6400 256 1472) (6400 256 1504) (6400 5120 1504)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 0 1 0] 0.25"
-			"vaxis" "[0 1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4"
-			"plane" "(1248 256 1472) (1248 256 1504) (6400 256 1504)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5"
-			"plane" "(6400 5120 1472) (6400 5120 1504) (1248 5120 1504)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6"
-			"plane" "(1248 5120 1472) (1248 256 1472) (6400 256 1472)"
-			"material" "TOOLS/TOOLSSKYBOX"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "107 160 0"
-			"groupid" "30064"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "243276"
 		side
 		{
@@ -64457,6 +64380,83 @@ world
 		editor
 		{
 			"color" "0 110 239"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(1248 256 1504) (1248 5120 1504) (6400 5120 1504)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(1248 5120 1472) (1248 5120 1504) (1248 256 1504)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(6400 256 1472) (6400 256 1504) (6400 5120 1504)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 0 1 0] 0.25"
+			"vaxis" "[0 1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(1248 256 1472) (1248 256 1504) (6400 256 1504)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(6400 5120 1472) (6400 5120 1504) (1248 5120 1504)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(1248 5120 1472) (1248 256 1472) (6400 256 1472)"
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "107 160 0"
+			"groupid" "30064"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -67010,6 +67010,7 @@ entity
 	"fademaxdist" "2120"
 	"fademindist" "1752"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -67039,6 +67040,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -68790,7 +68792,6 @@ entity
 {
 	"id" "105471"
 	"classname" "phys_ragdollconstraint"
-	"angles" "0 90 0"
 	"attach1" "rubble_tunnel_door_1_lock"
 	"spawnflags" "9"
 	"targetname" "rubble_tunnel_door_1_lock_constraint"
@@ -68931,7 +68932,6 @@ entity
 	"ExplodeRadius" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"health" "0"
 	"MaxAnimTime" "10"
 	"maxdxlevel" "0"
 	"MinAnimTime" "5"
@@ -69468,6 +69468,7 @@ entity
 	"fademaxdist" "1803"
 	"fademindist" "1515"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -69490,7 +69491,6 @@ entity
 {
 	"id" "112972"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "3720 3496 282.944"
 	editor
@@ -69513,6 +69513,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_office/Vending_machine.mdl"
@@ -69605,7 +69606,6 @@ entity
 	"inertiaScale" "1.0"
 	"model" "models/props/cs_office/Water_bottle.mdl"
 	"modelscale" "1.0"
-	"multiplayer_physics_mode" "1"
 	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
@@ -69742,8 +69742,6 @@ entity
 	"id" "113638"
 	"classname" "ambient_generic"
 	"cspinup" "0"
-	"fadein" "0"
-	"fadeout" "0"
 	"health" "10"
 	"lfomodpitch" "0"
 	"lfomodvol" "0"
@@ -69774,8 +69772,6 @@ entity
 	"id" "113641"
 	"classname" "ambient_generic"
 	"cspinup" "0"
-	"fadein" "0"
-	"fadeout" "0"
 	"health" "10"
 	"lfomodpitch" "0"
 	"lfomodvol" "0"
@@ -69806,8 +69802,6 @@ entity
 	"id" "113644"
 	"classname" "ambient_generic"
 	"cspinup" "0"
-	"fadein" "0"
-	"fadeout" "0"
 	"health" "10"
 	"lfomodpitch" "0"
 	"lfomodvol" "0"
@@ -69982,6 +69976,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/lightbulb01a.mdl"
@@ -70108,6 +70103,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/lightbulb01a.mdl"
@@ -70234,6 +70230,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/lightbulb01a.mdl"
@@ -70260,6 +70257,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02a.mdl"
@@ -70286,6 +70284,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
@@ -70312,6 +70311,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
@@ -70338,6 +70338,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
@@ -70355,58 +70356,6 @@ entity
 }
 entity
 {
-	"id" "126795"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_lab/pipesystem02b.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3631 1519 153"
-	editor
-	{
-		"color" "117 146 0"
-		"groupid" "127315"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[-6768 -13768]"
-	}
-}
-entity
-{
-	"id" "126799"
-	"classname" "prop_static"
-	"angles" "0 270 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props_lab/pipesystem02d.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "3636 1518 153"
-	editor
-	{
-		"color" "117 146 0"
-		"groupid" "127315"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[-6768 -14268]"
-	}
-}
-entity
-{
 	"id" "126803"
 	"classname" "prop_static"
 	"angles" "0 270 0"
@@ -70416,6 +70365,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem01a.mdl"
@@ -70442,6 +70392,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02a.mdl"
@@ -70468,6 +70419,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02b.mdl"
@@ -70494,6 +70446,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03a.mdl"
@@ -70520,6 +70473,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03b.mdl"
@@ -70546,6 +70500,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02d.mdl"
@@ -70572,6 +70527,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03b.mdl"
@@ -70598,6 +70554,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02c.mdl"
@@ -70624,6 +70581,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02e.mdl"
@@ -70650,6 +70608,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox03a.mdl"
@@ -70669,7 +70628,6 @@ entity
 {
 	"id" "126843"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/decalsigndanger001c"
 	"origin" "3558.68 1518.52 202"
 	editor
@@ -70918,6 +70876,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/LampFixture01a.mdl"
@@ -72535,7 +72494,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72565,7 +72524,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72595,7 +72554,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72625,7 +72584,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72655,7 +72614,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72685,7 +72644,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72715,7 +72674,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72745,7 +72704,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72940,7 +72899,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -72970,6 +72929,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02d.mdl"
@@ -72996,6 +72956,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02d.mdl"
@@ -73022,6 +72983,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03b.mdl"
@@ -73048,6 +73010,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02a.mdl"
@@ -73074,6 +73037,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02b.mdl"
@@ -73100,6 +73064,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02c.mdl"
@@ -73126,6 +73091,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox03a.mdl"
@@ -73152,6 +73118,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02e.mdl"
@@ -73178,6 +73145,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02c.mdl"
@@ -73204,6 +73172,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02a.mdl"
@@ -73230,6 +73199,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
@@ -73256,6 +73226,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
@@ -73282,6 +73253,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
@@ -73308,6 +73280,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02b.mdl"
@@ -73334,6 +73307,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem01a.mdl"
@@ -73360,6 +73334,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02a.mdl"
@@ -73386,6 +73361,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03d.mdl"
@@ -73405,7 +73381,6 @@ entity
 {
 	"id" "119749"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4343.71 3496 376.876"
 	editor
@@ -73421,7 +73396,6 @@ entity
 {
 	"id" "119752"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4318.72 3496 377.367"
 	editor
@@ -73437,7 +73411,6 @@ entity
 {
 	"id" "119755"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4307.35 3496 375.719"
 	editor
@@ -73453,7 +73426,6 @@ entity
 {
 	"id" "119740"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4308.75 3496 409.864"
 	editor
@@ -73469,7 +73441,6 @@ entity
 {
 	"id" "119743"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4319.06 3496 409.786"
 	editor
@@ -73485,7 +73456,6 @@ entity
 {
 	"id" "119746"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4343.3 3496 410.533"
 	editor
@@ -73501,7 +73471,6 @@ entity
 {
 	"id" "119733"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4344 3496 470.749"
 	editor
@@ -73517,7 +73486,6 @@ entity
 {
 	"id" "119730"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4319.54 3496 471.463"
 	editor
@@ -73533,7 +73501,6 @@ entity
 {
 	"id" "119727"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "4308.77 3496 472"
 	editor
@@ -73556,6 +73523,7 @@ entity
 	"fademaxdist" "1797"
 	"fademindist" "1566"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/wirepipe.mdl"
@@ -73575,7 +73543,6 @@ entity
 {
 	"id" "166737"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2183.71 3408 272.876"
 	editor
@@ -73591,7 +73558,6 @@ entity
 {
 	"id" "166740"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2158.72 3408 273.367"
 	editor
@@ -73607,7 +73573,6 @@ entity
 {
 	"id" "166743"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2147.35 3408 271.719"
 	editor
@@ -73623,7 +73588,6 @@ entity
 {
 	"id" "166746"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2148.75 3408 305.864"
 	editor
@@ -73639,7 +73603,6 @@ entity
 {
 	"id" "166749"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2159.06 3408 305.786"
 	editor
@@ -73655,7 +73618,6 @@ entity
 {
 	"id" "166752"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2183.3 3408 306.533"
 	editor
@@ -73671,7 +73633,6 @@ entity
 {
 	"id" "166755"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2184 3408 366.749"
 	editor
@@ -73687,7 +73648,6 @@ entity
 {
 	"id" "166758"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2159.54 3408 367.463"
 	editor
@@ -73703,7 +73663,6 @@ entity
 {
 	"id" "166761"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2148.77 3408 368"
 	editor
@@ -73726,6 +73685,7 @@ entity
 	"fademaxdist" "1797"
 	"fademindist" "1566"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/wirepipe.mdl"
@@ -73745,7 +73705,6 @@ entity
 {
 	"id" "166781"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "3968.29 2128 276.876"
 	editor
@@ -73761,7 +73720,6 @@ entity
 {
 	"id" "166784"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "3993.28 2128 277.367"
 	editor
@@ -73777,7 +73735,6 @@ entity
 {
 	"id" "166787"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "4004.65 2128 275.719"
 	editor
@@ -73793,7 +73750,6 @@ entity
 {
 	"id" "166790"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "4003.25 2128 309.864"
 	editor
@@ -73809,7 +73765,6 @@ entity
 {
 	"id" "166793"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "3992.94 2128 309.786"
 	editor
@@ -73825,7 +73780,6 @@ entity
 {
 	"id" "166796"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "3968.7 2128 310.533"
 	editor
@@ -73841,7 +73795,6 @@ entity
 {
 	"id" "166799"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "3968 2128 370.749"
 	editor
@@ -73857,7 +73810,6 @@ entity
 {
 	"id" "166802"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "3992.46 2128 371.463"
 	editor
@@ -73873,7 +73825,6 @@ entity
 {
 	"id" "166805"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "decals/prodstainb"
 	"origin" "4003.23 2128 372"
 	editor
@@ -73896,6 +73847,7 @@ entity
 	"fademaxdist" "1797"
 	"fademindist" "1566"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/wirepipe.mdl"
@@ -73915,7 +73867,6 @@ entity
 {
 	"id" "166959"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1728.29 388.876"
 	editor
@@ -73931,7 +73882,6 @@ entity
 {
 	"id" "166962"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1753.28 389.367"
 	editor
@@ -73947,7 +73897,6 @@ entity
 {
 	"id" "166965"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1764.65 387.719"
 	editor
@@ -73963,7 +73912,6 @@ entity
 {
 	"id" "166968"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1763.25 421.864"
 	editor
@@ -73979,7 +73927,6 @@ entity
 {
 	"id" "166971"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1752.94 421.786"
 	editor
@@ -73995,7 +73942,6 @@ entity
 {
 	"id" "166974"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1728.7 422.533"
 	editor
@@ -74011,7 +73957,6 @@ entity
 {
 	"id" "166977"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1728 482.749"
 	editor
@@ -74027,7 +73972,6 @@ entity
 {
 	"id" "166980"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1752.46 483.463"
 	editor
@@ -74043,7 +73987,6 @@ entity
 {
 	"id" "166983"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "4888 1763.23 484"
 	editor
@@ -74066,6 +74009,7 @@ entity
 	"fademaxdist" "1797"
 	"fademindist" "1566"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/wirepipe.mdl"
@@ -74565,7 +74509,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -74586,9 +74530,402 @@ entity
 }
 entity
 {
+	"id" "244072"
+	"classname" "item_healthcharger"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "3704 1911.86 180"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244071"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -3768]"
+	}
+}
+entity
+{
+	"id" "244074"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "1.97"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow03.vmt"
+	"renderamt" "125"
+	"rendercolor" "123 123 189"
+	"renderfx" "3"
+	"rendermode" "9"
+	"scale" ".45"
+	"spawnflags" "1"
+	"targetname" "hp_charger_spr3"
+	"origin" "3701.5 1905.36 179"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244071"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -3268]"
+	}
+}
+entity
+{
+	"id" "244077"
+	"classname" "func_brush"
+	"disablereceiveshadows" "1"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
+	"origin" "3705 1907.86 180"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"solidbsp" "0"
+	"Solidity" "0"
+	"spawnflags" "2"
+	"StartDisabled" "1"
+	"targetname" "hp_charger_brush1"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "244078"
+		side
+		{
+			"id" "75734"
+			"plane" "(3694 1911.86 200) (3694 1911.86 160) (3716 1911.86 160)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -60.0015] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75733"
+			"plane" "(3716 1903.86 200) (3716 1903.86 160) (3694 1903.86 160)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -60.0015] 0.25"
+			"vaxis" "[0 0 -1 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75732"
+			"plane" "(3694 1903.86 200) (3694 1903.86 160) (3694 1911.86 160)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 32.5625] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75731"
+			"plane" "(3716 1911.86 200) (3716 1911.86 160) (3716 1903.86 160)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -32.5625] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75730"
+			"plane" "(3716 1911.86 160) (3694 1911.86 160) (3694 1903.86 160)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -8.00146] 0.25"
+			"vaxis" "[0 1 0 32.5625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75729"
+			"plane" "(3716 1903.86 200) (3694 1903.86 200) (3694 1911.86 200)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 8.00146] 0.25"
+			"vaxis" "[0 1 0 32.5625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244071"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 11000]"
+	}
+}
+entity
+{
+	"id" "244080"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"MaxDelay" "45"
+	"spawnflags" "640"
+	"targetname" "hp_charger_spark3"
+	"TrailLength" "1"
+	"origin" "3702 1903.86 179"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244071"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 11500]"
+	}
+}
+entity
+{
+	"id" "244082"
+	"classname" "env_smokestack"
+	"angles" "0 0 0"
+	"BaseSpread" "8"
+	"EndSize" "3"
+	"InitialState" "0"
+	"JetLength" "45"
+	"Rate" "50"
+	"renderamt" "85"
+	"rendercolor" "37 37 37"
+	"roll" "0"
+	"SmokeMaterial" "particle/particle_smokegrenade.vmt"
+	"Speed" "6"
+	"SpreadSpeed" "4"
+	"StartSize" "1"
+	"targetname" "hp_charger_smoke3"
+	"twist" "0"
+	"WindAngle" "0"
+	"WindSpeed" "0"
+	"origin" "3702 1903.86 184"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244071"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 12000]"
+	}
+}
+entity
+{
+	"id" "244125"
+	"classname" "item_healthcharger"
+	"angles" "0 270 0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "5404 1855.86 260"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244124"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -3768]"
+	}
+}
+entity
+{
+	"id" "244127"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "1.97"
+	"HDRColorScale" "1.0"
+	"model" "sprites/light_glow03.vmt"
+	"renderamt" "125"
+	"rendercolor" "123 123 189"
+	"renderfx" "3"
+	"rendermode" "9"
+	"scale" ".45"
+	"spawnflags" "1"
+	"targetname" "hp_charger_spr4"
+	"origin" "5401.5 1849.36 259"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244124"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1500 -3268]"
+	}
+}
+entity
+{
+	"id" "244130"
+	"classname" "func_brush"
+	"disablereceiveshadows" "1"
+	"disableshadows" "0"
+	"InputFilter" "0"
+	"invert_exclusion" "0"
+	"origin" "5405 1851.86 260"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"solidbsp" "0"
+	"Solidity" "0"
+	"spawnflags" "2"
+	"StartDisabled" "1"
+	"targetname" "hp_charger_brush2"
+	"vrad_brush_cast_shadows" "0"
+	solid
+	{
+		"id" "244131"
+		side
+		{
+			"id" "75746"
+			"plane" "(5394 1855.86 280) (5394 1855.86 240) (5416 1855.86 240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 19.9985] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75745"
+			"plane" "(5416 1847.86 280) (5416 1847.86 240) (5394 1847.86 240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 19.9985] 0.25"
+			"vaxis" "[0 0 -1 48] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75744"
+			"plane" "(5394 1847.86 280) (5394 1847.86 240) (5394 1855.86 240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0.5625] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75743"
+			"plane" "(5416 1855.86 280) (5416 1855.86 240) (5416 1847.86 240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 -0.5625] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75742"
+			"plane" "(5416 1855.86 240) (5394 1855.86 240) (5394 1847.86 240)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 7.99854] 0.25"
+			"vaxis" "[0 1 0 0.5625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75741"
+			"plane" "(5416 1847.86 280) (5394 1847.86 280) (5394 1855.86 280)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -7.99854] 0.25"
+			"vaxis" "[0 1 0 0.5625] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244124"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 11000]"
+	}
+}
+entity
+{
+	"id" "244133"
+	"classname" "env_spark"
+	"angles" "0 0 0"
+	"Magnitude" "1"
+	"MaxDelay" "45"
+	"spawnflags" "640"
+	"targetname" "hp_charger_spark4"
+	"TrailLength" "1"
+	"origin" "5402 1847.86 259"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244124"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 11500]"
+	}
+}
+entity
+{
+	"id" "244135"
+	"classname" "env_smokestack"
+	"angles" "0 0 0"
+	"BaseSpread" "8"
+	"EndSize" "3"
+	"InitialState" "0"
+	"JetLength" "45"
+	"Rate" "50"
+	"renderamt" "85"
+	"rendercolor" "37 37 37"
+	"roll" "0"
+	"SmokeMaterial" "particle/particle_smokegrenade.vmt"
+	"Speed" "6"
+	"SpreadSpeed" "4"
+	"StartSize" "1"
+	"targetname" "hp_charger_smoke4"
+	"twist" "0"
+	"WindAngle" "0"
+	"WindSpeed" "0"
+	"origin" "5402 1847.86 264"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "244124"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[7000 12000]"
+	}
+}
+entity
+{
 	"id" "143"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "4508 2460 128"
 	"BasisU" "1 0 0"
@@ -76302,6 +76639,7 @@ entity
 	"fademaxdist" "1000"
 	"fademindist" "800"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -76323,7 +76661,6 @@ entity
 {
 	"id" "2447"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
 	"BasisNormal" "-1 4.37114e-008 0"
 	"BasisOrigin" "5100 1297.52 196.712"
 	"BasisU" "-4.37114e-008 -1 0"
@@ -76357,6 +76694,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/ventilationduct01.mdl"
@@ -76378,6 +76716,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_rooftop/roof_vent001.mdl"
@@ -78301,6 +78640,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -78322,6 +78662,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -78467,8 +78808,8 @@ entity
 		{
 			"id" "4883"
 			"plane" "(6232 3488 652) (6232 3488 524) (6232 2976 524)"
-			"material" "METAL/METALWALL066C"
-			"uaxis" "[0 -1 0 -255.998] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -78727,9 +79068,9 @@ entity
 		{
 			"id" "4917"
 			"plane" "(6240 4000 784) (6240 4000 780) (6240 3488 908)"
-			"material" "METAL/METALWALL014A_CHEAP"
-			"uaxis" "[0 0 -1 176] 0.25"
-			"vaxis" "[0 1 0 351.998] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 1 0 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -80291,8 +80632,8 @@ entity
 		{
 			"id" "5031"
 			"plane" "(6232 3488 780) (6232 3488 652) (6232 2976 652)"
-			"material" "METAL/METALWALL066A"
-			"uaxis" "[0 -1 0 -255.998] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -81018,9 +81359,9 @@ entity
 		{
 			"id" "5106"
 			"plane" "(6240 4512 780) (6240 4000 908) (6240 4000 912)"
-			"material" "METAL/METALWALL014A_CHEAP"
-			"uaxis" "[0 0 -1 176] 0.25"
-			"vaxis" "[0 1 0 351.998] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 0 -1 48] 0.25"
+			"vaxis" "[0 1 0 31.998] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -81745,8 +82086,8 @@ entity
 		{
 			"id" "5166"
 			"plane" "(6232 2976 780) (6232 2976 908) (6232 3488 780)"
-			"material" "METAL/METALWALL066B"
-			"uaxis" "[0 -1 0 -255.998] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -82310,9 +82651,9 @@ entity
 		{
 			"id" "5204"
 			"plane" "(6240 3488 784) (6240 3488 780) (6240 2976 908)"
-			"material" "METAL/METALWALL014A_CHEAP"
-			"uaxis" "[0 0 -1 176] 0.25"
-			"vaxis" "[0 1 0 351.998] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 1 0 48] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -84822,6 +85163,7 @@ entity
 	"fademaxdist" "2000"
 	"fademindist" "1800"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_junk/TrashDumpster02.mdl"
@@ -87739,11 +88081,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_rooftop/RooftopCluser02a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3216 1768 520"
@@ -87766,6 +88107,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/grainelevator01.mdl"
@@ -87791,6 +88133,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/wheel03a.mdl"
@@ -89737,6 +90080,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_mining/flatbed_cart01.mdl"
@@ -90414,6 +90758,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90435,6 +90780,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90456,6 +90802,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90477,6 +90824,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90498,6 +90846,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90519,6 +90868,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90540,6 +90890,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90561,6 +90912,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90582,6 +90934,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90603,6 +90956,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90624,6 +90978,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -90645,6 +91000,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -97421,6 +97777,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -97442,7 +97799,6 @@ entity
 {
 	"id" "12953"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "0 1 0"
 	"BasisOrigin" "2028 1040 232.001"
 	"BasisU" "1 -0 0"
@@ -97620,6 +97976,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -98788,6 +99145,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -98816,6 +99174,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -98844,6 +99203,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -98872,6 +99232,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -98900,6 +99261,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -98928,6 +99290,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -98956,6 +99319,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "512"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_pipes/pipeset08d_128_001a.mdl"
@@ -100444,6 +100808,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/fence01a.mdl"
@@ -100469,6 +100834,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/pipecluster003a_small.mdl"
@@ -100494,6 +100860,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/pipecluster003a_small.mdl"
@@ -102777,6 +103144,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -102798,6 +103166,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -102819,6 +103188,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -102840,6 +103210,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -102861,6 +103232,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104414,6 +104786,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104435,6 +104808,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104456,6 +104830,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104549,6 +104924,7 @@ entity
 	"fademaxdist" "1600"
 	"fademindist" "1400"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_pipes/gutter_320_002a.mdl"
@@ -104568,7 +104944,6 @@ entity
 {
 	"id" "51287"
 	"classname" "info_overlay"
-	"angles" "0 90 0"
 	"BasisNormal" "-1.31134e-007 -1 0"
 	"BasisOrigin" "2943 3296 360"
 	"BasisU" "-1 1.31134e-007 0"
@@ -104600,7 +104975,6 @@ entity
 {
 	"id" "51293"
 	"classname" "info_overlay"
-	"angles" "0 90 0"
 	"BasisNormal" "-1.31134e-007 -1 0"
 	"BasisOrigin" "3024.11 3296 283"
 	"BasisU" "-1 1.31134e-007 0"
@@ -104632,7 +105006,6 @@ entity
 {
 	"id" "51299"
 	"classname" "info_overlay"
-	"angles" "0 90 0"
 	"BasisNormal" "-1.31134e-007 -1 0"
 	"BasisOrigin" "2817.45 3296 190.041"
 	"BasisU" "-1 1.31134e-007 0"
@@ -104671,6 +105044,7 @@ entity
 	"fademaxdist" "1600"
 	"fademindist" "1400"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -104700,6 +105074,7 @@ entity
 	"fademaxdist" "1600"
 	"fademindist" "1400"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -104729,6 +105104,7 @@ entity
 	"fademaxdist" "1500"
 	"fademindist" "1000"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -104758,6 +105134,7 @@ entity
 	"fademaxdist" "2120"
 	"fademindist" "1752"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -104787,6 +105164,7 @@ entity
 	"fademaxdist" "2120"
 	"fademindist" "1752"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -104816,6 +105194,7 @@ entity
 	"fademaxdist" "1500"
 	"fademindist" "1000"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -104841,12 +105220,13 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_mining/flatbed_cart01.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "3552 2976 135"
+	"origin" "3680 2976 135"
 	editor
 	{
 		"color" "255 255 0"
@@ -104862,6 +105242,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104883,6 +105264,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104904,6 +105286,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104925,6 +105308,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104946,6 +105330,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104967,6 +105352,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -104988,6 +105374,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105009,6 +105396,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105030,6 +105418,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105051,6 +105440,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105072,6 +105462,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105093,6 +105484,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105114,6 +105506,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105135,6 +105528,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105156,6 +105550,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -105174,7 +105569,6 @@ entity
 {
 	"id" "60882"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "-1 0 0"
 	"BasisOrigin" "4968 2208 448"
 	"BasisU" "0 1 0"
@@ -105234,6 +105628,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_dead03.mdl"
@@ -105291,6 +105686,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/hedge_256_128high.mdl"
@@ -105312,6 +105708,7 @@ entity
 	"angles" "0 345 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105333,6 +105730,7 @@ entity
 	"angles" "0 345 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_vehicles/car003b.mdl"
@@ -105354,6 +105752,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105375,6 +105774,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105396,6 +105796,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105417,6 +105818,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105438,6 +105840,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105459,6 +105862,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105480,6 +105884,7 @@ entity
 	"angles" "0 60 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105501,6 +105906,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105522,6 +105928,7 @@ entity
 	"angles" "5.5 30 -8"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105543,6 +105950,7 @@ entity
 	"angles" "5.5 0 -8"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105564,6 +105972,7 @@ entity
 	"angles" "5.5 0 -8"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -105585,6 +105994,7 @@ entity
 	"angles" "5.5 0 -8"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -106455,6 +106865,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_vehicles/car005a.mdl"
@@ -107304,6 +107715,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_mining/oiltank01.mdl"
@@ -108413,6 +108825,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_tides/truck.mdl"
@@ -108853,7 +109266,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"skin" "0"
-	"spawnflags" "0"
+	"spawnflags" "9"
 	"origin" "4704 2120 300"
 	editor
 	{
@@ -109017,6 +109430,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109046,6 +109460,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109075,6 +109490,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109104,6 +109520,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109133,6 +109550,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109162,6 +109580,7 @@ entity
 	"fademaxdist" "1604"
 	"fademindist" "1394"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109191,6 +109610,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109220,6 +109640,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109249,6 +109670,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109278,6 +109700,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109307,6 +109730,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -109336,6 +109760,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111373,6 +111798,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111402,6 +111828,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111431,6 +111858,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111460,6 +111888,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111489,6 +111918,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111518,6 +111948,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111547,6 +111978,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111576,6 +112008,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -111693,7 +112126,6 @@ entity
 {
 	"id" "77286"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_nuke/nukfloorc_detailf"
 	"origin" "2404 3116 132"
 	editor
@@ -112587,6 +113019,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf004.mdl"
@@ -112608,6 +113041,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf004.mdl"
@@ -112629,6 +113063,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf004.mdl"
@@ -114664,6 +115099,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_extralarge.mdl"
@@ -114701,6 +115137,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_large.mdl"
@@ -114754,6 +115191,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf001.mdl"
@@ -114775,6 +115213,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf001.mdl"
@@ -114796,6 +115235,7 @@ entity
 	"angles" "0 345 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_large.mdl"
@@ -130703,6 +131143,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_mining/struts_tunnel320_01.mdl"
@@ -131436,6 +131877,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_mining/struts_tunnel320_01.mdl"
@@ -131458,6 +131900,7 @@ entity
 	"fademaxdist" "1039"
 	"fademindist" "970"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_mining/struts_tunnel320_01.mdl"
@@ -131808,6 +132251,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -131829,6 +132273,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -131850,6 +132295,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -131871,6 +132317,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -131892,6 +132339,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -131913,6 +132361,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -132022,6 +132471,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -132043,6 +132493,7 @@ entity
 	"angles" "0 240 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -132064,6 +132515,7 @@ entity
 	"angles" "0 75 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/rock_coast02e.mdl"
@@ -132085,6 +132537,7 @@ entity
 	"angles" "0 75 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/rock_coast02e.mdl"
@@ -132106,6 +132559,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -132127,6 +132581,7 @@ entity
 	"angles" "0 315 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -132148,6 +132603,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_tides/truck.mdl"
@@ -132169,6 +132625,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_tides/truck.mdl"
@@ -132254,6 +132711,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "512"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_pipes/pipeset08d_128_001a.mdl"
@@ -132279,6 +132737,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "512"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_pipes/pipeset08d_128_001a.mdl"
@@ -132314,6 +132773,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -133567,6 +134027,7 @@ entity
 	"fademaxdist" "6000"
 	"fademindist" "5000"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/coolingtank02.mdl"
@@ -133592,6 +134053,7 @@ entity
 	"fademaxdist" "6000"
 	"fademindist" "5000"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/coolingtank02.mdl"
@@ -133703,6 +134165,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -133724,6 +134187,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
@@ -134003,6 +134467,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/acunit01.mdl"
@@ -134028,6 +134493,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -134162,7 +134628,6 @@ entity
 {
 	"id" "95427"
 	"classname" "info_overlay"
-	"angles" "0 30 0"
 	"BasisNormal" "-0.866025 -0.5 0"
 	"BasisOrigin" "4888 1464 200.182"
 	"BasisU" "-0.5 0.866025 0"
@@ -134194,6 +134659,7 @@ entity
 	"angles" "-6.25537 326.949 -0.383073"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -134215,6 +134681,7 @@ entity
 	"angles" "3.47362 109.944 -2.33487"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -134236,6 +134703,7 @@ entity
 	"angles" "4.43846 44.9078 -9.06379"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -134257,6 +134725,7 @@ entity
 	"angles" "5.5 0 -8"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -134278,6 +134747,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_vehicles/car005a.mdl"
@@ -134464,7 +134934,6 @@ entity
 {
 	"id" "95787"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_cement_stain_01"
 	"origin" "4968 2112 136"
 	editor
@@ -134619,7 +135088,6 @@ entity
 {
 	"id" "95853"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/decalmetalgrate022a"
 	"origin" "2906 2831 132"
 	editor
@@ -134634,7 +135102,6 @@ entity
 {
 	"id" "95859"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/decalmetalgrate022a"
 	"origin" "2487.75 3217.67 132"
 	editor
@@ -134775,7 +135242,6 @@ entity
 {
 	"id" "95919"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "-1 0 0"
 	"BasisOrigin" "5488 3322 250"
 	"BasisU" "0 1 0"
@@ -134811,6 +135277,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -134862,7 +135329,7 @@ entity
 	connections
 	{
 		"OnWaveStart" "Credits,message,please give feedback on the map in the sunrust fourms,3,-1"
-		"OnWaveStart" "Credits,message,I hope you enjoy the map!,35,-1"
+		"OnWaveStart" "Credits,message,I hope you enjoy the map!,5,-1"
 	}
 	"origin" "1952 1248 169"
 	editor
@@ -134947,7 +135414,7 @@ entity
 	"id" "96006"
 	"classname" "logic_difficulty"
 	"targetname" "Difficulty"
-	"origin" "1984 1080 169"
+	"origin" "1952 1080 169"
 	editor
 	{
 		"color" "220 30 220"
@@ -134982,7 +135449,7 @@ entity
 	"position" "center"
 	"targetname" "Credits"
 	"team" "all"
-	"textcolor" "17 43 162"
+	"textcolor" "51 141 251"
 	"origin" "1951.25 1158.09 169"
 	editor
 	{
@@ -135006,8 +135473,8 @@ entity
 		"OnMapTransition" "tonemap_controller,SetAutoExposureMin,1,0,-1"
 		"OnMapTransition" "tonemap_controller,SetAutoExposureMax,3,0,-1"
 		"OnMapSpawn" "tonemap_controller,SetBloomScale,.35,0,-1"
-		"OnMapSpawn" "Difficulty,setzombiedamagemultiplier,0.2,0,-1"
-		"OnMapSpawn" "Difficulty,setzombiespeedmultiplier,0.3,0,-1"
+		"OnMapSpawn" "Difficulty,setzombiedamagemultiplier,0.1,0,-1"
+		"OnMapSpawn" "Difficulty,setzombiespeedmultiplier,0.1,0,-1"
 	}
 	"origin" "2064 1288 252"
 	editor
@@ -135846,6 +136313,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/electricalbox01.mdl"
@@ -135867,6 +136335,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/electricalbox01.mdl"
@@ -135888,6 +136357,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_small.mdl"
@@ -135909,6 +136379,7 @@ entity
 	"angles" "0 90 90"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/electricalbox02.mdl"
@@ -135930,6 +136401,7 @@ entity
 	"angles" "0 16.5 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_extrasmall.mdl"
@@ -135951,6 +136423,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_large.mdl"
@@ -135972,6 +136445,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_extralarge.mdl"
@@ -136009,6 +136483,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/tirestack2.mdl"
@@ -136030,6 +136505,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/transformer.mdl"
@@ -136051,6 +136527,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/platform.mdl"
@@ -137589,6 +138066,7 @@ entity
 	"angles" "5.5 30 -8"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -137655,6 +138133,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_extralarge.mdl"
@@ -137691,6 +138170,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fertilizer.mdl"
@@ -137768,6 +138248,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/rustyrailing02.mdl"
@@ -137805,6 +138286,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_extralarge.mdl"
@@ -137826,6 +138308,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/cinderblock_stack.mdl"
@@ -137851,6 +138334,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02b.mdl"
@@ -137876,6 +138360,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02d.mdl"
@@ -137901,6 +138386,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02a.mdl"
@@ -137926,6 +138412,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02a.mdl"
@@ -137951,6 +138438,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03b.mdl"
@@ -137976,6 +138464,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03c.mdl"
@@ -138001,6 +138490,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02c.mdl"
@@ -138026,6 +138516,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02e.mdl"
@@ -138051,6 +138542,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox03a.mdl"
@@ -138076,6 +138568,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox03a.mdl"
@@ -138101,6 +138594,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
@@ -138163,10 +138657,8 @@ entity
 	connections
 	{
 		"OnEndSequence" "mat_modify_powerbox_1,StartAnimSequence,0 0 1 0,1.6,1"
-		"OnEndSequence" "relay_opendarknessdoors_1,Trigger,,1.5,-1"
 		"OnEndSequence" "powerbox_1_light,SetPattern,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz,1.5,-1"
 		"OnEndSequence" "powerbox_1_light_spot,SetPattern,zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz,1.5,-1"
-		"OnEndSequence" "darknesslight_powerbox_1,Enable,,1,-1"
 		"OnEndSequence" "powerbox_1_light_sound,PlaySound,,1,-1"
 		"OnEndSequence" "sparks_powerbox_1,SparkOnce,,1,-1"
 		"OnEndSequence" "powerbox_1_light_sprite,ShowSprite,,1,-1"
@@ -138265,8 +138757,6 @@ entity
 	connections
 	{
 		"OnPressed" "ss_furniture_powerbox_1,BeginSequence,,0.1,-1"
-		"OnPressed" "sc_playerLooksAtAlyxThruGlass,Kill,,0,-1"
-		"OnPressed" "vent_follow_trigger,Enable,,0,-1"
 	}
 	solid
 	{
@@ -138359,6 +138849,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/interior_fence002d.mdl"
@@ -138380,6 +138871,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/interior_fence002e.mdl"
@@ -138401,6 +138893,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/interior_fence002b.mdl"
@@ -138422,6 +138915,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/interior_fence002b.mdl"
@@ -138443,6 +138937,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/interior_fence002b.mdl"
@@ -138464,6 +138959,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/interior_fence002a.mdl"
@@ -138752,7 +139248,7 @@ entity
 	"fademaxdist" "3000"
 	"fademindist" "2600"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -138760,7 +139256,6 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"spawnflags" "8"
 	"origin" "4944.75 4705 184"
 	editor
 	{
@@ -138774,7 +139269,6 @@ entity
 {
 	"id" "108849"
 	"classname" "logic_timer"
-	"angles" "-0 81 0"
 	"LowerRandomBound" "1"
 	"spawnflags" "0"
 	"targetname" "easter_egg.computer_timer"
@@ -138798,7 +139292,6 @@ entity
 {
 	"id" "108851"
 	"classname" "logic_relay"
-	"angles" "-0 81 0"
 	"spawnflags" "1"
 	"targetname" "easter_egg.computer_relay"
 	connections
@@ -138820,7 +139313,6 @@ entity
 {
 	"id" "108853"
 	"classname" "logic_auto"
-	"angles" "-0 81 0"
 	"spawnflags" "1"
 	connections
 	{
@@ -138840,8 +139332,6 @@ entity
 	"id" "108855"
 	"classname" "prop_dynamic_override"
 	"angles" "0 261 0"
-	"AnimateEveryFrame" "0"
-	"body" "0"
 	"DisableBoneFollowers" "0"
 	"disablereceiveshadows" "0"
 	"ExplodeDamage" "0"
@@ -138849,8 +139339,6 @@ entity
 	"fademindist" "-1"
 	"fadescale" "1"
 	"health" "0"
-	"HoldAnimation" "0"
-	"is_autoaim_target" "0"
 	"MaxAnimTime" "10"
 	"MinAnimTime" "5"
 	"model" "models/props_lab/monitor02.mdl"
@@ -138885,14 +139373,8 @@ entity
 {
 	"id" "108857"
 	"classname" "func_brush"
-	"disableflashlight" "0"
 	"disablereceiveshadows" "0"
-	"disableshadowdepth" "0"
 	"disableshadows" "0"
-	"drawinfastreflection" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
 	"InputFilter" "0"
 	"invert_exclusion" "0"
 	"origin" "4946.88 4697.11 217"
@@ -138900,7 +139382,6 @@ entity
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
 	"rendermode" "0"
-	"shadowdepthnocache" "0"
 	"solidbsp" "0"
 	"Solidity" "1"
 	"spawnflags" "2"
@@ -139014,8 +139495,6 @@ entity
 	"id" "108862"
 	"classname" "point_spotlight"
 	"angles" "-8.5 261 0"
-	"fademindist" "-1"
-	"fadescale" "1"
 	"HDRColorScale" "1.0"
 	"renderamt" "100"
 	"rendercolor" "188 235 252"
@@ -139058,6 +139537,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_forest/utilitypole01b.mdl"
@@ -139079,6 +139559,7 @@ entity
 	"angles" "0 330 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_forest/utilitypole01b.mdl"
@@ -139100,6 +139581,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/utilitypolemount01a.mdl"
@@ -139121,6 +139603,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/utilitypole01a.mdl"
@@ -139181,7 +139664,6 @@ entity
 {
 	"id" "109478"
 	"classname" "keyframe_rope"
-	"angles" "0 330 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline02a"
 	"RopeMaterial" "cable/cable.vmt"
@@ -139203,7 +139685,6 @@ entity
 {
 	"id" "109484"
 	"classname" "keyframe_rope"
-	"angles" "0 330 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline02b"
 	"RopeMaterial" "cable/cable.vmt"
@@ -139228,6 +139709,7 @@ entity
 	"angles" "5.5 0 -8"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/tree_pine04.mdl"
@@ -139249,6 +139731,7 @@ entity
 	"angles" "0 15 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/rock_coast02e.mdl"
@@ -139317,7 +139800,6 @@ entity
 {
 	"id" "113141"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/prodstaina"
 	"origin" "3900 3608 148.161"
 	editor
@@ -139332,7 +139814,6 @@ entity
 {
 	"id" "113144"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "4.37114e-008 -1 0"
 	"BasisOrigin" "5168 1416 411.841"
 	"BasisU" "-1 -4.37114e-008 0"
@@ -139363,7 +139844,6 @@ entity
 {
 	"id" "113150"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "4.37114e-008 -1 0"
 	"BasisOrigin" "5207.51 1416 411.841"
 	"BasisU" "-1 -4.37114e-008 0"
@@ -139401,6 +139881,7 @@ entity
 	"fademaxdist" "1629"
 	"fademindist" "1461"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -139422,7 +139903,6 @@ entity
 {
 	"id" "113160"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "4.37114e-008 -1 0"
 	"BasisOrigin" "5229.53 1418 411.66"
 	"BasisU" "-1 -4.37114e-008 0"
@@ -139453,7 +139933,6 @@ entity
 {
 	"id" "113166"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "-2.98023e-008 -1 0"
 	"BasisOrigin" "5272.41 1416 410.87"
 	"BasisU" "-1 2.98023e-008 0"
@@ -139491,6 +139970,7 @@ entity
 	"fademaxdist" "1536"
 	"fademindist" "1024"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_junk/TrashDumpster01a.mdl"
@@ -139581,7 +140061,6 @@ entity
 {
 	"id" "113475"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_logo_decal_01"
 	"origin" "4156 3190 394"
 	editor
@@ -139603,6 +140082,7 @@ entity
 	"fademaxdist" "1536"
 	"fademindist" "1024"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightingorigin" "sprp_lighting_1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -139622,7 +140102,6 @@ entity
 {
 	"id" "113482"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_dirt_decal_03"
 	"origin" "4184 3483.03 253.319"
 	editor
@@ -139637,7 +140116,6 @@ entity
 {
 	"id" "113485"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_dirt_decal_02"
 	"origin" "4184 3480 243.527"
 	editor
@@ -139652,7 +140130,6 @@ entity
 {
 	"id" "113488"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_dirt_decal_03"
 	"origin" "4184 3481.51 234.796"
 	editor
@@ -139688,6 +140165,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_train/de_train_horizontalcoolingtank.mdl"
@@ -139713,6 +140191,7 @@ entity
 	"fademaxdist" "1536"
 	"fademindist" "1024"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_office/paperbox_pile_01.mdl"
@@ -139731,7 +140210,6 @@ entity
 {
 	"id" "113610"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "5092 1672 184"
 	"BasisU" "-0.7071 0.7071 0"
@@ -139764,6 +140242,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/hedge_256_128high.mdl"
@@ -139785,6 +140264,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/hedge_256_128high.mdl"
@@ -139806,6 +140286,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_foliage/hedge_256_128high.mdl"
@@ -139827,6 +140308,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/boxes_frontroom.mdl"
@@ -140421,6 +140903,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/crate_extrasmallmill.mdl"
@@ -140442,6 +140925,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf004.mdl"
@@ -140463,6 +140947,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf003.mdl"
@@ -140484,6 +140969,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf001.mdl"
@@ -140689,6 +141175,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_extralarge.mdl"
@@ -140710,6 +141197,7 @@ entity
 	"angles" "0 180 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf002.mdl"
@@ -140731,6 +141219,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/cinderblock_stack.mdl"
@@ -140752,6 +141241,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_large.mdl"
@@ -140773,6 +141263,7 @@ entity
 	"angles" "0 75 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/concretebags.mdl"
@@ -140794,6 +141285,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/electricalbox01.mdl"
@@ -140815,6 +141307,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/food_stack.mdl"
@@ -140833,7 +141326,6 @@ entity
 {
 	"id" "116063"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_cement_stain_01"
 	"origin" "5312 2284 136"
 	editor
@@ -140848,7 +141340,6 @@ entity
 {
 	"id" "116066"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_cement_stain_01"
 	"origin" "5260 2020 136"
 	editor
@@ -145642,7 +146133,7 @@ entity
 	"classname" "func_instance"
 	"angles" "-0 0 0"
 	"file" "/light_instances/_genericlightfixture01_second.vmf"
-	"origin" "5120 4160 276"
+	"origin" "5120 4160 279"
 	editor
 	{
 		"color" "220 30 220"
@@ -145658,6 +146149,7 @@ entity
 	"angles" "0 120 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/utilitypole01a.mdl"
@@ -145679,6 +146171,7 @@ entity
 	"angles" "0 255 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/utilitypole01a.mdl"
@@ -145715,6 +146208,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/prison_switchbox001a.mdl"
@@ -145736,6 +146230,7 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_wasteland/prison_switchbox001a.mdl"
@@ -145859,7 +146354,7 @@ entity
 	"disablevertexlighting" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -146235,6 +146730,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_vehicles/truck003a.mdl"
@@ -146693,7 +147189,6 @@ entity
 {
 	"id" "123085"
 	"classname" "info_overlay"
-	"angles" "0 90 0"
 	"BasisNormal" "-1 1.31134e-007 0"
 	"BasisOrigin" "3130.11 3385.23 237"
 	"BasisU" "1.31134e-007 1 0"
@@ -146730,11 +147225,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02c.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3124 3390.22 210.739"
@@ -146757,11 +147251,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02e.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3128 3383 203.739"
@@ -146784,11 +147277,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox03a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3126 3371 201.739"
@@ -146811,11 +147303,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03b.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3127 3377 211.739"
@@ -146838,11 +147329,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02d.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3125 3366 213.739"
@@ -146865,11 +147355,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03b.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3127 3355 214.739"
@@ -146892,11 +147381,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3127 3355 209.739"
@@ -146919,11 +147407,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3123 3341 207.739"
@@ -146946,11 +147433,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem01a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3127 3343 163.739"
@@ -146973,11 +147459,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3128 3338 157.739"
@@ -147000,11 +147485,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02b.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3128 3359 159.739"
@@ -147027,11 +147511,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02c.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3124 3357.22 192.739"
@@ -147054,11 +147537,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem03d.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3127 3365.45 188.739"
@@ -147081,11 +147563,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/powerbox02a.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3124 3374 180.739"
@@ -147108,11 +147589,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3127 3371 150.739"
@@ -147135,11 +147615,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3127 3375 150.739"
@@ -147162,11 +147641,10 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/pipesystem02c.mdl"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3127 3378 150.739"
@@ -147297,6 +147775,7 @@ entity
 	{
 		"OnPass" "secret_door,Stop,,0,-1"
 		"OnPass" "secret_door,Resume,,1.5,-1"
+		"OnPass" "secret_door.triggerhurt,Disable,,0,-1"
 	}
 	"origin" "3323 4423 188"
 	editor
@@ -147312,7 +147791,6 @@ entity
 {
 	"id" "124143"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/decal_posterbreen"
 	"origin" "3320 4415 190.716"
 	editor
@@ -147356,7 +147834,7 @@ entity
 	"targetname" "door_secret_3"
 	connections
 	{
-		"OnPass" "lightmenroom,TurnOn,,0,-1"
+		"OnPass" "secret_door.clip,Disable,,0,-1"
 	}
 	"origin" "3323 4347 188"
 	editor
@@ -147409,7 +147887,7 @@ entity
 	"Solidity" "0"
 	"spawnflags" "2"
 	"StartDisabled" "0"
-	"targetname" "pclip_secret_door"
+	"targetname" "secret_door.clip"
 	solid
 	{
 		"id" "124163"
@@ -148500,7 +148978,6 @@ entity
 {
 	"id" "124833"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/bills03a"
 	"origin" "3128 3544.96 208.997"
 	editor
@@ -148710,23 +149187,25 @@ entity
 entity
 {
 	"id" "125817"
-	"classname" "prop_physics_multiplayer"
+	"classname" "prop_static"
 	"angles" "0 270 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"inertiaScale" "1.0"
+	"generatelightmaps" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/bar01.mdl"
-	"modelscale" "1.0"
-	"physdamagescale" "0.1"
-	"physicsmode" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
+	"screenspacefade" "0"
 	"skin" "0"
+	"solid" "6"
 	"spawnflags" "0"
 	"origin" "3354 2242 136"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 -3268]"
@@ -148735,31 +149214,27 @@ entity
 entity
 {
 	"id" "125970"
-	"classname" "prop_dynamic"
+	"classname" "prop_static"
 	"angles" "0 90 0"
+	"disableselfshadowing" "0"
 	"disableshadows" "0"
-	"ExplodeDamage" "0"
-	"ExplodeRadius" "0"
+	"disablevertexlighting" "0"
 	"fademindist" "-1"
 	"fadescale" "0"
-	"MaxAnimTime" "10"
+	"generatelightmaps" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
-	"MinAnimTime" "5"
 	"mindxlevel" "0"
 	"model" "models/props_lab/lockers.mdl"
-	"modelscale" "1.0"
-	"parentname" "lockers_frame_1"
-	"pressuredelay" "0"
-	"RandomAnimation" "0"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"SetBodyGroup" "0"
+	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
 	"origin" "3673 1539.43 136"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[2500 11000]"
@@ -148778,7 +149253,6 @@ entity
 	"lip" "0"
 	"locked_sentence" "0"
 	"origin" "3696 1550.23 172.22"
-	"parentname" "lockers_frame_1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -148885,7 +149359,6 @@ entity
 	"lip" "0"
 	"locked_sentence" "0"
 	"origin" "3666 1550.23 172.18"
-	"parentname" "lockers_frame_1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -148984,11 +149457,8 @@ entity
 	"id" "125980"
 	"classname" "func_door_rotating"
 	"angles" "0 0 0"
-	"density" "2"
 	"distance" "120"
-	"frequency" "2"
 	"origin" "3650 1550.23 172.22"
-	"parentname" "lockers_frame_1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "308"
@@ -149767,6 +150237,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_interiors/SinkKitchen01a.mdl"
@@ -149785,7 +150256,6 @@ entity
 {
 	"id" "126408"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "3516 1768 140.97"
 	"BasisU" "1 0 0"
@@ -149956,7 +150426,6 @@ entity
 {
 	"id" "126460"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "5177 1660 140.97"
 	"BasisU" "1 0 0"
@@ -150424,7 +150893,6 @@ entity
 {
 	"id" "129207"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/decalmetalgrate010a"
 	"origin" "5056 2208 143"
 	editor
@@ -150446,6 +150914,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -150474,6 +150943,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -150502,6 +150972,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -150530,6 +151001,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -150558,6 +151030,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -150586,6 +151059,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -150633,6 +151107,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -150661,6 +151136,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -151396,6 +151872,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -152665,6 +153142,7 @@ entity
 	"angles" "0 150 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/utilitypole01a.mdl"
@@ -153813,6 +154291,7 @@ entity
 	"fademaxdist" "954"
 	"fademindist" "834"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -153921,6 +154400,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -153949,6 +154429,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -153977,6 +154458,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -154005,6 +154487,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -154033,6 +154516,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -154061,6 +154545,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -154089,6 +154574,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -154117,6 +154603,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -154303,9 +154790,6 @@ entity
 	{
 		"OnBreak" "physbox_ladder,EnableMotion,,0.1,1"
 		"OnPhysGunPunt" "!self,Break,,0,1"
-		"OnBreak" "upper_garage_ladder_1,Disable,,0,-1"
-		"OnBreak" "garage_ladder_1,Enable,,1,-1"
-		"OnBreak" "upper_ladder_dismount_clip,Kill,,0.5,-1"
 		"OnBreak" "garage_ladder_1_lockbreak_wav_1,PlaySound,,0,-1"
 	}
 	"origin" "4995 4032.61 270"
@@ -154321,7 +154805,6 @@ entity
 {
 	"id" "133497"
 	"classname" "phys_ragdollconstraint"
-	"angles" "0 270 0"
 	"attach1" "garage_padlock_1"
 	"spawnflags" "1"
 	"xfriction" "100"
@@ -154386,7 +154869,6 @@ entity
 {
 	"id" "133521"
 	"classname" "phys_slideconstraint"
-	"angles" "0 270 0"
 	"attach1" "physbox_ladder"
 	"maxSoundThreshold" "10"
 	"minSoundThreshold" "1"
@@ -155218,7 +155700,6 @@ entity
 {
 	"id" "137203"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "-0 0 1"
 	"BasisOrigin" "4224 4614.33 136"
 	"BasisU" "1 0 0"
@@ -155255,7 +155736,7 @@ entity
 	"EndV" "0"
 	"fademindist" "-1"
 	"material" "decals/trashdecal01a"
-	"sides" ""
+	"sides" "71822"
 	"StartU" "0"
 	"StartV" "1"
 	"uv0" "-64 -64 0"
@@ -155275,7 +155756,6 @@ entity
 {
 	"id" "137227"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "0 -1 0"
 	"BasisOrigin" "4416 4728 200"
 	"BasisU" "1 0 0"
@@ -155743,6 +156223,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/tirestack2.mdl"
@@ -156139,7 +156620,6 @@ entity
 {
 	"id" "108839"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "-1 8.74228e-008 0"
 	"BasisOrigin" "5232 1868 208"
 	"BasisU" "-8.73396e-008 -0.999049 -0.0436021"
@@ -156275,6 +156755,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156303,6 +156784,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156331,6 +156813,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156359,6 +156842,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156387,6 +156871,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156415,6 +156900,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156443,6 +156929,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156471,6 +156958,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156499,6 +156987,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156527,6 +157016,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156555,6 +157045,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156583,6 +157074,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156611,6 +157103,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156639,6 +157132,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156667,6 +157161,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156695,6 +157190,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156723,6 +157219,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156751,6 +157248,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156779,6 +157277,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156807,6 +157306,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156835,6 +157335,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156863,6 +157364,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156891,6 +157393,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156919,6 +157422,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156947,6 +157451,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -156975,6 +157480,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -157003,6 +157509,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -157031,6 +157538,7 @@ entity
 	"fademaxdist" "700"
 	"fademindist" "600"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -157515,7 +158023,6 @@ entity
 {
 	"id" "139669"
 	"classname" "info_overlay"
-	"angles" "0 60 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "3601 3593 128"
 	"BasisU" "0.5 0.866025 0"
@@ -157544,7 +158051,6 @@ entity
 {
 	"id" "139735"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstaina"
 	"origin" "3704 3622.55 210.697"
 	editor
@@ -157566,6 +158072,7 @@ entity
 	"fademaxdist" "1554"
 	"fademindist" "1318"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -157587,7 +158094,6 @@ entity
 {
 	"id" "139770"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstaina"
 	"origin" "3696 3622.55 421.697"
 	editor
@@ -157609,6 +158115,7 @@ entity
 	"fademaxdist" "1554"
 	"fademindist" "1318"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -159216,7 +159723,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -159245,7 +159752,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -159274,7 +159781,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -159303,7 +159810,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -159332,7 +159839,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -159361,7 +159868,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -159390,7 +159897,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -159415,6 +159922,7 @@ entity
 	"angles" "0 60 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -159436,6 +159944,7 @@ entity
 	"angles" "0 165 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -159457,6 +159966,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -159478,6 +159988,7 @@ entity
 	"angles" "0 285 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -159499,6 +160010,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -160383,6 +160895,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -160992,6 +161505,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/ammo_can_03.mdl"
@@ -161017,6 +161531,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_small.mdl"
@@ -161042,6 +161557,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/ammo_can_02.mdl"
@@ -161232,6 +161748,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/streetlight.mdl"
@@ -161299,7 +161816,6 @@ entity
 {
 	"id" "141597"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "2366.72 3472.18 341.46"
 	editor
@@ -161321,6 +161837,7 @@ entity
 	"fademaxdist" "1803"
 	"fademindist" "1515"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/floodlight02.mdl"
@@ -161441,7 +161958,6 @@ entity
 {
 	"id" "141618"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
 	"BasisNormal" "1 -4.37114e-008 0"
 	"BasisOrigin" "2552 3652 364"
 	"BasisU" "-4.37114e-008 -1 0"
@@ -161469,39 +161985,8 @@ entity
 }
 entity
 {
-	"id" "141624"
-	"classname" "info_overlay"
-	"angles" "0 0 0"
-	"BasisNormal" "0 1 0"
-	"BasisOrigin" "6488 6426.35 64"
-	"BasisU" "1 -0 0"
-	"BasisV" "0 0 -1"
-	"EndU" "0"
-	"EndV" "1"
-	"fademindist" "-1"
-	"material" "cs_assault/assault_vent_decal01"
-	"RenderOrder" "0"
-	"sides" ""
-	"StartU" "1"
-	"StartV" "0"
-	"uv0" "-32 -32 0"
-	"uv1" "-32 32 0"
-	"uv2" "32 32 0"
-	"uv3" "32 -32 0"
-	"origin" "2692 3716 364"
-	editor
-	{
-		"color" "80 150 225"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[8500 -3268]"
-	}
-}
-entity
-{
 	"id" "141664"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
 	"BasisNormal" "1 -4.37114e-008 0"
 	"BasisOrigin" "2220 2872 188"
 	"BasisU" "-4.37114e-008 -1 0"
@@ -161531,7 +162016,6 @@ entity
 {
 	"id" "141670"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2544 3624.13 284"
 	editor
@@ -161553,6 +162037,7 @@ entity
 	"fademaxdist" "1803"
 	"fademindist" "1515"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_train/de_train_floodlights_01.mdl"
@@ -161571,7 +162056,6 @@ entity
 {
 	"id" "141677"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "8.74228e-008 -1 0"
 	"BasisOrigin" "2100 3400 344"
 	"BasisU" "-1 -8.74228e-008 0"
@@ -161601,7 +162085,6 @@ entity
 {
 	"id" "141725"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "1 0 -0"
 	"BasisOrigin" "1776 3552 196"
 	"BasisU" "0 1 0"
@@ -161631,7 +162114,6 @@ entity
 {
 	"id" "141757"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/bloodstain_201"
 	"origin" "2604 3044 136"
 	editor
@@ -161646,7 +162128,6 @@ entity
 {
 	"id" "141760"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/decalstain005a"
 	"origin" "2208 3416 200"
 	editor
@@ -161718,6 +162199,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_train/de_train_horizontalcoolingtank.mdl"
@@ -161743,6 +162225,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_train/de_train_horizontalcoolingtank.mdl"
@@ -162681,7 +163164,6 @@ entity
 {
 	"id" "141699"
 	"classname" "info_overlay"
-	"angles" "0 90 0"
 	"BasisNormal" "1 4.37114e-008 0"
 	"BasisOrigin" "2208 3048.09 206.64"
 	"BasisU" "-4.37114e-008 1 0"
@@ -162719,6 +163201,7 @@ entity
 	"fademaxdist" "1400"
 	"fademindist" "1200"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/ventilationduct01.mdl"
@@ -162745,6 +163228,7 @@ entity
 	"fademaxdist" "1400"
 	"fademindist" "1200"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/ventilationduct01.mdl"
@@ -162771,6 +163255,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/wall_vent.mdl"
@@ -162797,6 +163282,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_lab/freightelevatorbutton.mdl"
@@ -168104,6 +168590,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -168125,7 +168612,6 @@ entity
 {
 	"id" "157406"
 	"classname" "infodecal"
-	"angles" "0 270 0"
 	"texture" "decals/prodstainb"
 	"origin" "2544 3824 283.827"
 	editor
@@ -168147,6 +168633,7 @@ entity
 	"fademaxdist" "1907"
 	"fademindist" "1595"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_train/Floodlight.mdl"
@@ -168251,6 +168738,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_extralarge.mdl"
@@ -168272,6 +168760,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_small.mdl"
@@ -168602,7 +169091,6 @@ entity
 {
 	"id" "161087"
 	"classname" "infodecal"
-	"angles" "0 90 0"
 	"texture" "de_nuke/nukfloorc_detailf"
 	"origin" "2920 2656 132"
 	editor
@@ -168933,7 +169421,6 @@ entity
 {
 	"id" "161203"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_cement_stain_01"
 	"origin" "4968 1776 136"
 	editor
@@ -168948,7 +169435,6 @@ entity
 {
 	"id" "161206"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_cement_stain_01"
 	"origin" "5352 1672 200"
 	editor
@@ -168966,12 +169452,13 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_large.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "5176 3896 280"
+	"origin" "5176 3896 279"
 	editor
 	{
 		"color" "255 255 0"
@@ -172208,6 +172695,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -172237,6 +172725,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -173318,6 +173807,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -173734,7 +174224,6 @@ entity
 {
 	"id" "166306"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "1884 3556 132"
 	"BasisU" "1 0 0"
@@ -173763,7 +174252,6 @@ entity
 {
 	"id" "166312"
 	"classname" "info_overlay"
-	"angles" "0 285 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "1920 3796 132"
 	"BasisU" "0.258819 -0.965926 0"
@@ -173792,7 +174280,6 @@ entity
 {
 	"id" "166318"
 	"classname" "info_overlay"
-	"angles" "0 300 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "2224 3600 132"
 	"BasisU" "0.5 -0.866025 0"
@@ -173821,7 +174308,6 @@ entity
 {
 	"id" "167158"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
 	"BasisNormal" "1 8.74228e-008 0"
 	"BasisOrigin" "2544 3788 375.841"
 	"BasisU" "8.74228e-008 -1 0"
@@ -173852,7 +174338,6 @@ entity
 {
 	"id" "167164"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
 	"BasisNormal" "1 8.74228e-008 0"
 	"BasisOrigin" "2544 3827.51 375.841"
 	"BasisU" "8.74228e-008 -1 0"
@@ -173883,7 +174368,6 @@ entity
 {
 	"id" "167170"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
 	"BasisNormal" "1 8.74228e-008 0"
 	"BasisOrigin" "2542 3849.53 375.66"
 	"BasisU" "8.74228e-008 -1 0"
@@ -173921,6 +174405,7 @@ entity
 	"fademaxdist" "1629"
 	"fademindist" "1461"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -173942,7 +174427,6 @@ entity
 {
 	"id" "167180"
 	"classname" "info_overlay"
-	"angles" "0 270 0"
 	"BasisNormal" "1 1.39091e-008 0"
 	"BasisOrigin" "2544 3892.41 374.87"
 	"BasisU" "1.39091e-008 -1 0"
@@ -174038,7 +174522,6 @@ entity
 {
 	"id" "42120"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "-8.74228e-008 -1 0"
 	"BasisOrigin" "2056 3920 202.72"
 	"BasisU" "-1 8.74228e-008 0"
@@ -174146,7 +174629,6 @@ entity
 {
 	"id" "42138"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "0 0 1"
 	"BasisOrigin" "2016 3776 132"
 	"BasisU" "1 0 0"
@@ -174178,7 +174660,6 @@ entity
 {
 	"id" "42156"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "-8.74228e-008 1 0"
 	"BasisOrigin" "2072 3424 212.35"
 	"BasisU" "-1 -8.74228e-008 0"
@@ -174335,6 +174816,7 @@ entity
 	"fademaxdist" "546"
 	"fademindist" "363"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -174357,7 +174839,6 @@ entity
 {
 	"id" "95799"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/decalgraffiti009a"
 	"origin" "1976 2520 212.423"
 	editor
@@ -174379,6 +174860,7 @@ entity
 	"fademaxdist" "1400"
 	"fademindist" "1200"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -174408,6 +174890,7 @@ entity
 	"fademaxdist" "1400"
 	"fademindist" "1200"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -174437,6 +174920,7 @@ entity
 	"fademaxdist" "1400"
 	"fademindist" "1200"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -174466,6 +174950,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -174495,6 +174980,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -174524,6 +175010,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -174553,6 +175040,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -174578,6 +175066,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174599,6 +175088,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174620,6 +175110,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174641,6 +175132,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174662,6 +175154,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174683,6 +175176,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174704,6 +175198,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174725,6 +175220,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174746,6 +175242,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174767,6 +175264,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174788,6 +175286,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -174809,6 +175308,7 @@ entity
 	"angles" "0 210 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/fern01.mdl"
@@ -177316,7 +177816,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"shadowcastdist" "0"
-	"spawnflags" "0"
+	"spawnflags" "9"
 	"origin" "3873.3 2134 195.19"
 	editor
 	{
@@ -177349,7 +177849,7 @@ entity
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"shadowcastdist" "0"
-	"spawnflags" "0"
+	"spawnflags" "9"
 	"origin" "3649.3 2134 195.19"
 	editor
 	{
@@ -179077,6 +179577,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf003.mdl"
@@ -179098,6 +179599,7 @@ entity
 	"angles" "0 270 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/boxes_frontroom.mdl"
@@ -180304,6 +180806,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/ammo_can_03.mdl"
@@ -180329,6 +180832,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_small.mdl"
@@ -180354,6 +180858,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_prodigy/ammo_can_02.mdl"
@@ -182310,7 +182815,7 @@ entity
 	"classname" "func_instance"
 	"angles" "-0 0 0"
 	"file" "/light_instances/_genericlightfixture01_second.vmf"
-	"origin" "5120 3912 276"
+	"origin" "5120 3912 279"
 	editor
 	{
 		"color" "220 30 220"
@@ -182323,8 +182828,8 @@ entity
 {
 	"id" "176162"
 	"classname" "func_areaportalwindow"
-	"FadeDist" "712"
-	"FadeStartDist" "412"
+	"FadeDist" "856"
+	"FadeStartDist" "700"
 	"PortalVersion" "1"
 	"target" "areaportal.brush03"
 	"TranslucencyLimit" "0.2"
@@ -182416,8 +182921,8 @@ entity
 {
 	"id" "176183"
 	"classname" "func_areaportalwindow"
-	"FadeDist" "712"
-	"FadeStartDist" "428"
+	"FadeDist" "856"
+	"FadeStartDist" "700"
 	"PortalVersion" "1"
 	"target" "areaportal.brush02"
 	"TranslucencyLimit" "0.2"
@@ -182509,8 +183014,8 @@ entity
 {
 	"id" "176194"
 	"classname" "func_areaportalwindow"
-	"FadeDist" "712"
-	"FadeStartDist" "412"
+	"FadeDist" "856"
+	"FadeStartDist" "700"
 	"PortalVersion" "1"
 	"target" "areaportal.brush01"
 	"TranslucencyLimit" "0.2"
@@ -182602,8 +183107,8 @@ entity
 {
 	"id" "176203"
 	"classname" "func_areaportalwindow"
-	"FadeDist" "712"
-	"FadeStartDist" "412"
+	"FadeDist" "856"
+	"FadeStartDist" "700"
 	"PortalVersion" "1"
 	"target" "areaportal.brush05"
 	"TranslucencyLimit" "0.2"
@@ -182695,8 +183200,8 @@ entity
 {
 	"id" "176210"
 	"classname" "func_areaportalwindow"
-	"FadeDist" "712"
-	"FadeStartDist" "412"
+	"FadeDist" "856"
+	"FadeStartDist" "700"
 	"PortalVersion" "1"
 	"target" "areaportal.brush04"
 	"TranslucencyLimit" "0.2"
@@ -182977,7 +183482,6 @@ entity
 	"lip" "0"
 	"locked_sentence" "0"
 	"origin" "3262 1639 171"
-	"parentname" "lockers_frame_1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -183084,7 +183588,6 @@ entity
 	"lip" "0"
 	"locked_sentence" "0"
 	"origin" "3262 1599 171"
-	"parentname" "lockers_frame_1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -183667,6 +184170,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_militia/table_shed.mdl"
@@ -183679,28 +184183,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[500 10000]"
-	}
-}
-entity
-{
-	"id" "176726"
-	"classname" "ambient_generic"
-	"health" "10"
-	"message" "acid.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"radius" "150"
-	"SourceEntityName" "radio_model"
-	"spawnflags" "0"
-	"targetname" "radio_audio"
-	"volstart" "10"
-	"origin" "3249 2048.27 184.839"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 10500]"
 	}
 }
 entity
@@ -183734,35 +184216,12 @@ entity
 }
 entity
 {
-	"id" "176845"
-	"classname" "logic_timer"
-	"LowerRandomBound" "5"
-	"spawnflags" "1"
-	"StartDisabled" "0"
-	"targetname" "radiotimer"
-	"UpperRandomBound" "30"
-	"UseRandomTime" "1"
-	connections
-	{
-		"OnTimerHigh" "radio_audio,PlaySound,,0,-1"
-		"OnTimerHigh" "radiotimer,Disable,,0.1,-1"
-	}
-	"origin" "3288 2048 192"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6000 13000]"
-	}
-}
-entity
-{
 	"id" "177211"
 	"classname" "prop_static"
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_industrial/warehouse_shelf003.mdl"
@@ -183788,6 +184247,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/streetlight.mdl"
@@ -183887,6 +184347,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -183916,6 +184377,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -183938,7 +184400,6 @@ entity
 {
 	"id" "186889"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_logo_decal_01"
 	"origin" "4284 3190 394"
 	editor
@@ -185505,6 +185966,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/hospital_railing_64_01.mdl"
@@ -185530,6 +185992,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/hospital_railing_32_01.mdl"
@@ -185555,6 +186018,7 @@ entity
 	"fademaxdist" "288"
 	"fademindist" "256"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightingorigin" "sprp_lighting_4"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -185595,6 +186059,7 @@ entity
 	"fademaxdist" "300"
 	"fademindist" "288"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/FurnitureToilet001a.mdl"
@@ -185723,6 +186188,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/streetlight.mdl"
@@ -186018,6 +186484,7 @@ entity
 	"fademaxdist" "1453"
 	"fademindist" "1272"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -187443,6 +187910,7 @@ entity
 	"angles" "0 330 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/de_nuke/crate_extralarge.mdl"
@@ -187655,6 +188123,7 @@ entity
 	"angles" "0 0 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_forest/utilitypole01b.mdl"
@@ -187673,7 +188142,6 @@ entity
 {
 	"id" "200051"
 	"classname" "move_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerlineconnector01"
 	"PositionInterpolator" "2"
@@ -187695,7 +188163,6 @@ entity
 {
 	"id" "200090"
 	"classname" "move_rope"
-	"angles" "0 0 0"
 	"Barbed" "0"
 	"Breakable" "0"
 	"Collide" "0"
@@ -187726,7 +188193,6 @@ entity
 {
 	"id" "200094"
 	"classname" "move_rope"
-	"angles" "0 0 0"
 	"Barbed" "0"
 	"Breakable" "0"
 	"Collide" "0"
@@ -187757,7 +188223,6 @@ entity
 {
 	"id" "200098"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline07a"
 	"RopeMaterial" "cable/cable.vmt"
@@ -187779,7 +188244,6 @@ entity
 {
 	"id" "200102"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline07b"
 	"RopeMaterial" "cable/cable.vmt"
@@ -187801,7 +188265,6 @@ entity
 {
 	"id" "200110"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "25"
@@ -187822,7 +188285,6 @@ entity
 {
 	"id" "200162"
 	"classname" "keyframe_rope"
-	"angles" "0 330 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline03b"
 	"RopeMaterial" "cable/cable.vmt"
@@ -187844,7 +188306,6 @@ entity
 {
 	"id" "200164"
 	"classname" "keyframe_rope"
-	"angles" "0 330 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline03a"
 	"RopeMaterial" "cable/cable.vmt"
@@ -187866,7 +188327,6 @@ entity
 {
 	"id" "200180"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline04b"
 	"RopeMaterial" "cable/cable.vmt"
@@ -187888,7 +188348,6 @@ entity
 {
 	"id" "200182"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline04a"
 	"RopeMaterial" "cable/cable.vmt"
@@ -187910,7 +188369,6 @@ entity
 {
 	"id" "200196"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "25"
@@ -187931,7 +188389,6 @@ entity
 {
 	"id" "200198"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "25"
@@ -188093,7 +188550,7 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "hk"
-	"origin" "3272 4352 137.056"
+	"origin" "3272 4352 127"
 	editor
 	{
 		"color" "220 30 220"
@@ -188658,6 +189115,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/furnitureshelf002a.mdl"
@@ -188683,6 +189141,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/streetlight.mdl"
@@ -188871,6 +189330,7 @@ entity
 	"fademaxdist" "1536"
 	"fademindist" "1024"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightingorigin" "sprp_lighting_6"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -188890,7 +189350,6 @@ entity
 {
 	"id" "205607"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_dirt_decal_03"
 	"origin" "1780 3915.03 253.319"
 	editor
@@ -188905,7 +189364,6 @@ entity
 {
 	"id" "205610"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_dirt_decal_02"
 	"origin" "1780 3912 243.527"
 	editor
@@ -188920,7 +189378,6 @@ entity
 {
 	"id" "205613"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "de_train/train_dirt_decal_03"
 	"origin" "1780 3913.51 234.796"
 	editor
@@ -189187,7 +189644,6 @@ entity
 {
 	"id" "213271"
 	"classname" "infodecal"
-	"angles" "0 0 0"
 	"texture" "decals/trashdecal01a"
 	"origin" "3664 1616 136"
 	editor
@@ -189230,7 +189686,6 @@ entity
 {
 	"id" "220927"
 	"classname" "info_overlay"
-	"angles" "0 0 0"
 	"BasisNormal" "1 0 -0"
 	"BasisOrigin" "2208 2604 196"
 	"BasisU" "0 1 0"
@@ -189260,7 +189715,6 @@ entity
 {
 	"id" "220975"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "-1 -8.74228e-008 0"
 	"BasisOrigin" "5232 3556 196"
 	"BasisU" "8.74228e-008 -1 0"
@@ -189290,7 +189744,6 @@ entity
 {
 	"id" "221035"
 	"classname" "info_overlay"
-	"angles" "0 180 0"
 	"BasisNormal" "-1 -8.74228e-008 0"
 	"BasisOrigin" "5480 2196 196"
 	"BasisU" "8.74228e-008 -1 0"
@@ -190060,6 +190513,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -190088,6 +190542,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -190900,6 +191355,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -190928,6 +191384,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -190971,7 +191428,6 @@ entity
 {
 	"id" "233727"
 	"classname" "move_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline06b"
 	"PositionInterpolator" "2"
@@ -190994,7 +191450,6 @@ entity
 {
 	"id" "233790"
 	"classname" "keyframe_rope"
-	"angles" "0 45 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline08a"
 	"RopeMaterial" "cable/cable.vmt"
@@ -191016,7 +191471,6 @@ entity
 {
 	"id" "233792"
 	"classname" "keyframe_rope"
-	"angles" "0 45 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline08b"
 	"RopeMaterial" "cable/cable.vmt"
@@ -191038,7 +191492,6 @@ entity
 {
 	"id" "233816"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline09a"
 	"RopeMaterial" "cable/cable.vmt"
@@ -191060,7 +191513,6 @@ entity
 {
 	"id" "233820"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"NextKey" "rope.powerline09b"
 	"RopeMaterial" "cable/cable.vmt"
@@ -191085,6 +191537,7 @@ entity
 	"angles" "0 195 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/utilitypole01a.mdl"
@@ -191103,7 +191556,6 @@ entity
 {
 	"id" "233862"
 	"classname" "keyframe_rope"
-	"angles" "0 120 0"
 	"MoveSpeed" "64"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "25"
@@ -191124,7 +191576,6 @@ entity
 {
 	"id" "233864"
 	"classname" "keyframe_rope"
-	"angles" "0 120 0"
 	"MoveSpeed" "64"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "25"
@@ -191145,7 +191596,6 @@ entity
 {
 	"id" "233940"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "25"
@@ -191166,7 +191616,6 @@ entity
 {
 	"id" "233948"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "25"
@@ -191187,7 +191636,6 @@ entity
 {
 	"id" "233959"
 	"classname" "keyframe_rope"
-	"angles" "0 0 0"
 	"MoveSpeed" "64"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "25"
@@ -191208,7 +191656,6 @@ entity
 {
 	"id" "233991"
 	"classname" "move_rope"
-	"angles" "0 0 0"
 	"Barbed" "0"
 	"Breakable" "0"
 	"Collide" "0"
@@ -191239,7 +191686,6 @@ entity
 {
 	"id" "233999"
 	"classname" "move_rope"
-	"angles" "0 0 0"
 	"Barbed" "0"
 	"Breakable" "0"
 	"Collide" "0"
@@ -191270,7 +191716,6 @@ entity
 {
 	"id" "234001"
 	"classname" "move_rope"
-	"angles" "0 0 0"
 	"Barbed" "0"
 	"Breakable" "0"
 	"Collide" "0"
@@ -191295,28 +191740,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "234057"
-	"classname" "ambient_generic"
-	"health" "10"
-	"message" "scott1.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"radius" "150"
-	"SourceEntityName" "radio_model"
-	"spawnflags" "0"
-	"targetname" "radio_audio"
-	"volstart" "10"
-	"origin" "3250 2066 184.839"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[500 10500]"
 	}
 }
 entity
@@ -192052,6 +192475,7 @@ entity
 	"fademaxdist" "1760"
 	"fademindist" "1565"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/ACUnit02.mdl"
@@ -192070,7 +192494,6 @@ entity
 {
 	"id" "238710"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "2818.62 3928 312"
 	editor
@@ -192085,7 +192508,6 @@ entity
 {
 	"id" "238713"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "2821.81 3928 280.183"
 	editor
@@ -192100,7 +192522,6 @@ entity
 {
 	"id" "238716"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "2856 3928 311.442"
 	editor
@@ -192115,7 +192536,6 @@ entity
 {
 	"id" "238719"
 	"classname" "infodecal"
-	"angles" "0 180 0"
 	"texture" "decals/prodstainb"
 	"origin" "2851 3928 281.633"
 	editor
@@ -192156,6 +192576,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -192185,6 +192606,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -192244,6 +192666,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -192352,6 +192775,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -192661,6 +193085,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -192676,59 +193101,6 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[10500 14500]"
-	}
-}
-entity
-{
-	"id" "242774"
-	"classname" "ambient_generic"
-	"cspinup" "0"
-	"fadeinsecs" "0"
-	"fadeoutsecs" "0"
-	"health" "10"
-	"lfomodpitch" "0"
-	"lfomodvol" "0"
-	"lforate" "0"
-	"lfotype" "0"
-	"message" "ambient/water/drip_loop1.wav"
-	"pitch" "100"
-	"pitchstart" "100"
-	"preset" "2"
-	"radius" "671"
-	"spawnflags" "0"
-	"spindown" "0"
-	"spinup" "0"
-	"volstart" "0"
-	"origin" "3754.92 1652 178.792"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[3500 4500]"
-	}
-}
-entity
-{
-	"id" "242777"
-	"classname" "info_particle_system"
-	"angles" "0 0 0"
-	"cpoint1_parent" "0"
-	"cpoint2_parent" "0"
-	"cpoint3_parent" "0"
-	"cpoint4_parent" "0"
-	"cpoint5_parent" "0"
-	"cpoint6_parent" "0"
-	"cpoint7_parent" "0"
-	"effect_name" "water_drip_moderate"
-	"start_active" "1"
-	"origin" "3760 1655 258"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6000 10500]"
 	}
 }
 entity
@@ -192781,6 +193153,7 @@ entity
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"generatelightmaps" "1"
 	"ignorenormals" "0"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
@@ -193480,400 +193853,6 @@ entity
 }
 entity
 {
-	"id" "244072"
-	"classname" "item_healthcharger"
-	"angles" "0 270 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "3704 1911.86 180"
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244071"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -3768]"
-	}
-}
-entity
-{
-	"id" "244074"
-	"classname" "env_sprite"
-	"framerate" "10.0"
-	"GlowProxySize" "1.97"
-	"HDRColorScale" "1.0"
-	"model" "sprites/light_glow03.vmt"
-	"renderamt" "125"
-	"rendercolor" "123 123 189"
-	"renderfx" "3"
-	"rendermode" "9"
-	"scale" ".45"
-	"spawnflags" "1"
-	"targetname" "hp_charger_spr3"
-	"origin" "3701.5 1905.36 179"
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244071"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -3268]"
-	}
-}
-entity
-{
-	"id" "244077"
-	"classname" "func_brush"
-	"disablereceiveshadows" "1"
-	"disableshadows" "0"
-	"InputFilter" "0"
-	"invert_exclusion" "0"
-	"origin" "3705 1907.86 180"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"solidbsp" "0"
-	"Solidity" "0"
-	"spawnflags" "2"
-	"StartDisabled" "1"
-	"targetname" "hp_charger_brush1"
-	"vrad_brush_cast_shadows" "0"
-	solid
-	{
-		"id" "244078"
-		side
-		{
-			"id" "75734"
-			"plane" "(3694 1911.86 200) (3694 1911.86 160) (3716 1911.86 160)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 -60.0015] 0.25"
-			"vaxis" "[0 0 -1 -16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75733"
-			"plane" "(3716 1903.86 200) (3716 1903.86 160) (3694 1903.86 160)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 -60.0015] 0.25"
-			"vaxis" "[0 0 -1 -16] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75732"
-			"plane" "(3694 1903.86 200) (3694 1903.86 160) (3694 1911.86 160)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 32.5625] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75731"
-			"plane" "(3716 1911.86 200) (3716 1911.86 160) (3716 1903.86 160)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 -32.5625] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75730"
-			"plane" "(3716 1911.86 160) (3694 1911.86 160) (3694 1903.86 160)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 -8.00146] 0.25"
-			"vaxis" "[0 1 0 32.5625] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75729"
-			"plane" "(3716 1903.86 200) (3694 1903.86 200) (3694 1911.86 200)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 8.00146] 0.25"
-			"vaxis" "[0 1 0 32.5625] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244071"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7000 11000]"
-	}
-}
-entity
-{
-	"id" "244080"
-	"classname" "env_spark"
-	"angles" "0 0 0"
-	"Magnitude" "1"
-	"MaxDelay" "45"
-	"spawnflags" "640"
-	"targetname" "hp_charger_spark3"
-	"TrailLength" "1"
-	"origin" "3702 1903.86 179"
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244071"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7000 11500]"
-	}
-}
-entity
-{
-	"id" "244082"
-	"classname" "env_smokestack"
-	"angles" "0 0 0"
-	"BaseSpread" "8"
-	"EndSize" "3"
-	"InitialState" "0"
-	"JetLength" "45"
-	"Rate" "50"
-	"renderamt" "85"
-	"rendercolor" "37 37 37"
-	"roll" "0"
-	"SmokeMaterial" "particle/particle_smokegrenade.vmt"
-	"Speed" "6"
-	"SpreadSpeed" "4"
-	"StartSize" "1"
-	"targetname" "hp_charger_smoke3"
-	"twist" "0"
-	"WindAngle" "0"
-	"WindSpeed" "0"
-	"origin" "3702 1903.86 184"
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244071"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7000 12000]"
-	}
-}
-entity
-{
-	"id" "244125"
-	"classname" "item_healthcharger"
-	"angles" "0 270 0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"origin" "5404 1855.86 260"
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244124"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -3768]"
-	}
-}
-entity
-{
-	"id" "244127"
-	"classname" "env_sprite"
-	"framerate" "10.0"
-	"GlowProxySize" "1.97"
-	"HDRColorScale" "1.0"
-	"model" "sprites/light_glow03.vmt"
-	"renderamt" "125"
-	"rendercolor" "123 123 189"
-	"renderfx" "3"
-	"rendermode" "9"
-	"scale" ".45"
-	"spawnflags" "1"
-	"targetname" "hp_charger_spr4"
-	"origin" "5401.5 1849.36 259"
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244124"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[1500 -3268]"
-	}
-}
-entity
-{
-	"id" "244130"
-	"classname" "func_brush"
-	"disablereceiveshadows" "1"
-	"disableshadows" "0"
-	"InputFilter" "0"
-	"invert_exclusion" "0"
-	"origin" "5405 1851.86 260"
-	"renderamt" "255"
-	"rendercolor" "255 255 255"
-	"renderfx" "0"
-	"rendermode" "0"
-	"solidbsp" "0"
-	"Solidity" "0"
-	"spawnflags" "2"
-	"StartDisabled" "1"
-	"targetname" "hp_charger_brush2"
-	"vrad_brush_cast_shadows" "0"
-	solid
-	{
-		"id" "244131"
-		side
-		{
-			"id" "75746"
-			"plane" "(5394 1855.86 280) (5394 1855.86 240) (5416 1855.86 240)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 19.9985] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75745"
-			"plane" "(5416 1847.86 280) (5416 1847.86 240) (5394 1847.86 240)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 19.9985] 0.25"
-			"vaxis" "[0 0 -1 48] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75744"
-			"plane" "(5394 1847.86 280) (5394 1847.86 240) (5394 1855.86 240)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 0.5625] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75743"
-			"plane" "(5416 1855.86 280) (5416 1855.86 240) (5416 1847.86 240)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 -0.5625] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75742"
-			"plane" "(5416 1855.86 240) (5394 1855.86 240) (5394 1847.86 240)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[-1 0 0 7.99854] 0.25"
-			"vaxis" "[0 1 0 0.5625] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "75741"
-			"plane" "(5416 1847.86 280) (5394 1847.86 280) (5394 1855.86 280)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 -7.99854] 0.25"
-			"vaxis" "[0 1 0 0.5625] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244124"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7000 11000]"
-	}
-}
-entity
-{
-	"id" "244133"
-	"classname" "env_spark"
-	"angles" "0 0 0"
-	"Magnitude" "1"
-	"MaxDelay" "45"
-	"spawnflags" "640"
-	"targetname" "hp_charger_spark4"
-	"TrailLength" "1"
-	"origin" "5402 1847.86 259"
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244124"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7000 11500]"
-	}
-}
-entity
-{
-	"id" "244135"
-	"classname" "env_smokestack"
-	"angles" "0 0 0"
-	"BaseSpread" "8"
-	"EndSize" "3"
-	"InitialState" "0"
-	"JetLength" "45"
-	"Rate" "50"
-	"renderamt" "85"
-	"rendercolor" "37 37 37"
-	"roll" "0"
-	"SmokeMaterial" "particle/particle_smokegrenade.vmt"
-	"Speed" "6"
-	"SpreadSpeed" "4"
-	"StartSize" "1"
-	"targetname" "hp_charger_smoke4"
-	"twist" "0"
-	"WindAngle" "0"
-	"WindSpeed" "0"
-	"origin" "5402 1847.86 264"
-	editor
-	{
-		"color" "220 220 220"
-		"groupid" "244124"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[7000 12000]"
-	}
-}
-entity
-{
 	"id" "244231"
 	"classname" "env_wind"
 	"angles" "0 0 0"
@@ -193898,7 +193877,7 @@ entity
 {
 	"id" "244500"
 	"classname" "logic_waves"
-	"targetname" "Information"
+	"targetname" "menbutton"
 	"wave" "4"
 	connections
 	{
@@ -193913,13 +193892,341 @@ entity
 		"logicalpos" "[500 14500]"
 	}
 }
+entity
+{
+	"id" "248776"
+	"classname" "prop_dynamic"
+	"angles" "0 75 0"
+	"DefaultAnim" "lineidle01"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/player/dewobedil/girls_frontline/m4_sopmod_ii/default_f.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3235 4348 128"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "252864"
+	"classname" "func_instance"
+	"angles" "-0 -180 0"
+	"file" "/light_instances/_genericwalllight01.vmf"
+	"origin" "3182 4464 248"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "252873"
+	"classname" "func_instance"
+	"angles" "-0 0 0"
+	"file" "/light_instances/_genericdomelight01.vmf"
+	"origin" "4176 4104 432"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "253358"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "253359"
+		side
+		{
+			"id" "75758"
+			"plane" "(3284 4320 256) (3224 4320 256) (3224 4324 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75757"
+			"plane" "(3224 4320 196) (3284 4320 196) (3284 4324 196)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 -16] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75756"
+			"plane" "(3284 4320 196) (3224 4320 196) (3224 4320 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 16] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75755"
+			"plane" "(3224 4324 196) (3284 4324 196) (3284 4324 256)"
+			"material" "/CHUMTOAD01"
+			"uaxis" "[-1 0 0 375.467] 0.117188"
+			"vaxis" "[0 0 -1 136.533] 0.117188"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75754"
+			"plane" "(3224 4320 196) (3224 4324 196) (3224 4324 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75753"
+			"plane" "(3284 4324 196) (3284 4320 196) (3284 4320 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "253371"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "253372"
+		side
+		{
+			"id" "75770"
+			"plane" "(3216 4320 256) (3156 4320 256) (3156 4324 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75769"
+			"plane" "(3156 4320 196) (3216 4320 196) (3216 4324 196)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75768"
+			"plane" "(3216 4320 196) (3156 4320 196) (3156 4320 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75767"
+			"plane" "(3156 4324 196) (3216 4324 196) (3216 4324 256)"
+			"material" "/ELLIOTBOOMSTICKGAMER"
+			"uaxis" "[-1 0 0 153.6] 0.234375"
+			"vaxis" "[0 0 -1 68.2667] 0.234375"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75766"
+			"plane" "(3156 4320 196) (3156 4324 196) (3156 4324 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75765"
+			"plane" "(3216 4324 196) (3216 4320 196) (3216 4320 256)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -32] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "253454"
+	"classname" "trigger_hurt"
+	"damage" "100000"
+	"damagecap" "100000"
+	"damagemodel" "0"
+	"damagetype" "1"
+	"nodmgforce" "0"
+	"origin" "3230 4400 200"
+	"spawnflags" "1"
+	"StartDisabled" "0"
+	"targetname" "secret_door.triggerhurt"
+	solid
+	{
+		"id" "253450"
+		side
+		{
+			"id" "75782"
+			"plane" "(3144 4480 272) (3316 4480 272) (3316 4320 272)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75781"
+			"plane" "(3144 4320 128) (3316 4320 128) (3316 4480 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75780"
+			"plane" "(3144 4480 272) (3144 4320 272) (3144 4320 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75779"
+			"plane" "(3316 4480 128) (3316 4320 128) (3316 4320 272)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75778"
+			"plane" "(3316 4480 272) (3144 4480 272) (3144 4480 128)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "75777"
+			"plane" "(3316 4320 128) (3144 4320 128) (3144 4320 272)"
+			"material" "TOOLS/TOOLSTRIGGER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[4713.63 2694.9 276.177]"
-		"look" "[4712.41 2690.65 275.743]"
+		"position" "[4286.96 2049.9 321.823]"
+		"look" "[4289.39 2046.19 321.854]"
 	}
 }
 cordon
