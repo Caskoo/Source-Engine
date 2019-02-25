@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7538"
-	"mapversion" "1"
+	"editorbuild" "8157"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,18 +14,18 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "11"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -37,10 +37,10 @@ entity
 		side
 		{
 			"id" "18"
-			"plane" "(14.0244 -16.9767 33.0019) (14.0244 -16.9767 30.998) (14.0244 1.02493 31.0019)"
+			"plane" "(-2 -9 0) (-2 -9 -2) (-2 9 -2)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[0 0 -1 132.014] 0.25"
-			"vaxis" "[0 1 0 87.9018] 0.25"
+			"uaxis" "[0 0 -1 0.0140076] 0.25"
+			"vaxis" "[0 1 0 55.9018] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -48,10 +48,10 @@ entity
 		side
 		{
 			"id" "17"
-			"plane" "(18.0244 1.02493 33.0019) (18.0244 1.02493 30.998) (18.0244 -16.9767 31.0019)"
+			"plane" "(2 9 0) (2 9 -2) (2 -9 -2)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[0 0 1 -100.014] 0.25"
-			"vaxis" "[0 1 0 87.9018] 0.25"
+			"uaxis" "[0 0 1 31.986] 0.25"
+			"vaxis" "[0 1 0 55.9018] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -59,10 +59,10 @@ entity
 		side
 		{
 			"id" "16"
-			"plane" "(18.0242 -16.9754 33.0019) (18.0242 -16.9754 30.998) (14.024 -16.9754 31.0019)"
+			"plane" "(2 -9 0) (2 -9 -2) (-2 -9 -2)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[0 0 1 -28.6796] 0.3"
-			"vaxis" "[1 0 0 248.581] 0.3"
+			"uaxis" "[0 0 1 81.3204] 0.3"
+			"vaxis" "[1 0 0 301.914] 0.3"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -70,10 +70,10 @@ entity
 		side
 		{
 			"id" "15"
-			"plane" "(14.024 1.02465 33.0019) (14.024 1.02465 30.998) (18.0242 1.02465 31.0019)"
+			"plane" "(-2 9 0) (-2 9 -2) (2 9 -2)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[0 0 -1 84.6785] 0.3"
-			"vaxis" "[1 0 0 95.5808] 0.3"
+			"uaxis" "[0 0 -1 -25.3215] 0.3"
+			"vaxis" "[1 0 0 148.914] 0.3"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -81,10 +81,10 @@ entity
 		side
 		{
 			"id" "14"
-			"plane" "(14.024 1.02521 31.0004) (14.024 -16.9787 31.0004) (18.0242 -16.9748 31.0004)"
+			"plane" "(-2 9 -2) (-2 -9 -2) (2 -9 -2)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[1 0 0 463.897] 0.25"
-			"vaxis" "[0 1 0 87.9018] 0.25"
+			"uaxis" "[1 0 0 15.897] 0.25"
+			"vaxis" "[0 1 0 55.9018] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -92,10 +92,10 @@ entity
 		side
 		{
 			"id" "13"
-			"plane" "(14.024 -16.9748 33.0004) (14.024 1.02465 33.0004) (18.0242 1.02521 33.0004)"
+			"plane" "(-2 -9 0) (-2 9 0) (2 9 0)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[-1 0 0 -203.581] 0.3"
-			"vaxis" "[0 1 0 144.918] 0.3"
+			"uaxis" "[-1 0 0 -256.914] 0.3"
+			"vaxis" "[0 1 0 118.251] 0.3"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -113,10 +113,10 @@ entity
 		side
 		{
 			"id" "24"
-			"plane" "(15.0244 -8.97479 31.0019) (15.0244 -8.97479 27.0019) (15.0244 -6.97507 27.0019)"
+			"plane" "(-1 -1 -2) (-1 -1 -6) (-1 1 -6)"
 			"material" "DEV/DEV_HAZZARDSTRIPE01A"
-			"uaxis" "[0 1 0 -12.0986] 0.25"
-			"vaxis" "[0 0 -1 0.0148773] 0.25"
+			"uaxis" "[0 1 0 -44.0986] 0.25"
+			"vaxis" "[0 0 -1 -3.98512] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -124,10 +124,10 @@ entity
 		side
 		{
 			"id" "23"
-			"plane" "(17.0244 -6.97507 31.0019) (17.0244 -6.97507 27.0019) (17.0244 -8.97479 27.0019)"
+			"plane" "(1 1 -2) (1 1 -6) (1 -1 -6)"
 			"material" "DEV/DEV_HAZZARDSTRIPE01A"
-			"uaxis" "[0 1 0 -12.0986] 0.25"
-			"vaxis" "[0 0 -1 0.0148773] 0.25"
+			"uaxis" "[0 1 0 -44.0986] 0.25"
+			"vaxis" "[0 0 -1 -3.98512] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -135,10 +135,10 @@ entity
 		side
 		{
 			"id" "22"
-			"plane" "(17.0242 -8.97534 31.0019) (17.0242 -8.97534 27.0019) (15.024 -8.97534 27.0019)"
+			"plane" "(1 -1 -2) (1 -1 -6) (-1 -1 -6)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[1 0 0 188.581] 0.3"
-			"vaxis" "[0 0 -1 191.679] 0.3"
+			"uaxis" "[1 0 0 241.914] 0.3"
+			"vaxis" "[0 0 -1 81.679] 0.3"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -146,10 +146,10 @@ entity
 		side
 		{
 			"id" "21"
-			"plane" "(15.024 -6.97534 31.0019) (15.024 -6.97534 27.0019) (17.0242 -6.97534 27.0019)"
+			"plane" "(-1 1 -2) (-1 1 -6) (1 1 -6)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[-1 0 0 -203.581] 0.3"
-			"vaxis" "[0 0 -1 191.679] 0.3"
+			"uaxis" "[-1 0 0 -256.914] 0.3"
+			"vaxis" "[0 0 -1 81.679] 0.3"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -157,10 +157,10 @@ entity
 		side
 		{
 			"id" "20"
-			"plane" "(15.024 -6.97479 27.0004) (15.024 -8.97479 27.0004) (17.0242 -8.97479 27.0004)"
+			"plane" "(-1 1 -6) (-1 -1 -6) (1 -1 -6)"
 			"material" "METAL/CITADEL_METALWALL074A"
-			"uaxis" "[0 -1 0 -48.9182] 0.3"
-			"vaxis" "[1 0 0 95.5808] 0.3"
+			"uaxis" "[0 -1 0 -22.2515] 0.3"
+			"vaxis" "[1 0 0 148.914] 0.3"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -168,10 +168,10 @@ entity
 		side
 		{
 			"id" "19"
-			"plane" "(15.024 -8.97479 31.0004) (15.024 -6.97535 31.0004) (17.0242 -6.97479 31.0004)"
+			"plane" "(-1 -1 -2) (-1 1 -2) (1 1 -2)"
 			"material" "METAL/METALWALL014A"
-			"uaxis" "[0 1 0 104.918] 0.3"
-			"vaxis" "[1 0 0 248.581] 0.3"
+			"uaxis" "[0 1 0 78.2513] 0.3"
+			"vaxis" "[1 0 0 301.914] 0.3"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -197,15 +197,16 @@ entity
 	"classname" "move_rope"
 	"angles" "0 0 0"
 	"MoveSpeed" "64"
-	"NextKey" "rf50_4"
+	"NextKey" "lamp.rope_bottom"
+	"NoWind" "1"
 	"PositionInterpolator" "2"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "100"
 	"Subdiv" "2"
-	"targetname" "r50_4"
+	"targetname" "lamp.rope_top"
 	"TextureScale" "1"
 	"Width" "1"
-	"origin" "16.0254 -7.97535 27.0034"
+	"origin" "0.0254002 0.0246501 -5.9966"
 	editor
 	{
 		"color" "220 30 220"
@@ -218,11 +219,11 @@ entity
 {
 	"id" "8"
 	"classname" "phys_ballsocket"
-	"attach1" "ball50_4"
-	"attach2" "lamp50_4"
+	"attach1" "lamp.ball"
+	"attach2" "lamp.prison_lamp_model"
 	"spawnflags" "0"
-	"targetname" "ball50_4"
-	"origin" "16.0254 -7.97535 27.0034"
+	"targetname" "lamp.ball"
+	"origin" "0.0254002 0.0246501 -5.9966"
 	editor
 	{
 		"color" "220 30 220"
@@ -237,14 +238,15 @@ entity
 	"classname" "keyframe_rope"
 	"angles" "0 180 0"
 	"MoveSpeed" "64"
-	"parentname" "lamp50_4"
+	"NoWind" "1"
+	"parentname" "lamp.prison_lamp_model"
 	"RopeMaterial" "cable/cable.vmt"
 	"Slack" "105"
 	"Subdiv" "2"
-	"targetname" "rf50_4"
+	"targetname" "lamp.rope_bottom"
 	"TextureScale" "1"
 	"Width" "1"
-	"origin" "16.0254 -7.97535 -1.99663"
+	"origin" "0.0254002 0.0246501 -34.9966"
 	editor
 	{
 		"color" "220 30 220"
@@ -271,7 +273,7 @@ entity
 	"pitch" "-90"
 	"spawnflags" "0"
 	"style" "0"
-	"origin" "16.0854 -7.97535 -20.9966"
+	"origin" "0.0853996 0.0246501 -53.9966"
 	editor
 	{
 		"color" "220 30 220"
@@ -289,8 +291,8 @@ entity
 	"Damagetype" "0"
 	"ExplodeDamage" "0"
 	"ExplodeRadius" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
+	"fademaxdist" "900"
+	"fademindist" "800"
 	"fadescale" "1"
 	"forcetoenablemotion" "0"
 	"inertiaScale" "1.0"
@@ -306,8 +308,8 @@ entity
 	"rendercolor" "255 255 255"
 	"shadowcastdist" "0"
 	"spawnflags" "768"
-	"targetname" "lamp50_4"
-	"origin" "16.0354 -7.94535 -6.98663"
+	"targetname" "lamp.prison_lamp_model"
+	"origin" "0.0354004 0.0546498 -39.9866"
 	editor
 	{
 		"color" "220 30 220"
@@ -322,13 +324,13 @@ entity
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
 	"HDRColorScale" "1.0"
-	"parentname" "lamp50_4"
+	"parentname" "lamp.prison_lamp_model"
 	"renderamt" "255"
 	"rendercolor" "217 164 53"
 	"spawnflags" "3"
 	"spotlightlength" "512"
 	"spotlightwidth" "50"
-	"origin" "15.9754 -7.97535 -11.9966"
+	"origin" "-0.0246 0.0246501 -44.9966"
 	editor
 	{
 		"color" "220 30 220"
