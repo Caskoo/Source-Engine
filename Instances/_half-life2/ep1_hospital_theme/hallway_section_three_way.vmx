@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "7"
+	"mapversion" "8"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "1"
+	"nGridSpacing" "8"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "8"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -347,7 +347,7 @@ world
 		side
 		{
 			"id" "449"
-			"plane" "(256 320 8) (256 320 0) (256 256 0)"
+			"plane" "(288 320 8) (288 320 0) (288 256 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -358,7 +358,7 @@ world
 		side
 		{
 			"id" "448"
-			"plane" "(256 256 8) (256 256 0) (64 256 0)"
+			"plane" "(288 256 8) (288 256 0) (64 256 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -33.4028] 0.385"
 			"vaxis" "[0 0 -1 -29.1559] 0.385"
@@ -369,7 +369,7 @@ world
 		side
 		{
 			"id" "447"
-			"plane" "(64 320 8) (64 320 0) (256 320 0)"
+			"plane" "(64 320 8) (64 320 0) (288 320 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 -33.4028] 0.385"
 			"vaxis" "[0 0 -1 -29.1559] 0.385"
@@ -380,7 +380,7 @@ world
 		side
 		{
 			"id" "446"
-			"plane" "(64 320 0) (64 256 0) (256 256 0)"
+			"plane" "(64 320 0) (64 256 0) (288 256 0)"
 			"material" "TILE/TILEFLOOR010D"
 			"uaxis" "[1 0 0 384] 0.25"
 			"vaxis" "[0 -1 0 -384] 0.25"
@@ -391,7 +391,7 @@ world
 		side
 		{
 			"id" "445"
-			"plane" "(64 256 8) (64 320 8) (256 320 8)"
+			"plane" "(64 256 8) (64 320 8) (288 320 8)"
 			"material" "TILE/TILEFLOOR010D"
 			"uaxis" "[1 0 0 384] 0.25"
 			"vaxis" "[0 -1 0 -384] 0.25"
@@ -1101,7 +1101,7 @@ entity
 		}
 		side
 		{
-			"id" "0"
+			"id" "883"
 			"plane" "(256 257 72) (257 256 72) (257 256 8)"
 			"material" "TILE/TILEWALL009H"
 			"uaxis" "[1 0 0 128] 0.25"
@@ -1275,7 +1275,7 @@ entity
 		}
 		side
 		{
-			"id" "0"
+			"id" "884"
 			"plane" "(256 63 8) (257 64 8) (257 64 72)"
 			"material" "TILE/TILEWALL009H"
 			"uaxis" "[1 0 0 128] 0.25"
@@ -1677,7 +1677,7 @@ entity
 		}
 		side
 		{
-			"id" "0"
+			"id" "885"
 			"plane" "(256 63 200) (256 63 72) (257 64 72)"
 			"material" "PLASTER/PLASTERWALL051D"
 			"uaxis" "[1 0 0 0] 0.25"
@@ -2546,7 +2546,7 @@ entity
 		}
 		side
 		{
-			"id" "0"
+			"id" "886"
 			"plane" "(288 256 72) (257 256 72) (257 256 200)"
 			"material" "PLASTER/PLASTERWALL051D"
 			"uaxis" "[-1 0 0 0] 0.25"
