@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "5"
+	"mapversion" "7"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "5"
+	"mapversion" "7"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 	solid
 	{
 		"id" "2"
@@ -4896,7 +4896,7 @@ world
 		side
 		{
 			"id" "780"
-			"plane" "(0 848 384) (0 848 368) (0 1024 368)"
+			"plane" "(0 848 384) (0 848 368) (0 896 368)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.5"
@@ -4907,7 +4907,7 @@ world
 		side
 		{
 			"id" "779"
-			"plane" "(944 1024 384) (944 1024 368) (944 848 368)"
+			"plane" "(944 896 384) (944 896 368) (944 848 368)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.5"
@@ -4929,7 +4929,7 @@ world
 		side
 		{
 			"id" "777"
-			"plane" "(0 1024 384) (0 1024 368) (944 1024 368)"
+			"plane" "(0 896 384) (0 896 368) (944 896 368)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4940,7 +4940,7 @@ world
 		side
 		{
 			"id" "776"
-			"plane" "(0 1024 368) (0 848 368) (944 848 368)"
+			"plane" "(0 896 368) (0 848 368) (944 848 368)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 0] 0.25"
@@ -4951,7 +4951,7 @@ world
 		side
 		{
 			"id" "775"
-			"plane" "(0 848 384) (0 1024 384) (944 1024 384)"
+			"plane" "(0 848 384) (0 896 384) (944 896 384)"
 			"material" "METAL/METALROOF008A_CHEAP"
 			"uaxis" "[1 0 0 -128] 0.25"
 			"vaxis" "[0 -1 0 -448] 0.25"
@@ -4972,7 +4972,7 @@ world
 		side
 		{
 			"id" "786"
-			"plane" "(944 848 384) (944 848 256) (944 1024 256)"
+			"plane" "(944 848 384) (944 848 256) (944 896 256)"
 			"material" "METAL/METALWALL018F_CHEAP"
 			"uaxis" "[0 1 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -4983,7 +4983,7 @@ world
 		side
 		{
 			"id" "785"
-			"plane" "(976 1024 384) (976 1024 256) (976 848 256)"
+			"plane" "(976 896 384) (976 896 256) (976 848 256)"
 			"material" "METAL/METALWALL018B"
 			"uaxis" "[0 1 0 448] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5005,7 +5005,7 @@ world
 		side
 		{
 			"id" "783"
-			"plane" "(944 1024 384) (944 1024 256) (976 1024 256)"
+			"plane" "(944 896 384) (944 896 256) (976 896 256)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5016,7 +5016,7 @@ world
 		side
 		{
 			"id" "782"
-			"plane" "(944 1024 256) (944 848 256) (976 848 256)"
+			"plane" "(944 896 256) (944 848 256) (976 848 256)"
 			"material" "METAL/METALWALL018B"
 			"uaxis" "[-1 0 0 128] 0.25"
 			"vaxis" "[0 -1 0 -448] 0.25"
@@ -5027,7 +5027,7 @@ world
 		side
 		{
 			"id" "781"
-			"plane" "(944 848 384) (944 1024 384) (976 1024 384)"
+			"plane" "(944 848 384) (944 896 384) (976 896 384)"
 			"material" "METAL/METALROOF008A_CHEAP"
 			"uaxis" "[1 0 0 -128] 0.25"
 			"vaxis" "[0 -1 0 -448] 0.25"
@@ -5117,31 +5117,6 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
-	}
-}
-entity
-{
-	"id" "5"
-	"classname" "prop_static"
-	"angles" "0 0 0"
-	"disableselfshadowing" "0"
-	"disableshadows" "0"
-	"disablevertexlighting" "0"
-	"fademaxdist" "0"
-	"fademindist" "-1"
-	"fadescale" "1"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
-	"model" "models/props/de_train/light_security.mdl"
-	"skin" "0"
-	"solid" "6"
-	"origin" "816.316 720 112"
-	editor
-	{
-		"color" "255 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6000 2000]"
 	}
 }
 entity
