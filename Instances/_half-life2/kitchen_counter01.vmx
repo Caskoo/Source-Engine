@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "23"
+	"mapversion" "27"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "23"
+	"mapversion" "27"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -50,7 +50,7 @@ entity
 	"origin" "19 31.001 -1"
 	editor
 	{
-		"color" "103 148 0"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9000 8500]"
@@ -1001,9 +1001,9 @@ entity
 		{
 			"id" "243"
 			"plane" "(142.001 147 0) (142.001 147 40) (142.001 177 40)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 -1 0 -28] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"material" "WOOD/WOODWALL016A"
+			"uaxis" "[0 -1 0 311] 0.15"
+			"vaxis" "[0 0 -1 1] 0.078"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1043,7 +1043,7 @@ entity
 		side
 		{
 			"id" "252"
-			"plane" "(142 144 42) (33 144 42) (0 177 42)"
+			"plane" "(-0 177 42) (145 177 42) (145 144 42)"
 			"material" "TILE/TILEFLOOR009A"
 			"uaxis" "[1 0 0 480] 0.25"
 			"vaxis" "[0 -1 0 228] 0.25"
@@ -1054,7 +1054,7 @@ entity
 		side
 		{
 			"id" "251"
-			"plane" "(142 177 40) (0 177 40) (33 144 40)"
+			"plane" "(33 144 40) (145 144 40) (145 177 40)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -28] 0.25"
@@ -1065,7 +1065,7 @@ entity
 		side
 		{
 			"id" "250"
-			"plane" "(33 144 40) (0 177 40) (0 177 42)"
+			"plane" "(0 177 40) (-0 177 42) (33 144 42)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 28] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1076,10 +1076,10 @@ entity
 		side
 		{
 			"id" "249"
-			"plane" "(142 144 42) (142 177 42) (142 177 40)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 28] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"plane" "(145 144 40) (145 144 42) (145 177 42)"
+			"material" "TILE/TILEFLOOR009A"
+			"uaxis" "[0 1 0 480] 0.25"
+			"vaxis" "[0 0 -1 384] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1087,7 +1087,7 @@ entity
 		side
 		{
 			"id" "248"
-			"plane" "(0 177 40) (142 177 40) (142 177 42)"
+			"plane" "(145 177 40) (145 177 42) (-0 177 42)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1098,7 +1098,7 @@ entity
 		side
 		{
 			"id" "247"
-			"plane" "(33 144 42) (142 144 42) (142 144 40)"
+			"plane" "(33 144 40) (33 144 42) (145 144 42)"
 			"material" "TILE/TILEFLOOR009A"
 			"uaxis" "[1 0 0 480] 0.25"
 			"vaxis" "[0 0 -1 384] 0.25"
@@ -1144,7 +1144,7 @@ entity
 	"origin" "15 91 38"
 	editor
 	{
-		"color" "103 148 0"
+		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[9000 9000]"
