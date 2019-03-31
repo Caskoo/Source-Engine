@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "40"
+	"mapversion" "42"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "40"
+	"mapversion" "42"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -412,7 +412,7 @@ world
 		side
 		{
 			"id" "292"
-			"plane" "(-120 32 32) (120 32 32) (120 32 38)"
+			"plane" "(-120 32 8) (120 32 8) (120 32 38)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -423,7 +423,7 @@ world
 		side
 		{
 			"id" "291"
-			"plane" "(120 32 32) (-120 32 32) (-120 -32 32)"
+			"plane" "(120 32 8) (-120 32 8) (-120 -32 8)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
 			"vaxis" "[-1 0 0 -32] 0.25"
@@ -445,7 +445,7 @@ world
 		side
 		{
 			"id" "289"
-			"plane" "(120 32 38) (120 32 32) (120 -32 32)"
+			"plane" "(120 32 38) (120 32 8) (120 -32 8)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -456,7 +456,7 @@ world
 		side
 		{
 			"id" "288"
-			"plane" "(120 -32 32) (-120 -32 32) (-120 -32 38)"
+			"plane" "(120 -32 8) (-120 -32 8) (-120 -32 38)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 -32] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -467,7 +467,7 @@ world
 		side
 		{
 			"id" "287"
-			"plane" "(-120 -32 32) (-120 32 32) (-120 32 38)"
+			"plane" "(-120 -32 8) (-120 32 8) (-120 32 38)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 16] 0.25"
@@ -500,9 +500,9 @@ world
 		{
 			"id" "297"
 			"plane" "(120 -144 192) (120 -144 0) (-120 -144 0)"
-			"material" "DE_PRODIGY/CONCRETE02"
-			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -620,9 +620,9 @@ world
 		{
 			"id" "384"
 			"plane" "(128 -144 0) (120 -144 0) (120 -144 208)"
-			"material" "TOOLS/TOOLSBLACK"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -750,9 +750,9 @@ world
 		{
 			"id" "429"
 			"plane" "(16 -144 192) (-120 -144 192) (-120 -144 208)"
-			"material" "DE_PRODIGY/CONCRETE02A"
-			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -837,9 +837,9 @@ world
 		{
 			"id" "446"
 			"plane" "(120 -144 208) (120 -144 192) (64 -144 192)"
-			"material" "DE_PRODIGY/CONCRETE02A"
-			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -967,9 +967,9 @@ world
 		{
 			"id" "460"
 			"plane" "(64 -144 192) (16 -144 192) (16 -144 208)"
-			"material" "DE_PRODIGY/CONCRETE02A"
-			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"

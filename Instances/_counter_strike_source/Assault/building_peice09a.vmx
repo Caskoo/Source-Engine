@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "25"
+	"mapversion" "29"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,12 +20,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "25"
+	"mapversion" "29"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 	solid
 	{
 		"id" "6"
@@ -4246,9 +4246,9 @@ world
 		{
 			"id" "1396"
 			"plane" "(536 1792 552) (536 1792 536) (552 1792 536)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[1 0 0 32] 0.25"
-			"vaxis" "[0 0 -1 -32] 0.25"
+			"material" "CONCRETE/CONCRETECEILING001A"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9501,9 +9501,9 @@ world
 		{
 			"id" "2323"
 			"plane" "(552 1792 288) (536 1792 288) (536 1792 248)"
-			"material" "TOOLS/TOOLSNODRAW"
+			"material" "CS_ASSAULT/ASSAULT_BRICK2B"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 -32] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -9532,7 +9532,7 @@ world
 		side
 		{
 			"id" "2336"
-			"plane" "(536 840 248) (552 840 248) (552 704 248)"
+			"plane" "(536 704 248) (536 912 248) (552 912 248)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -32] 0.25"
@@ -9543,7 +9543,7 @@ world
 		side
 		{
 			"id" "2335"
-			"plane" "(536 704 0) (552 704 0) (552 840 0)"
+			"plane" "(536 912 0) (536 704 0) (552 704 0)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 -32] 0.25"
@@ -9554,7 +9554,7 @@ world
 		side
 		{
 			"id" "2334"
-			"plane" "(536 840 248) (536 704 248) (536 704 0)"
+			"plane" "(536 704 0) (536 912 0) (536 912 248)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 32] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -9565,7 +9565,7 @@ world
 		side
 		{
 			"id" "2333"
-			"plane" "(552 840 0) (552 704 0) (552 704 248)"
+			"plane" "(552 912 0) (552 704 0) (552 704 248)"
 			"material" "CS_ASSAULT/ASSAULT_BRICK2B"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"
@@ -9576,7 +9576,7 @@ world
 		side
 		{
 			"id" "2332"
-			"plane" "(552 840 248) (536 840 248) (536 840 0)"
+			"plane" "(536 912 0) (552 912 0) (552 912 248)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 -32] 0.25"

@@ -2,19 +2,27 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "2"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "1"
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "45571"
-	"mapversion" "2"
+	"mapversion" "4"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
 }
 entity
 {
@@ -25,7 +33,7 @@ entity
 	"spawnflags" "1"
 	"targetentityname" "can"
 	"targetname" "pe_can"
-	"origin" "-1460.06 833.5 464.022"
+	"origin" "-11.0601 11.5 18.802"
 	editor
 	{
 		"color" "220 30 220"
@@ -45,7 +53,7 @@ entity
 	{
 		"OnEntitySpawned" "pe_can,Explode,,0.1,-1"
 	}
-	"origin" "-1461.06 833 467.128"
+	"origin" "-12.0601 11 21.908"
 	editor
 	{
 		"color" "220 30 220"
@@ -71,7 +79,7 @@ entity
 	"rendercolor" "255 255 255"
 	"spawnflags" "260"
 	"targetname" "can"
-	"origin" "-1461.84 833.286 464.23"
+	"origin" "-12.84 11.286 19.01"
 	editor
 	{
 		"color" "220 30 220"
@@ -99,7 +107,7 @@ entity
 	"_zero_percent_distance" "0"
 	"angles" "0 180 0"
 	"pitch" "0"
-	"origin" "-1466.42 832.838 491.303"
+	"origin" "-17.42 10.838 46.083"
 	editor
 	{
 		"color" "220 30 220"
@@ -113,7 +121,7 @@ entity
 	"id" "45587"
 	"classname" "env_cubemap"
 	"cubemapsize" "0"
-	"origin" "-1472 832 512"
+	"origin" "-23 10 66.78"
 	editor
 	{
 		"color" "0 0 255"
@@ -134,7 +142,7 @@ entity
 	{
 		"OnHitMax" "pt_can,Kill,,0,-1"
 	}
-	"origin" "-1492.06 832 513.023"
+	"origin" "-43.0601 10 67.803"
 	editor
 	{
 		"color" "220 30 220"
@@ -159,7 +167,7 @@ entity
 	"model" "models/props/cs_office/Vending_machine.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-1442.24 833 448.303"
+	"origin" "6.76001 11 3.08301"
 	editor
 	{
 		"color" "255 255 0"
@@ -179,7 +187,7 @@ entity
 	"locked_sentence" "0"
 	"locked_sound" "0"
 	"movedir" "0 0 0"
-	"origin" "-1463.18 812 484.22"
+	"origin" "-14.18 -10 39"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"renderfx" "0"
@@ -206,10 +214,10 @@ entity
 		side
 		{
 			"id" "20740"
-			"plane" "(-1465 810 493.22) (-1465 810 475.22) (-1465 814 475.22)"
+			"plane" "(-16 -12 47.9987) (-16 -12 30) (-16 -8 30)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 1 0 -48] 0.25"
-			"vaxis" "[0 0 -1 17] 0.25"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[0 0 -1 -35.88] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -217,10 +225,10 @@ entity
 		side
 		{
 			"id" "20741"
-			"plane" "(-1461.36 814 493.22) (-1461.36 814 475.22) (-1461.36 810 475.22)"
+			"plane" "(-12.3597 -8 47.9987) (-12.3597 -8 30) (-12.3597 -12 30)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 1 0 -48] 0.25"
-			"vaxis" "[0 0 -1 17] 0.25"
+			"uaxis" "[0 1 0 40] 0.25"
+			"vaxis" "[0 0 -1 -35.88] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -228,10 +236,10 @@ entity
 		side
 		{
 			"id" "20742"
-			"plane" "(-1461.36 810 493.22) (-1461.36 810 475.22) (-1465 810 475.22)"
+			"plane" "(-12.36 -12 47.9987) (-12.36 -12 30) (-16 -12 30)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[-1 0 0 -28] 0.25"
+			"vaxis" "[0 0 -1 -52.88] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -239,10 +247,10 @@ entity
 		side
 		{
 			"id" "20743"
-			"plane" "(-1465 814 493.22) (-1465 814 475.22) (-1461.36 814 475.22)"
+			"plane" "(-16 -8 47.9987) (-16 -8 30) (-12.36 -8 30)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"uaxis" "[1 0 0 28] 0.25"
+			"vaxis" "[0 0 -1 -52.88] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -250,10 +258,10 @@ entity
 		side
 		{
 			"id" "20744"
-			"plane" "(-1465 814 475.22) (-1465 810 475.22) (-1461.36 810 475.22)"
+			"plane" "(-16 -8 29.9999) (-16 -12 29.9999) (-12.36 -12 29.9999)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[0 -1 0 -24] 0.25"
+			"vaxis" "[-1 0 0 -28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -261,10 +269,10 @@ entity
 		side
 		{
 			"id" "20745"
-			"plane" "(-1465 810 493.22) (-1465 814 493.22) (-1461.36 814 493.22)"
+			"plane" "(-16 -12 47.9999) (-16 -8 47.9999) (-12.36 -8 47.9999)"
 			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[-1 0 0 0] 0.25"
+			"uaxis" "[0 1 0 24] 0.25"
+			"vaxis" "[-1 0 0 -28] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -304,7 +312,7 @@ entity
 	"spinup" "0"
 	"targetname" "sodabutton"
 	"volstart" "0"
-	"origin" "-1466 812 480"
+	"origin" "-17 -10 34.78"
 	editor
 	{
 		"color" "220 30 220"
@@ -333,7 +341,7 @@ entity
 	"spinup" "0"
 	"targetname" "coinslot"
 	"volstart" "0"
-	"origin" "-1466 812 512"
+	"origin" "-17 -10 66.78"
 	editor
 	{
 		"color" "220 30 220"
@@ -362,7 +370,7 @@ entity
 	"spinup" "0"
 	"targetname" "lever"
 	"volstart" "0"
-	"origin" "-1466 812 496"
+	"origin" "-17 -10 50.78"
 	editor
 	{
 		"color" "220 30 220"

@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7538"
-	"mapversion" "16"
+	"editorbuild" "8163"
+	"mapversion" "17"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,34 +17,12 @@ viewsettings
 world
 {
 	"id" "1543931"
-	"mapversion" "16"
+	"mapversion" "17"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
-}
-entity
-{
-	"id" "1543932"
-	"classname" "env_sprite"
-	"framerate" "10.0"
-	"GlowProxySize" "4"
-	"HDRColorScale" ".75"
-	"model" "sprites/glow03.vmt"
-	"renderamt" "255"
-	"rendercolor" "254 216 146"
-	"rendermode" "9"
-	"scale" "1"
-	"spawnflags" "1"
-	"origin" "0 0 -21"
-	editor
-	{
-		"color" "20 140 20"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[2000 -10268]"
-	}
 }
 entity
 {
@@ -82,6 +60,7 @@ entity
 	"id" "1543939"
 	"classname" "point_spotlight"
 	"angles" "90 0 0"
+	"gmod_allowphysgun" "1"
 	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "254 216 146"
