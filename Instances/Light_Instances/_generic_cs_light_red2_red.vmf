@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8128"
-	"mapversion" "3"
+	"editorbuild" "8163"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "3"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -32,7 +32,7 @@ entity
 	"id" "2"
 	"classname" "light_spot"
 	"_castentityshadow" "1"
-	"_cone" "40"
+	"_cone" "80"
 	"_constant_attn" "0"
 	"_distance" "0"
 	"_exponent" "1"
@@ -65,6 +65,7 @@ entity
 	"fadescale" "1"
 	"framerate" "10.0"
 	"GlowProxySize" "10"
+	"gmod_allowphysgun" "1"
 	"HDRColorScale" ".5"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"

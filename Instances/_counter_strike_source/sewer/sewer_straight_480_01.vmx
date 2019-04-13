@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "9"
+	"mapversion" "13"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "13"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -426,7 +426,7 @@ world
 			"plane" "(240 -128 45) (240 -128 8) (-240 -128 8)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -620,9 +620,9 @@ world
 		{
 			"id" "293"
 			"plane" "(-240 -144 0) (-240 -128 0) (-240 -128 192)"
-			"material" "METAL/METALTRUSS008A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 144] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -735,7 +735,7 @@ entity
 			"plane" "(240 -128 64) (240 -128 45) (-240 -128 45)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[-1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -777,9 +777,9 @@ entity
 		{
 			"id" "299"
 			"plane" "(-240 -128 64) (-240 -128 45) (-240 -32 45)"
-			"material" "CONCRETE/PRODFLRA"
-			"uaxis" "[0 1 0 64] 0.25"
-			"vaxis" "[0 0 -1 144] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -853,9 +853,9 @@ entity
 		{
 			"id" "305"
 			"plane" "(-240 32 48) (-240 32 45) (-240 128 45)"
-			"material" "CONCRETE/PRODFLRA"
-			"uaxis" "[0 1 0 64] 0.25"
-			"vaxis" "[0 0 -1 144] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -938,7 +938,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 153 146"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1014,7 +1014,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 110 187"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1090,7 +1090,7 @@ entity
 		}
 		editor
 		{
-			"color" "0 118 143"
+			"color" "0 180 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -1908,9 +1908,9 @@ entity
 		{
 			"id" "368"
 			"plane" "(-240 119 160) (-240 126 145) (-240 128 145)"
-			"material" "CS_ASSAULT/ASSAULT_BRICK2A"
-			"uaxis" "[0 1 0 64] 0.25"
-			"vaxis" "[0 0 -1 144] 0.25"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 16] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1993,6 +1993,273 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "83"
+	"classname" "info_overlay"
+	"BasisNormal" "0 1 -0"
+	"BasisOrigin" "208 -128 96"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "decals/prodplatea"
+	"sides" "296"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "224 -128 96"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "89"
+	"classname" "info_overlay"
+	"BasisNormal" "0 0.164399 0.986394"
+	"BasisOrigin" "208 -80 56"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0.986394 -0.164399"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "de_nuke/nukfloorc_detaile"
+	"sides" "300"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "224 -80 56"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "95"
+	"classname" "infodecal"
+	"texture" "decals/decalconcretedrain003a"
+	"origin" "148 -128 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "98"
+	"classname" "infodecal"
+	"texture" "decals/decalconcretedrain003a"
+	"origin" "-112 -128 80"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "101"
+	"classname" "info_overlay"
+	"BasisNormal" "-0 -0 -1"
+	"BasisOrigin" "14 -31.5155 192"
+	"BasisU" "1 0 -0"
+	"BasisV" "0 -1 0"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "de_train/train_cement_stain_01"
+	"sides" "248 326 329 340 337 318 315 259"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-226 -95.5155 0"
+	"uv1" "-226 95.5155 0"
+	"uv2" "226 95.5155 0"
+	"uv3" "226 -95.5155 0"
+	"origin" "30 -31.5155 192"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "107"
+	"classname" "info_overlay"
+	"BasisNormal" "0 1 -0"
+	"BasisOrigin" "-208 -128 96"
+	"BasisU" "1 0 0"
+	"BasisV" "0 -0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "decals/prodplatea"
+	"sides" "296"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "-192 -128 96"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "113"
+	"classname" "info_overlay"
+	"BasisNormal" "0 0.164399 0.986394"
+	"BasisOrigin" "-192 -80 56"
+	"BasisU" "1 -0 0"
+	"BasisV" "0 0.986394 -0.164399"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "de_nuke/nukfloorc_detaile"
+	"sides" "300"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "-176 -80 56"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "119"
+	"classname" "info_overlay"
+	"BasisNormal" "-1.43722e-008 -0.164399 0.986394"
+	"BasisOrigin" "0 84 56"
+	"BasisU" "-1 8.74228e-008 0"
+	"BasisV" "-8.62333e-008 -0.986394 -0.164399"
+	"EndU" "1"
+	"EndV" "0"
+	"fademindist" "-1"
+	"material" "de_nuke/nukfloorc_detaile"
+	"sides" "306"
+	"StartU" "0"
+	"StartV" "1"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "16 84 56"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "125"
+	"classname" "info_overlay"
+	"BasisNormal" "8.74228e-008 -1 0"
+	"BasisOrigin" "208 128 96"
+	"BasisU" "-1 -8.74228e-008 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "decals/prodplatea"
+	"sides" "241"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "224 128 96"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "131"
+	"classname" "info_overlay"
+	"BasisNormal" "8.74228e-008 -1 0"
+	"BasisOrigin" "-208 128 96"
+	"BasisU" "-1 -8.74228e-008 0"
+	"BasisV" "0 0 -1"
+	"EndU" "0"
+	"EndV" "1"
+	"fademindist" "-1"
+	"material" "decals/prodplatea"
+	"sides" "241"
+	"StartU" "1"
+	"StartV" "0"
+	"uv0" "-32 -32 0"
+	"uv1" "-32 32 0"
+	"uv2" "32 32 0"
+	"uv3" "32 -32 0"
+	"origin" "-192 128 96"
+	editor
+	{
+		"color" "80 150 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "137"
+	"classname" "func_instance"
+	"angles" "-0 -180 0"
+	"file" "/light_instances/_generic_cagelight02_wall_warm.vmf"
+	"origin" "-24 104 164"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
