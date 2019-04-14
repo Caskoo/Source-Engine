@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "57"
+	"mapversion" "59"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "57"
+	"mapversion" "59"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2406,9 +2406,12 @@ entity
 	"angles" "0 90 0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"gmod_allowphysgun" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props_c17/metalladder002d.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
 	"skin" "0"
 	"solid" "6"
 	"origin" "40 -70 96"
@@ -2512,9 +2515,9 @@ entity
 {
 	"id" "653"
 	"classname" "func_instance"
-	"angles" "-0 0 -45"
-	"file" "/light_instances/_generic_cs_light_red2_red.vmf"
-	"origin" "28 100 164"
+	"angles" "-0 180 0"
+	"file" "/light_instances/_generic_cs_light_security_cool.vmf"
+	"origin" "28 128 118"
 	editor
 	{
 		"color" "220 30 220"
