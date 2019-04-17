@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "51"
+	"mapversion" "52"
 	"formatversion" "100"
 	"prefab" "1"
 }
@@ -17,7 +17,7 @@ viewsettings
 world
 {
 	"id" "1699"
-	"mapversion" "51"
+	"mapversion" "52"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -112,9 +112,12 @@ entity
 	"fademindist" "1024"
 	"fadescale" "1"
 	"generatelightmaps" "1"
+	"gmod_allowphysgun" "1"
 	"lightmapresolutionx" "32"
 	"lightmapresolutiony" "32"
 	"model" "models/props/cs_assault/light_shop2.mdl"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
 	"skin" "$skin"
 	"solid" "0"
 	"origin" "0 0 0"
@@ -227,19 +230,5 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[5000 6000]"
-	}
-}
-entity
-{
-	"id" "1924"
-	"classname" "func_instance_parms"
-	"parm1" "$skin integer"
-	"origin" "0 0 16"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
 	}
 }
