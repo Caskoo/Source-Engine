@@ -1,0 +1,344 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8163"
+	"mapversion" "18"
+	"formatversion" "100"
+	"prefab" "1"
+}
+world
+{
+	"id" "2046699"
+	"mapversion" "18"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2046700"
+	"classname" "prop_static"
+	"angles" "0 90 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_mining/struts_tunnel320_01.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "7184 9456 1024"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15768 -8768]"
+	}
+}
+entity
+{
+	"id" "2046704"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"disableshadows" "1"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_mining/techgate01_outland03.mdl"
+	"modelscale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "tunnel02_gate"
+	connections
+	{
+		"OnAnimationDone" "tunnel02_gate_button,Unlock,,0,-1"
+	}
+	"origin" "7176 9424 1024"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[4000 5000]"
+	}
+}
+entity
+{
+	"id" "2046708"
+	"classname" "prop_static"
+	"angles" "0 180 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"lightmapresolutionx" "32"
+	"lightmapresolutiony" "32"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/interior_fence002c.mdl"
+	"skin" "0"
+	"solid" "6"
+	"origin" "7186 9504 1112"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-12268 10000]"
+	}
+}
+entity
+{
+	"id" "2046712"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"model" "sprites/glow01.vmt"
+	"renderamt" "150"
+	"rendercolor" "0 255 64"
+	"rendermode" "9"
+	"scale" "0.2"
+	"spawnflags" "1"
+	"origin" "7183 9432 1080"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8500 -7768]"
+	}
+}
+entity
+{
+	"id" "2046715"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "7176 9432 1082"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "15"
+	"spawnflags" "1057"
+	"speed" "5"
+	"targetname" "tunnel02_gate_button"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "-1"
+	connections
+	{
+		"OnIn" "tunnel02_gate,SetAnimation,close,0,-1"
+		"OnIn" "!self,Lock,,0,-1"
+		"OnOut" "!self,Lock,,0,-1"
+		"OnOut" "tunnel02_gate,SetAnimation,open,0,-1"
+		"OnIn" "tunnel02_gate_button_mdl,SetAnimation,turn_ON,0,-1"
+		"OnOut" "tunnel02_gate_button_mdl,SetAnimation,turn_ON,0,-1"
+		"OnIn" "tunnel02_gate_snd,PlaySound,,0,-1"
+		"OnOut" "tunnel02_gate_snd,PlaySound,,0,-1"
+	}
+	solid
+	{
+		"id" "2046716"
+		side
+		{
+			"id" "13085"
+			"plane" "(7168 9426 1092) (7168 9426 1072) (7168 9438 1072)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -44] 2"
+			"vaxis" "[0 0 -1 29] 2"
+			"rotation" "0"
+			"lightmapscale" "128"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13086"
+			"plane" "(7184 9438 1092) (7184 9438 1072) (7184 9426 1072)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -44] 2"
+			"vaxis" "[0 0 -1 29] 2"
+			"rotation" "0"
+			"lightmapscale" "128"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13087"
+			"plane" "(7184 9426 1092) (7184 9426 1072) (7168 9426 1072)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "128"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13088"
+			"plane" "(7168 9438 1092) (7168 9438 1072) (7184 9438 1072)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "128"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13089"
+			"plane" "(7168 9438 1072) (7168 9426 1072) (7184 9426 1072)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "128"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13090"
+			"plane" "(7168 9426 1092) (7168 9438 1092) (7184 9438 1092)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[-1 0 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "128"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8500 -7268]"
+	}
+}
+entity
+{
+	"id" "2046718"
+	"classname" "prop_dynamic"
+	"angles" "0 0 0"
+	"DefaultAnim" "idleOn"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_mining/freightelevatorbutton01.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "tunnel02_gate_button_mdl"
+	"origin" "7178 9428.25 1072"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8500 -8268]"
+	}
+}
+entity
+{
+	"id" "2046722"
+	"classname" "prop_dynamic"
+	"angles" "0 180 0"
+	"DefaultAnim" "idleOn"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "1"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/props_mining/freightelevatorbutton01.mdl"
+	"modelscale" "1.0"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "tunnel02_gate_button_mdl"
+	"origin" "7174 9435.75 1072"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8500 -6768]"
+	}
+}
+entity
+{
+	"id" "2046726"
+	"classname" "env_sprite"
+	"framerate" "10.0"
+	"GlowProxySize" "2.0"
+	"HDRColorScale" "1.0"
+	"model" "sprites/glow01.vmt"
+	"renderamt" "150"
+	"rendercolor" "0 255 64"
+	"rendermode" "9"
+	"scale" "0.2"
+	"spawnflags" "1"
+	"origin" "7169 9432 1080"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[8500 -6268]"
+	}
+}
