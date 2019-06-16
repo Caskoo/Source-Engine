@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8163"
-	"mapversion" "1"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,29 +20,34 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "3"
 	"classname" "worldspawn"
-	"skyname" "sky_day01_01"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+}
+entity
+{
+	"id" "8"
+	"classname" "func_detail"
 	solid
 	{
 		"id" "2"
 		side
 		{
-			"id" "1"
+			"id" "38"
 			"plane" "(-28 0 18.001) (-28 0 12) (-28 2 12)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -56] 0.25"
-			"vaxis" "[0 0 -1 -51.8399] 0.25"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 1 0 5] 1.5"
+			"vaxis" "[0 0 -1 -21] 1.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
 		}
 		side
 		{
-			"id" "2"
+			"id" "37"
 			"plane" "(24 2 18.001) (24 2 12) (24 0 12)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 0 1 4.80666] 1.5"
@@ -53,7 +58,7 @@ world
 		}
 		side
 		{
-			"id" "3"
+			"id" "36"
 			"plane" "(24 0 18.001) (24 0 12) (-28 0 12)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 0 -1 -2.80666] 1.5"
@@ -64,7 +69,7 @@ world
 		}
 		side
 		{
-			"id" "4"
+			"id" "35"
 			"plane" "(-28 2 18.001) (-28 2 12) (24 2 12)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 0 1 4.80666] 1.5"
@@ -75,7 +80,7 @@ world
 		}
 		side
 		{
-			"id" "5"
+			"id" "34"
 			"plane" "(-28 2 12) (-28 0 12) (24 0 12)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 -1 0 5.33333] 1.5"
@@ -86,7 +91,7 @@ world
 		}
 		side
 		{
-			"id" "6"
+			"id" "33"
 			"plane" "(-28 0 18) (-28 2 18) (24 2 18)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 -1 0 1.33333] 1.5"
@@ -107,7 +112,7 @@ world
 		"id" "3"
 		side
 		{
-			"id" "26"
+			"id" "45"
 			"plane" "(16 -2 23.9997) (16 -2 -24) (16 0 -24)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 1 0 -2.33333] 1.5"
@@ -118,7 +123,7 @@ world
 		}
 		side
 		{
-			"id" "25"
+			"id" "44"
 			"plane" "(24 0 23.9993) (24 0 -24) (24 -2 -24)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 -1 0 5.33333] 1.5"
@@ -129,7 +134,7 @@ world
 		}
 		side
 		{
-			"id" "24"
+			"id" "43"
 			"plane" "(24 -2 23.999) (24 -2 -24) (16 -2 -24)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[-1 0 0 -0.666666] 1.5"
@@ -140,7 +145,7 @@ world
 		}
 		side
 		{
-			"id" "23"
+			"id" "42"
 			"plane" "(16 0 24) (16 0 -24) (24 0 -24)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[-1 0 0 -0.666666] 1.5"
@@ -151,7 +156,7 @@ world
 		}
 		side
 		{
-			"id" "22"
+			"id" "41"
 			"plane" "(16 0 -24) (16 -2 -24) (24 -2 -24)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 40] 0.25"
@@ -162,7 +167,7 @@ world
 		}
 		side
 		{
-			"id" "21"
+			"id" "40"
 			"plane" "(24 0 23.9969) (24 -2 23.9969) (20 -2 29.998)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[-0.3077 -0.8321 0.4615 -5.06301] 1.5"
@@ -173,7 +178,7 @@ world
 		}
 		side
 		{
-			"id" "20"
+			"id" "39"
 			"plane" "(16 -2 24.0001) (16 0 24.0001) (20 0 29.9988)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[-0.3077 0.8321 -0.4615 -0.205271] 1.5"
@@ -194,7 +199,7 @@ world
 		"id" "4"
 		side
 		{
-			"id" "32"
+			"id" "51"
 			"plane" "(24 2 0.000953674) (24 2 -5.99998) (24 0 -5.99998)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 0 1 4.80666] 1.5"
@@ -205,7 +210,7 @@ world
 		}
 		side
 		{
-			"id" "31"
+			"id" "50"
 			"plane" "(24 0 0.000953674) (24 0 -5.99998) (-28 0 -5.99998)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 0 -1 -2.80666] 1.5"
@@ -216,7 +221,7 @@ world
 		}
 		side
 		{
-			"id" "30"
+			"id" "49"
 			"plane" "(-28 2 -5.99998) (24 2 -5.99998) (24 2 1.52588e-005)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 0 1 4.80666] 1.5"
@@ -227,7 +232,7 @@ world
 		}
 		side
 		{
-			"id" "29"
+			"id" "48"
 			"plane" "(-28 0 -6) (24 0 -6) (24 2 -6)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 1 0 -6.33333] 1.5"
@@ -238,7 +243,7 @@ world
 		}
 		side
 		{
-			"id" "28"
+			"id" "47"
 			"plane" "(-28 2 0) (24 2 0) (24 0 0)"
 			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
 			"uaxis" "[0 -1 0 5.33333] 1.5"
@@ -249,11 +254,11 @@ world
 		}
 		side
 		{
-			"id" "27"
+			"id" "46"
 			"plane" "(-28 0 0.000953674) (-28 0 -5.99998) (-28 2 -5.99998)"
-			"material" "TOOLS/TOOLSNODRAW"
-			"uaxis" "[0 1 0 -56] 0.25"
-			"vaxis" "[0 0 -1 -51.8399] 0.25"
+			"material" "OSRS/WOOD_DOOR_BASEPLANK_01"
+			"uaxis" "[0 1 0 5] 1.5"
+			"vaxis" "[0 0 -1 -21] 1.5"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -264,6 +269,13 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
