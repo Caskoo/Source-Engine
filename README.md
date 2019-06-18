@@ -12,9 +12,20 @@ you must edit your gameinfo.txt like this
 	GameData	"base.fgd"
 	FileSystem
 	{
-
-
-
-
 a whole load of gang shit
+
+
+
+
+
+todo
+
+Company 
+-remove cring text
+- remove embeded player model
+
+outlands
+-remove embeded player models
+-remove secret rooms
+- adjust one building doorway 
 
